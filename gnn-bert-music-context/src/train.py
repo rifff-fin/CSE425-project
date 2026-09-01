@@ -3,173 +3,305 @@ from __future__ import annotations
 import argparse
 import os
 from dataclasses import dataclass
-from typing import Dict, Optional
+from typing import Any, Dict, Iterable, List, Tuple
 
 import torch
 from torch import nn
+from torch.optim import AdamW
+from torch.optim.lr_scheduler import LambdaLR
 from torch.utils.data import DataLoader, Dataset
+from torch_geometric.data import Data, Batch
 
-from bert_encoder import BertTextEncoder
-from contrastive import DualEncoderContrastive
-from fusion_model import CrossAttentionFusion
-from gnn_model import GraphAudioEncoder
+from bert_encoder import BERTTextEncoder
+from contrastive import ContrastiveDualEncoder
+from fusion_model import GNNBERTFusionModel
+from gnn_model import MusicGNNEncoder
 
 
-class ExampleDataset(Dataset):
-    """Placeholder dataset for structured training samples."""
+class MusicDataset(Dataset):
+    """Minimal task-specific dataset wrapper for local development and experimentation."""
 
-    def __init__(self, samples: list[dict]):
+    def __init__(self, samples: List[Dict[str, Any]]) -> None:
         self.samples = samples
 
     def __len__(self) -> int:
         return len(self.samples)
 
-    def __getitem__(self, idx: int) -> dict:
+    def __getitem__(self, idx: int) -> Dict[str, Any]:
         return self.samples[idx]
 
 
 @dataclass
 class TrainingConfig:
-    task: int = 1
+    task: str = "task1"
     device: str = "cuda" if torch.cuda.is_available() else "cpu"
-    epochs: int = 20
+    epochs: int = 10
     batch_size: int = 16
     learning_rate: float = 2e-5
+    weight_decay: float = 1e-4
+    warmup_steps: int = 100
     alpha: float = 1.0
     beta: float = 0.5
+    tau: float = 0.07
+    checkpoint_dir: str = "./checkpoints"
 
 
-def run_task_1(model: nn.Module, loader: DataLoader, device: str) -> None:
-    """Placeholder training loop for Task 1: BERT tag classifier."""
-    model.to(device)
+def make_linear_warmup_scheduler(optimizer: AdamW, total_steps: int, warmup_steps: int) -> LambdaLR:
+    """Construct a simple linear warmup scheduler."""
+
+    def lr_lambda(step: int) -> float:
+        if step < warmup_steps:
+            return (step + 1) / max(1, warmup_steps)
+        return max(0.0, 1.0 - (step - warmup_steps + 1) / max(1, total_steps - warmup_steps))
+
+    return LambdaLR(optimizer, lr_lambda=lr_lambda)
+
+
+def run_task_1(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: TrainingConfig) -> None:
+    """Fine-tune BERT for multi-label tagging with BCEWithLogitsLoss."""
+    model.to(config.device)
+    optimizer = AdamW(model.parameters(), lr=config.learning_rate, weight_decay=config.weight_decay)
+    total_steps = max(1, len(train_loader) * config.epochs)
+    scheduler = make_linear_warmup_scheduler(optimizer, total_steps=total_steps, warmup_steps=config.warmup_steps)
     criterion = nn.BCEWithLogitsLoss()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
 
-    for epoch in range(1, 11):
+    for epoch in range(1, config.epochs + 1):
         model.train()
-        for batch in loader:
+        running_loss = 0.0
+
+        for batch in train_loader:
             texts = batch["texts"]
-            labels = batch["labels"].to(device)
-            _, cls_tokens = model(texts)
-            logits = model.classifier(cls_tokens)
+            labels = batch["tags"].to(config.device)
+            _, t = model(texts)
+            logits = model.classifier(t)
             loss = criterion(logits, labels)
+
             optimizer.zero_grad()
             loss.backward()
+            nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
+            scheduler.step()
+            running_loss += loss.item()
 
-        print(f"Task 1 | Epoch {epoch} | loss: {loss.item():.4f}")
+        train_loss = running_loss / max(1, len(train_loader))
+        val_loss = 0.0
+        model.eval()
+        with torch.no_grad():
+            for batch in val_loader:
+                texts = batch["texts"]
+                labels = batch["tags"].to(config.device)
+                _, t = model(texts)
+                logits = model.classifier(t)
+                val_loss += criterion(logits, labels).item()
+
+        val_loss = val_loss / max(1, len(val_loader))
+        print(f"[Task 1] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+
+        os.makedirs(config.checkpoint_dir, exist_ok=True)
+        torch.save(model.state_dict(), os.path.join(config.checkpoint_dir, f"task1_epoch_{epoch}.pt"))
 
 
-def run_task_2(model: nn.Module, loader: DataLoader, device: str) -> None:
-    """Placeholder training loop for Task 2: GNN audio encoder."""
-    model.to(device)
-    criterion = nn.MSELoss()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
+def run_task_2(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: TrainingConfig) -> None:
+    """Train graph encoder with BCEWithLogitsLoss over segment graph classification targets."""
+    model.to(config.device)
+    optimizer = AdamW(model.parameters(), lr=config.learning_rate, weight_decay=config.weight_decay)
+    total_steps = max(1, len(train_loader) * config.epochs)
+    scheduler = make_linear_warmup_scheduler(optimizer, total_steps=total_steps, warmup_steps=config.warmup_steps)
+    criterion = nn.BCEWithLogitsLoss()
 
-    for epoch in range(1, 11):
+    for epoch in range(1, config.epochs + 1):
         model.train()
-        for batch in loader:
+        running_loss = 0.0
+        for batch in train_loader:
             graph = batch["graph"]
-            target = batch["target"].to(device)
-            graph_embedding = model(graph)
-            loss = criterion(graph_embedding, target)
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
-
-        print(f"Task 2 | Epoch {epoch} | loss: {loss.item():.4f}")
-
-
-def run_task_3(model: nn.Module, loader: DataLoader, device: str, alpha: float = 1.0, beta: float = 0.5) -> None:
-    """Placeholder training loop for Task 3: multi-task GNN-BERT fusion."""
-    model.to(device)
-    classification_loss = nn.BCEWithLogitsLoss()
-    regression_loss = nn.MSELoss()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
-
-    for epoch in range(1, 11):
-        model.train()
-        for batch in loader:
-            g = batch["graph_embedding"].to(device)
-            text = batch["text_hidden"].to(device)
-            labels = batch["tag_labels"].to(device)
-            valence = batch["valence"].to(device)
-            arousal = batch["arousal"].to(device)
-
-            tag_logits, pred_valence, pred_arousal = model(g, text)
-            loss_cls = classification_loss(tag_logits, labels)
-            loss_reg = regression_loss(pred_valence, valence) + regression_loss(pred_arousal, arousal)
-            loss = alpha * loss_cls + beta * loss_reg
+            graph = graph.to(config.device)
+            labels = batch["tags"].to(config.device)
+            logits = model(graph)
+            loss = criterion(logits, labels)
 
             optimizer.zero_grad()
             loss.backward()
+            nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
+            scheduler.step()
+            running_loss += loss.item()
 
-        print(f"Task 3 | Epoch {epoch} | total_loss: {loss.item():.4f}")
+        train_loss = running_loss / max(1, len(train_loader))
+        val_loss = 0.0
+        model.eval()
+        with torch.no_grad():
+            for batch in val_loader:
+                graph = batch["graph"].to(config.device)
+                labels = batch["tags"].to(config.device)
+                logits = model(graph)
+                val_loss += criterion(logits, labels).item()
+
+        val_loss = val_loss / max(1, len(val_loader))
+        print(f"[Task 2] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+
+        os.makedirs(config.checkpoint_dir, exist_ok=True)
+        torch.save(model.state_dict(), os.path.join(config.checkpoint_dir, f"task2_epoch_{epoch}.pt"))
 
 
-def run_task_4(model: nn.Module, loader: DataLoader, device: str) -> None:
-    """Placeholder training loop for Task 4: contrastive retrieval."""
-    model.to(device)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
+def run_task_3(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: TrainingConfig) -> None:
+    """Jointly train fusion model with multi-task tag + emotion regression objective."""
+    model.to(config.device)
+    optimizer = AdamW(model.parameters(), lr=config.learning_rate, weight_decay=config.weight_decay)
+    total_steps = max(1, len(train_loader) * config.epochs)
+    scheduler = make_linear_warmup_scheduler(optimizer, total_steps=total_steps, warmup_steps=config.warmup_steps)
 
-    for epoch in range(1, 11):
+    tag_criterion = nn.BCEWithLogitsLoss()
+    regression_criterion = nn.MSELoss()
+
+    for epoch in range(1, config.epochs + 1):
         model.train()
-        for batch in loader:
-            graph_emb = batch["graph_embedding"].to(device)
-            text_emb = batch["text_hidden"].to(device)
-            logits = model(graph_emb, text_emb)
+        running_loss = 0.0
+        for batch in train_loader:
+            g = batch["g"].to(config.device)
+            H_text = batch["H_text"].to(config.device)
+            tag_labels = batch["tag_labels"].to(config.device)
+            valence = batch["valence"].to(config.device)
+            arousal = batch["arousal"].to(config.device)
+
+            tag_logits, valence_pred, arousal_pred = model(g, H_text)
+            tag_loss = tag_criterion(tag_logits, tag_labels)
+            reg_loss = regression_criterion(valence_pred, valence) + regression_criterion(arousal_pred, arousal)
+            loss = config.alpha * tag_loss + config.beta * reg_loss
+
+            optimizer.zero_grad()
+            loss.backward()
+            nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+            optimizer.step()
+            scheduler.step()
+            running_loss += loss.item()
+
+        train_loss = running_loss / max(1, len(train_loader))
+        val_loss = 0.0
+        model.eval()
+        with torch.no_grad():
+            for batch in val_loader:
+                g = batch["g"].to(config.device)
+                H_text = batch["H_text"].to(config.device)
+                tag_labels = batch["tag_labels"].to(config.device)
+                valence = batch["valence"].to(config.device)
+                arousal = batch["arousal"].to(config.device)
+
+                tag_logits, valence_pred, arousal_pred = model(g, H_text)
+                tag_loss = tag_criterion(tag_logits, tag_labels)
+                reg_loss = regression_criterion(valence_pred, valence) + regression_criterion(arousal_pred, arousal)
+                val_loss += (config.alpha * tag_loss + config.beta * reg_loss).item()
+
+        val_loss = val_loss / max(1, len(val_loader))
+        print(f"[Task 3] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+
+        os.makedirs(config.checkpoint_dir, exist_ok=True)
+        torch.save(model.state_dict(), os.path.join(config.checkpoint_dir, f"task3_epoch_{epoch}.pt"))
+
+
+def run_task_4(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: TrainingConfig) -> None:
+    """Train the dual encoder with InfoNCE retrieval objective."""
+    model.to(config.device)
+    optimizer = AdamW(model.parameters(), lr=config.learning_rate, weight_decay=config.weight_decay)
+    total_steps = max(1, len(train_loader) * config.epochs)
+    scheduler = make_linear_warmup_scheduler(optimizer, total_steps=total_steps, warmup_steps=config.warmup_steps)
+
+    for epoch in range(1, config.epochs + 1):
+        model.train()
+        running_loss = 0.0
+        for batch in train_loader:
+            g = batch["g"].to(config.device)
+            H_text = batch["H_text"].to(config.device)
+            logits = model(g, H_text)
             loss = model.info_nce_loss(logits)
 
             optimizer.zero_grad()
             loss.backward()
+            nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
+            scheduler.step()
+            running_loss += loss.item()
 
-        print(f"Task 4 | Epoch {epoch} | loss: {loss.item():.4f}")
+        train_loss = running_loss / max(1, len(train_loader))
+        val_loss = 0.0
+        model.eval()
+        with torch.no_grad():
+            for batch in val_loader:
+                g = batch["g"].to(config.device)
+                H_text = batch["H_text"].to(config.device)
+                logits = model(g, H_text)
+                val_loss += model.info_nce_loss(logits).item()
+
+        val_loss = val_loss / max(1, len(val_loader))
+        print(f"[Task 4] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+
+        os.makedirs(config.checkpoint_dir, exist_ok=True)
+        torch.save(model.state_dict(), os.path.join(config.checkpoint_dir, f"task4_epoch_{epoch}.pt"))
+
+
+def build_dummy_task_data(task: str) -> Tuple[MusicDataset, MusicDataset]:
+    """Create small synthetic datasets for pipeline testing and code validation."""
+    samples: List[Dict[str, Any]] = []
+    for i in range(12):
+        sample = {
+            "texts": [f"music sample {i} with warm smooth melody"],
+            "tags": torch.randint(0, 2, (20,), dtype=torch.float32),
+            "g": torch.randn(128, dtype=torch.float32),
+            "H_text": torch.randn(8, 768, dtype=torch.float32),
+            "tag_labels": torch.randint(0, 2, (20,), dtype=torch.float32),
+            "valence": torch.tensor([float(i % 5) / 5.0], dtype=torch.float32),
+            "arousal": torch.tensor([float((i + 2) % 6) / 6.0], dtype=torch.float32),
+            "graph": Data(
+                x=torch.randn(6, 32),
+                edge_index=torch.tensor([[0, 1, 2, 3, 4, 5], [1, 2, 3, 4, 5, 0]], dtype=torch.long),
+                batch=torch.zeros(6, dtype=torch.long),
+            ),
+        }
+        samples.append(sample)
+
+    split = int(0.8 * len(samples))
+    return MusicDataset(samples[:split]), MusicDataset(samples[split:])
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Train GNN-BERT music context models.")
-    parser.add_argument("--task", type=int, default=1, choices=[1, 2, 3, 4], help="Task number to run.")
-    parser.add_argument("--epochs", type=int, default=20)
+    parser = argparse.ArgumentParser(description="Unified training loop for music-context ML tasks.")
+    parser.add_argument("--task", type=str, default="task1", choices=["task1", "task2", "task3", "task4"])
+    parser.add_argument("--epochs", type=int, default=10)
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--lr", type=float, default=2e-5)
+    parser.add_argument("--checkpoint-dir", type=str, default="./checkpoints")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    config = TrainingConfig(task=args.task, epochs=args.epochs, batch_size=args.batch_size, learning_rate=args.lr)
-    device = config.device
+    config = TrainingConfig(
+        task=args.task,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        learning_rate=args.lr,
+        checkpoint_dir=args.checkpoint_dir,
+    )
 
-    dummy_samples = [{
-        "texts": ["calm musical texture with soft synths"],
-        "labels": torch.ones(1, 20),
-        "graph": {"x": torch.randn(5, 128), "edge_index": torch.tensor([[0, 1, 2, 3, 4], [1, 2, 3, 4, 0]])},
-        "target": torch.randn(1, 128),
-        "graph_embedding": torch.randn(1, 128),
-        "text_hidden": torch.randn(1, 12, 768),
-        "tag_labels": torch.ones(1, 20),
-        "valence": torch.randn(1, 1),
-        "arousal": torch.randn(1, 1),
-    }]
+    train_ds, val_ds = build_dummy_task_data(args.task)
+    train_loader = DataLoader(train_ds, batch_size=config.batch_size, shuffle=True)
+    val_loader = DataLoader(val_ds, batch_size=config.batch_size, shuffle=False)
 
-    loader = DataLoader(ExampleDataset(dummy_samples), batch_size=config.batch_size, shuffle=True)
-
-    if config.task == 1:
-        bert_model = BertTextEncoder(model_name="distilbert-base-uncased")
-        run_task_1(bert_model, loader, device)
-    elif config.task == 2:
-        gnn_model = GraphAudioEncoder(in_channels=128, hidden_dim=128, num_layers=2, model_type="sage")
-        run_task_2(gnn_model, loader, device)
-    elif config.task == 3:
-        fusion_model = CrossAttentionFusion(graph_dim=128, text_dim=768, fusion_dim=256, num_heads=4, num_labels=20)
-        run_task_3(fusion_model, loader, device, alpha=config.alpha, beta=config.beta)
-    elif config.task == 4:
-        contrastive_model = DualEncoderContrastive(graph_dim=128, text_dim=768, hidden_dim=256, tau=0.07)
-        run_task_4(contrastive_model, loader, device)
+    if args.task == "task1":
+        model = BERTTextEncoder(model_name="distilbert-base-uncased")
+        model.classifier = nn.Linear(768, 20)
+        run_task_1(model, train_loader, val_loader, config)
+    elif args.task == "task2":
+        model = MusicGNNEncoder(in_channels=32, hidden_dim=128, num_layers=2, model_type="sage")
+        model.classifier = nn.Linear(128, 20)
+        run_task_2(model, train_loader, val_loader, config)
+    elif args.task == "task3":
+        model = GNNBERTFusionModel(graph_dim=128, text_dim=768, fusion_dim=256, num_tags=20)
+        run_task_3(model, train_loader, val_loader, config)
+    elif args.task == "task4":
+        model = ContrastiveDualEncoder(g_dim=128, text_dim=768, embed_dim=256, tau=config.tau)
+        run_task_4(model, train_loader, val_loader, config)
     else:
-        raise ValueError(f"Unsupported task: {config.task}")
+        raise ValueError(f"Unsupported task selection: {args.task}")
 
 
 if __name__ == "__main__":
