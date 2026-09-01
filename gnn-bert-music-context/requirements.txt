@@ -1,0 +1,17 @@
+torch>=2.1.0
+transformers>=4.41.0
+librosa>=0.10.2
+numpy>=1.26.0
+scikit-learn>=1.4.0
+pandas>=2.2.0
+pyyaml>=6.0.1
+torch-geometric>=2.5.0
+networkx>=3.0.0
+matplotlib>=3.8.0
+jupyter>=1.0.0
+
+# Optional for accelerated graph ops
+# torch-scatter
+# torch-sparse
+# torch-cluster
+# torch-spline-conv

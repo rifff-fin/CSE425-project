@@ -1,0 +1,42 @@
+global:
+  sample_rate: 22050
+  log_mel_bins: 128
+  chroma_bins: 12
+  segment_window_sec: 5.0
+  segment_hop_sec: 2.5
+  graph_similarity_threshold: 0.7
+  bert_model_name: "distilbert-base-uncased"
+  batch_size: 32
+  eval_batch_size: 16
+  learning_rate: 0.00002
+  random_seed: 42
+  device: "cuda"
+
+features:
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+  fmin: 0
+  fmax: 11025
+  n_chroma: 12
+  n_mfcc: 20
+
+paths:
+  audio_dir: "./data/audio"
+  metadata_csv: "./data/metadata.csv"
+  output_dir: "./outputs"
+  checkpoints_dir: "./checkpoints"
+
+training:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.00002
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+
+model:
+  gnn_hidden_dim: 128
+  gnn_layers: 2
+  dropout: 0.1
+  attention_heads: 4
+  fusion_dim: 256
