@@ -1,0 +1,20 @@
+{
+  "task": "task2_baseline",
+  "model": "cnn_mel_spectrogram",
+  "split": "test",
+  "train_samples": 16,
+  "val_samples": 2,
+  "test_samples": 2,
+  "labels": [
+    "avant-garde",
+    "experimental",
+    "folk",
+    "hip-hop",
+    "lo-fi",
+    "pop",
+    "rock"
+  ],
+  "macro_f1": 0.0,
+  "micro_f1": 0.0,
+  "auc_pr": 0.14285714285714285
+}

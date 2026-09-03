@@ -1,0 +1,17 @@
+{
+  "task": "task1",
+  "split": "test",
+  "samples": 2,
+  "labels": [
+    "avant-garde",
+    "experimental",
+    "folk",
+    "hip-hop",
+    "lo-fi",
+    "pop",
+    "rock"
+  ],
+  "macro_f1": 0.09523809523809523,
+  "micro_f1": 0.2222222222222222,
+  "auc_pr": 0.18333333333333335
+}

@@ -7,11 +7,19 @@
     "tags": [
       "hip-hop"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Hip-Hop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      21
+    ],
+    "genre_tags": [
+      "hip-hop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: AWOL. album: AWOL - A Way Of Life. track: Food. genres: hip-hop"
   },
   {
     "track_id": "000005",
@@ -21,11 +29,19 @@
     "tags": [
       "hip-hop"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Hip-Hop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      21
+    ],
+    "genre_tags": [
+      "hip-hop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: AWOL. album: AWOL - A Way Of Life. track: This World. genres: hip-hop"
   },
   {
     "track_id": "000010",
@@ -35,11 +51,19 @@
     "tags": [
       "pop"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Pop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Kurt Vile. album: Constant Hitmaker. track: Freeway. genres: pop"
   },
   {
     "track_id": "000140",
@@ -49,11 +73,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 96,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Alec K. Redfearn & the Eyesores. album: The Blind Spot. track: Queen Of The Wires. genres: folk"
   },
   {
     "track_id": "000141",
@@ -63,11 +95,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 66,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Alec K. Redfearn & the Eyesores. album: Every Man For Himself. track: Ohio. genres: folk"
   },
   {
     "track_id": "000148",
@@ -75,13 +115,24 @@
     "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000148.pt",
     "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000148.pt",
     "tags": [
+      "avant-garde",
       "experimental"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Experimental",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      1,
+      38
+    ],
+    "genre_tags": [
+      "avant-garde",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Contradiction. album: Contradiction. track: Blackout 2. genres: avant-garde, experimental"
   },
   {
     "track_id": "000182",
@@ -89,13 +140,24 @@
     "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000182.pt",
     "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000182.pt",
     "tags": [
+      "lo-fi",
       "rock"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Rock",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      27,
+      12
+    ],
+    "genre_tags": [
+      "lo-fi",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ariel Pink's Haunted Graffiti. album: Worn Copy. track: Jules Lost His Jewels. genres: lo-fi, rock"
   },
   {
     "track_id": "000190",
@@ -105,11 +167,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Castle Of Stars. genres: folk"
   },
   {
     "track_id": "000193",
@@ -119,11 +189,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 106,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Here With You. genres: folk"
   },
   {
     "track_id": "000194",
@@ -133,11 +211,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 12,
     "num_edges": 120,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: All I want to Do. genres: folk"
   },
   {
     "track_id": "000197",
@@ -147,11 +233,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 106,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Piano 2. genres: folk"
   },
   {
     "track_id": "000200",
@@ -161,11 +255,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Baby Come Home. genres: folk"
   },
   {
     "track_id": "000203",
@@ -175,11 +277,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Song For R. genres: folk"
   },
   {
     "track_id": "000204",
@@ -189,11 +299,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: My Dream. genres: folk"
   },
   {
     "track_id": "000207",
@@ -203,11 +321,19 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 90,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Piano 3. genres: folk"
   },
   {
     "track_id": "000210",
@@ -217,10 +343,18 @@
     "tags": [
       "folk"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: In the French Court. genres: folk"
   }
 ]

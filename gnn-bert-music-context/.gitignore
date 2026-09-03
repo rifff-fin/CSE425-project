@@ -29,8 +29,10 @@ data/processed/**
 # Training artifacts
 checkpoints/
 outputs/
-results/
-plots/
+
+# Keep reproducible evaluation summaries; ignore other generated result files.
+results/*
+!results/*.json
 
 # Notebook execution artifacts
 .ipynb_checkpoints/

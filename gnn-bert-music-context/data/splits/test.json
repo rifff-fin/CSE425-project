@@ -7,11 +7,19 @@
     "tags": [
       "pop"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 98,
     "genre_top": "Pop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Au. album: Au. track: Boute. genres: pop"
   },
   {
     "track_id": "000255",
@@ -21,10 +29,18 @@
     "tags": [
       "rock"
     ],
-    "metadata_available": false,
+    "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Rock",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Bird Names. album: On Opaque Things. track: We Want to be Old. genres: rock"
   }
 ]

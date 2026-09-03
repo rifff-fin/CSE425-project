@@ -17,6 +17,7 @@ from contrastive import ContrastiveDualEncoder
 from fusion_model import GNNBERTFusionModel
 from gnn_model import MusicGNNEncoder
 from fma_dataset import FMAGraphDataset, load_fma_label_names
+from fma_text_dataset import FMATextDataset
 
 
 class MusicDataset(Dataset):
@@ -292,7 +293,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--lr", type=float, default=2e-5)
     parser.add_argument("--checkpoint-dir", type=str, default="./checkpoints")
-    parser.add_argument("--real-data", action="store_true", help="Use processed FMA data for Task 2.")
+    parser.add_argument("--real-data", action="store_true", help="Use processed FMA data for Task 1 or Task 2.")
     parser.add_argument("--manifest-root", type=str, default="./data/splits")
     return parser.parse_args()
 
@@ -307,14 +308,18 @@ def main() -> None:
         checkpoint_dir=args.checkpoint_dir,
     )
 
-    if args.real_data and args.task != "task2":
-        raise ValueError("--real-data is currently supported only for task2.")
+    if args.real_data and args.task not in {"task1", "task2"}:
+        raise ValueError("--real-data is currently supported for task1 and task2.")
 
     if args.real_data:
         manifest_root = os.path.abspath(args.manifest_root)
         label_names = load_fma_label_names(manifest_root)
-        train_ds = FMAGraphDataset(os.path.join(manifest_root, "train.json"), label_names)
-        val_ds = FMAGraphDataset(os.path.join(manifest_root, "val.json"), label_names)
+        if args.task == "task1":
+            train_ds = FMATextDataset(os.path.join(manifest_root, "train.json"), label_names)
+            val_ds = FMATextDataset(os.path.join(manifest_root, "val.json"), label_names)
+        else:
+            train_ds = FMAGraphDataset(os.path.join(manifest_root, "train.json"), label_names)
+            val_ds = FMAGraphDataset(os.path.join(manifest_root, "val.json"), label_names)
     else:
         train_ds, val_ds = build_dummy_task_data(args.task)
     collate_fn = lambda samples: collate_task_samples(samples, args.task)
@@ -323,7 +328,8 @@ def main() -> None:
 
     if args.task == "task1":
         model = BERTTextEncoder(model_name="distilbert-base-uncased")
-        model.classifier = nn.Linear(768, 20)
+        num_tags = len(label_names) if args.real_data else 20
+        model.classifier = nn.Linear(768, num_tags)
         run_task_1(model, train_loader, val_loader, config)
     elif args.task == "task2":
         model = MusicGNNEncoder(in_channels=32, hidden_dim=128, num_layers=2, model_type="sage")
