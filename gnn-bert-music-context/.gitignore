@@ -1,0 +1,37 @@
+# Local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded raw data: archives, audio, and external metadata stay local.
+data/raw/**
+!data/raw/README.md
+!data/raw/**/
+!data/raw/**/.gitkeep
+!data/raw/musiccaps/captions_sample.json
+!data/raw/metadata_sample.csv
+
+# Keep the small processed graph fixtures required by the assignment.
+data/processed/**
+!data/processed/README.md
+!data/processed/**/
+!data/processed/**/.gitkeep
+!data/processed/graphs/*.pt
+!data/processed/audio_features/*.pt
+!data/processed/bert_cache/*.json
+
+# Keep split manifests and their documentation.
+!data/splits/
+!data/splits/*.json
+!data/splits/README.md
+
+# Training artifacts
+checkpoints/
+outputs/
+results/
+plots/
+
+# Notebook execution artifacts
+.ipynb_checkpoints/
+notebooks/*executed*.ipynb

@@ -1,0 +1,30 @@
+[
+  {
+    "track_id": "000211",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000211.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000211.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000211.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": false,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000212",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000212.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000212.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000212.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": false,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  }
+]

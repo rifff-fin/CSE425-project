@@ -1,0 +1,8 @@
+{
+  "track_id": "sample_001",
+  "caption_id": "caption_001",
+  "model": "distilbert-base-uncased",
+  "max_length": 128,
+  "token_ids": [101, 1037, 4010, 1010, 17192, 1009, 102],
+  "attention_mask": [1, 1, 1, 1, 1, 1, 1]
+}

@@ -16,6 +16,7 @@ from bert_encoder import BERTTextEncoder
 from contrastive import ContrastiveDualEncoder
 from fusion_model import GNNBERTFusionModel
 from gnn_model import MusicGNNEncoder
+from fma_dataset import FMAGraphDataset, load_fma_label_names
 
 
 class MusicDataset(Dataset):
@@ -29,6 +30,26 @@ class MusicDataset(Dataset):
 
     def __getitem__(self, idx: int) -> Dict[str, Any]:
         return self.samples[idx]
+
+
+def collate_task_samples(samples: List[Dict[str, Any]], task: str) -> Dict[str, Any]:
+    """Batch tensors and PyG graphs while preserving text lists."""
+    batch: Dict[str, Any] = {}
+    keys = samples[0].keys()
+    for key in keys:
+        values = [sample[key] for sample in samples]
+        if key == "graph":
+            if task == "task2":
+                batch[key] = Batch.from_data_list(values)
+            continue
+        if key == "texts":
+            batch[key] = [text for value in values for text in value]
+            continue
+        if isinstance(values[0], torch.Tensor):
+            batch[key] = torch.stack(values)
+        else:
+            batch[key] = values
+    return batch
 
 
 @dataclass
@@ -116,7 +137,8 @@ def run_task_2(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
             graph = batch["graph"]
             graph = graph.to(config.device)
             labels = batch["tags"].to(config.device)
-            logits = model(graph)
+            embedding = model(graph)
+            logits = model.classifier(embedding)
             loss = criterion(logits, labels)
 
             optimizer.zero_grad()
@@ -133,7 +155,8 @@ def run_task_2(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
             for batch in val_loader:
                 graph = batch["graph"].to(config.device)
                 labels = batch["tags"].to(config.device)
-                logits = model(graph)
+                embedding = model(graph)
+                logits = model.classifier(embedding)
                 val_loss += criterion(logits, labels).item()
 
         val_loss = val_loss / max(1, len(val_loader))
@@ -269,6 +292,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--lr", type=float, default=2e-5)
     parser.add_argument("--checkpoint-dir", type=str, default="./checkpoints")
+    parser.add_argument("--real-data", action="store_true", help="Use processed FMA data for Task 2.")
+    parser.add_argument("--manifest-root", type=str, default="./data/splits")
     return parser.parse_args()
 
 
@@ -282,9 +307,19 @@ def main() -> None:
         checkpoint_dir=args.checkpoint_dir,
     )
 
-    train_ds, val_ds = build_dummy_task_data(args.task)
-    train_loader = DataLoader(train_ds, batch_size=config.batch_size, shuffle=True)
-    val_loader = DataLoader(val_ds, batch_size=config.batch_size, shuffle=False)
+    if args.real_data and args.task != "task2":
+        raise ValueError("--real-data is currently supported only for task2.")
+
+    if args.real_data:
+        manifest_root = os.path.abspath(args.manifest_root)
+        label_names = load_fma_label_names(manifest_root)
+        train_ds = FMAGraphDataset(os.path.join(manifest_root, "train.json"), label_names)
+        val_ds = FMAGraphDataset(os.path.join(manifest_root, "val.json"), label_names)
+    else:
+        train_ds, val_ds = build_dummy_task_data(args.task)
+    collate_fn = lambda samples: collate_task_samples(samples, args.task)
+    train_loader = DataLoader(train_ds, batch_size=config.batch_size, shuffle=True, collate_fn=collate_fn)
+    val_loader = DataLoader(val_ds, batch_size=config.batch_size, shuffle=False, collate_fn=collate_fn)
 
     if args.task == "task1":
         model = BERTTextEncoder(model_name="distilbert-base-uncased")
@@ -292,7 +327,8 @@ def main() -> None:
         run_task_1(model, train_loader, val_loader, config)
     elif args.task == "task2":
         model = MusicGNNEncoder(in_channels=32, hidden_dim=128, num_layers=2, model_type="sage")
-        model.classifier = nn.Linear(128, 20)
+        num_tags = len(label_names) if args.real_data else 20
+        model.classifier = nn.Linear(128, num_tags)
         run_task_2(model, train_loader, val_loader, config)
     elif args.task == "task3":
         model = GNNBERTFusionModel(graph_dim=128, text_dim=768, fusion_dim=256, num_tags=20)

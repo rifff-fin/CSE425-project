@@ -17,6 +17,9 @@ gnn-bert-music-context/
 ├── src/
 │   ├── audio_features.py
 │   ├── graph_builder.py
+│   ├── preprocess_fma.py
+│   ├── enrich_fma_metadata.py
+│   ├── fma_dataset.py
 │   ├── bert_encoder.py
 │   ├── gnn_model.py
 │   ├── fusion_model.py
@@ -26,9 +29,9 @@ gnn-bert-music-context/
 ├── notebooks/
 │   └── demo_context.ipynb
 └── data/
-    ├── audio/
-    ├── metadata.csv
-    └── captions.json
+    ├── raw/              # downloaded datasets; excluded from Git
+    ├── processed/        # graph fixtures and generated features
+    └── splits/            # train/validation/test manifests
 ```
 
 ## Environment setup
@@ -65,14 +68,14 @@ The project is designed for common audio-text/music datasets that support contex
 
 ### 1) FMA (Free Music Archive)
 - Download the full FMA dataset or a curated subset.
-- Place audio files in `data/audio/`.
+- Place audio files in `data/raw/fma/`.
 - Build metadata tables with track IDs, artist IDs, and genre labels when needed.
 - Use the audio files for segment extraction and graph construction.
 
 ### 2) MagnaTagATune
 - Use MIDI-like or audio labels for multi-label tagging.
 - Map annotations to a fixed label vocabulary for classification tasks.
-- Keep file-level metadata in `data/metadata.csv`.
+- Keep file-level metadata in `data/raw/metadata.csv`.
 
 ### 3) DEAM (Database for Emotional Analysis of Music)
 - Use continuous valence and arousal labels from the DEAM annotations.
@@ -81,7 +84,7 @@ The project is designed for common audio-text/music datasets that support contex
 
 ### 4) MusicCaps
 - Use the MusicCaps captioning data as text supervision.
-- Store text descriptions or prompt strings in `data/captions.json`.
+- Store text descriptions or prompt strings in `data/raw/captions.json`.
 - Pair each caption with the corresponding audio track or segment.
 
 ## Training commands
