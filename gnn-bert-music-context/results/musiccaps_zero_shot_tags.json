@@ -1,0 +1,264 @@
+{
+  "dataset": "MusicCaps",
+  "method": "zero-shot exact lexical match against the supervised FMA tag vocabulary",
+  "samples": 10,
+  "label_vocabulary": [
+    "audio collage",
+    "avant-garde",
+    "drone",
+    "electroacoustic",
+    "electronic",
+    "experimental",
+    "field recordings",
+    "folk",
+    "free-folk",
+    "hip-hop",
+    "indie-rock",
+    "international",
+    "krautrock",
+    "latin america",
+    "lo-fi",
+    "loud-rock",
+    "metal",
+    "noise",
+    "noise-rock",
+    "pop",
+    "post-punk",
+    "psych-folk",
+    "psych-rock",
+    "punk",
+    "reggae - dub",
+    "rock"
+  ],
+  "supervised_task3_reference": {
+    "macro_f1": 0.06422743922743923,
+    "micro_f1": 0.12359550561797752,
+    "auc_pr": 0.05210030427291258
+  },
+  "note": "MusicCaps has no ground-truth FMA tags, so zero-shot tag accuracy is not claimed.",
+  "predictions": [
+    {
+      "track_id": "-r2-9oyIzkQ",
+      "caption": "The Romance song features an electric guitar lick, low toms roll and soft crash cymbal, followed by emotional piano chord progression and wide background crowd screams, as the passionate male vocal sings over it. Judging by the crowd sound effect, it seems that this is a live performance. Sounds emotional, passionate, heartfelt and romantic.",
+      "zero_shot_fma_tags": [],
+      "caption_content_words": [
+        "background",
+        "electric",
+        "emotional",
+        "features",
+        "guitar",
+        "low",
+        "male",
+        "passionate",
+        "soft",
+        "song",
+        "sound",
+        "sounds",
+        "vocal",
+        "wide"
+      ]
+    },
+    {
+      "track_id": "-r7iz-9v9bA",
+      "caption": "This song features a female voice singing in opera style using only vocables and no words. This is accompanied by violins playing eighth note patterns that change according to the chords being played. The bass follows the root notes of the chords. A muted guitar or string instrument plays arpeggiated chords. This song can be played in a fantasy game.",
+      "zero_shot_fma_tags": [],
+      "caption_content_words": [
+        "bass",
+        "chords",
+        "features",
+        "female",
+        "guitar",
+        "note",
+        "playing",
+        "singing",
+        "song",
+        "voice"
+      ]
+    },
+    {
+      "track_id": "-rAhS48FkYw",
+      "caption": "The low quality recording features a pop song that consists of a passionate male vocal singing over mellow kick hits, shimmering hi hats, wide electric guitar melody, syncopated snare and wooden percussion. The first half of the loop does not consist of the vocal, snare and hi hats. It sounds happy, fun and joyful.",
+      "zero_shot_fma_tags": [
+        "pop"
+      ],
+      "caption_content_words": [
+        "consists",
+        "electric",
+        "features",
+        "guitar",
+        "hats",
+        "hits",
+        "kick",
+        "low",
+        "male",
+        "melody",
+        "passionate",
+        "pop",
+        "quality",
+        "recording",
+        "shimmering",
+        "singing",
+        "snare",
+        "song",
+        "sounds",
+        "vocal",
+        "wide"
+      ]
+    },
+    {
+      "track_id": "-sRFfU8k0Zs",
+      "caption": "This is an Arabic movie music piece. It is an instrumental piece. There is a clarinet playing a vague melody. The sound of knives being rubbed against one another can be heard. There is an ominous, terrifying atmosphere. This piece could be used in the soundtrack of a horror movie to imply the feeling of hopelessness.",
+      "zero_shot_fma_tags": [],
+      "caption_content_words": [
+        "another",
+        "feeling",
+        "melody",
+        "music",
+        "piece",
+        "playing",
+        "sound"
+      ]
+    },
+    {
+      "track_id": "-tKZOl4q1Kw",
+      "caption": "The clip just contains a high pitched synth melody. The motif keeps going higher in pitch, and then eventually a riser comes in. The combination of these two factors creates a sense of build-up to a climactic moment.",
+      "zero_shot_fma_tags": [],
+      "caption_content_words": [
+        "contains",
+        "melody",
+        "synth"
+      ]
+    },
+    {
+      "track_id": "-taO6N-rxv4",
+      "caption": "This is a rock music piece playing in the background of a tutorial video. There is an electric guitar playing a simple tune as the lead while another provides a rhythmic backing by playing the same note repeatedly in rapid procession. There is an acoustic drum beat playing. There are water sound effects related to the video. The piece has a generic feeling. It does not evoke much excitement. It could be used as a jingle for an advertisement or in the background of an instructive video.",
+      "zero_shot_fma_tags": [
+        "rock"
+      ],
+      "caption_content_words": [
+        "acoustic",
+        "another",
+        "background",
+        "drum",
+        "electric",
+        "feeling",
+        "guitar",
+        "lead",
+        "music",
+        "note",
+        "piece",
+        "playing",
+        "rock",
+        "sound",
+        "while"
+      ]
+    },
+    {
+      "track_id": "-tmY1GEH3_Y",
+      "caption": "The low quality recording features a pop song that consists of an echoing male vocal singing over punchy kick and snare hits, shimmering hi hats, metallic percussions, synth lead melody, synth pad chords and groovy synth bass. It sounds energetic, nostalgic and exciting - like something you would hear in clubs during the 80s.",
+      "zero_shot_fma_tags": [
+        "pop"
+      ],
+      "caption_content_words": [
+        "bass",
+        "chords",
+        "consists",
+        "features",
+        "groovy",
+        "hats",
+        "hits",
+        "kick",
+        "lead",
+        "low",
+        "male",
+        "melody",
+        "pop",
+        "punchy",
+        "quality",
+        "recording",
+        "shimmering",
+        "singing",
+        "snare",
+        "something",
+        "song",
+        "sounds",
+        "synth",
+        "vocal",
+        "would",
+        "you"
+      ]
+    },
+    {
+      "track_id": "-tpq_bzSKes",
+      "caption": "This composition contains an upright bass playing softly along to a harp and strings playing a melody while a male deep voice is softly singing a melody sounding like telling a story. The song sounds like it was made for Christmas. This song may be playing at home having dinner with the whole family.",
+      "zero_shot_fma_tags": [],
+      "caption_content_words": [
+        "along",
+        "bass",
+        "contains",
+        "male",
+        "may",
+        "melody",
+        "playing",
+        "singing",
+        "song",
+        "sounds",
+        "upright",
+        "voice",
+        "while"
+      ]
+    },
+    {
+      "track_id": "-uaTK8sa5Ms",
+      "caption": "An acoustic drum set is playing a 16th note rhythm using the edge of his snare and a hihat sound opening and closing. A banjo is playing a fast melody along with a violin/viola playing the same melody. An upright bass is playing a walking bassline. This song may be playing in a funny tv-show.",
+      "zero_shot_fma_tags": [],
+      "caption_content_words": [
+        "acoustic",
+        "along",
+        "bass",
+        "drum",
+        "may",
+        "melody",
+        "note",
+        "playing",
+        "snare",
+        "song",
+        "sound",
+        "upright"
+      ]
+    },
+    {
+      "track_id": "-v5hgCh3M2w",
+      "caption": "The Soft Rock song features a passionate female vocalist singing over a wide electric guitar melody, punchy snare, soft kick hits, groovy bass guitar and shimmering hi-hats. It sounds sad, emotional and passionate - like something you would listen to on a day you are feeling down.",
+      "zero_shot_fma_tags": [
+        "rock"
+      ],
+      "caption_content_words": [
+        "bass",
+        "electric",
+        "emotional",
+        "features",
+        "feeling",
+        "female",
+        "groovy",
+        "guitar",
+        "hits",
+        "kick",
+        "melody",
+        "passionate",
+        "punchy",
+        "rock",
+        "shimmering",
+        "singing",
+        "snare",
+        "soft",
+        "something",
+        "song",
+        "sounds",
+        "wide",
+        "would",
+        "you"
+      ]
+    }
+  ]
+}

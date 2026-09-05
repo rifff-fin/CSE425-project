@@ -1,0 +1,27 @@
+{
+  "task": "task3",
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "blues",
+    "international-electronic",
+    "international-folk-pop-experimental-rock",
+    "jazz",
+    "jazz-rock",
+    "pop",
+    "pop-electronic",
+    "pop-experimental",
+    "pop-experimental-electronic",
+    "pop-experimental-rock",
+    "pop-rock"
+  ],
+  "macro_f1": 0.06955922865013774,
+  "micro_f1": 0.13114754098360656,
+  "auc_pr": 0.09457379480381298,
+  "valence": {
+    "mae": 4.464138507843018
+  },
+  "arousal": {
+    "mae": 4.507852554321289
+  }
+}

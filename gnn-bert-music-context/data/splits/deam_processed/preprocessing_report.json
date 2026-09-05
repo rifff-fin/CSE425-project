@@ -1,0 +1,10 @@
+{
+  "source_manifest_root": "D:\\425 project\\gnn-bert-music-context\\data\\splits\\deam",
+  "processed_records": 100,
+  "splits": {
+    "train": 80,
+    "val": 10,
+    "test": 10
+  },
+  "graph_root": "D:\\425 project\\gnn-bert-music-context\\data\\processed\\deam\\graphs"
+}

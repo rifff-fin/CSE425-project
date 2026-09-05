@@ -1,0 +1,2702 @@
+[
+  {
+    "deam_song_id": "1698",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1698.mp3",
+    "text_context": "artist: Ofir Klemperer. track: come here. genre: International-Folk-Pop-Experimental-Rock",
+    "genre": "International-Folk-Pop-Experimental-Rock",
+    "tags": [
+      "international-folk-pop-experimental-rock"
+    ],
+    "valence": 4.5,
+    "arousal": 4.5,
+    "valence_std": 1.36,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1699",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1699.mp3",
+    "text_context": "artist: Damscray. track: Rural Metric Seven. genre: International-Electronic",
+    "genre": "International-Electronic",
+    "tags": [
+      "international-electronic"
+    ],
+    "valence": 5.1,
+    "arousal": 5.0,
+    "valence_std": 1.76,
+    "arousal_std": 1.95,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1700",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1700.mp3",
+    "text_context": "artist: Damscray. track: Your Rainbow Colour Changer. genre: International-Electronic",
+    "genre": "International-Electronic",
+    "tags": [
+      "international-electronic"
+    ],
+    "valence": 5.6,
+    "arousal": 5.0,
+    "valence_std": 1.5,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1701",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1701.mp3",
+    "text_context": "artist: Assif Tsahar. track: JAM. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.0,
+    "arousal": 3.1,
+    "valence_std": 1.55,
+    "arousal_std": 1.51,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1702",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1702.mp3",
+    "text_context": "artist: Assif Tsahar. track: JAM. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.1,
+    "arousal": 3.9,
+    "valence_std": 1.3,
+    "arousal_std": 1.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1703",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1703.mp3",
+    "text_context": "artist: The Chris Kelsey 4. track: \u201cThe Oppo\u00adsite of Paul Desmond\u201d). genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.3,
+    "arousal": 6.7,
+    "valence_std": 1.42,
+    "arousal_std": 2.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1704",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1704.mp3",
+    "text_context": "artist: Jason Ajemian & The Highlife. track: Soak up the Sun. genre: Jazz-Rock",
+    "genre": "Jazz-Rock",
+    "tags": [
+      "jazz-rock"
+    ],
+    "valence": 5.3,
+    "arousal": 6.4,
+    "valence_std": 1.62,
+    "arousal_std": 1.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1705",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1705.mp3",
+    "text_context": "artist: Jason Ajemian & The Highlife. track: Monsters. genre: Jazz-Rock",
+    "genre": "Jazz-Rock",
+    "tags": [
+      "jazz-rock"
+    ],
+    "valence": 4.0,
+    "arousal": 4.4,
+    "valence_std": 1.34,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1706",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1706.mp3",
+    "text_context": "artist: Voodoo Suite. track: Voodoo. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.9,
+    "arousal": 4.0,
+    "valence_std": 1.81,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1707",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1707.mp3",
+    "text_context": "artist: Sandro Marinoni & Stefano Roncarolo. track: The Crow. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 3.5,
+    "arousal": 4.0,
+    "valence_std": 1.28,
+    "arousal_std": 1.26,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1708",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1708.mp3",
+    "text_context": "artist: The Watery Graves of Portland. track: The News. genre: Jazz-Rock",
+    "genre": "Jazz-Rock",
+    "tags": [
+      "jazz-rock"
+    ],
+    "valence": 4.2,
+    "arousal": 3.6,
+    "valence_std": 1.4,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1709",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1709.mp3",
+    "text_context": "artist: Seth Paynter and Kevin Patton. track: _F. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 4.0,
+    "arousal": 3.8,
+    "valence_std": 2.0,
+    "arousal_std": 1.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1710",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1710.mp3",
+    "text_context": "artist: Bob James Trio. track: And On. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.6,
+    "arousal": 2.9,
+    "valence_std": 1.02,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1711",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1711.mp3",
+    "text_context": "artist: Somewhere Off Jazz Street. track: Echo. genre: Jazz-Instrumental-Electronic",
+    "genre": "Jazz-Instrumental-Electronic",
+    "tags": [
+      "jazz-instrumental-electronic"
+    ],
+    "valence": 5.0,
+    "arousal": 3.2,
+    "valence_std": 1.1,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1712",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1712.mp3",
+    "text_context": "artist: Sandro Marinoni & Stefano Roncarolo. track: Air. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.4,
+    "arousal": 2.9,
+    "valence_std": 1.69,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1713",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1713.mp3",
+    "text_context": "artist: Glows in the Dark. track: The Silence. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.2,
+    "arousal": 5.7,
+    "valence_std": 1.4,
+    "arousal_std": 1.27,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1714",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1714.mp3",
+    "text_context": "artist: Adam & Alma. track: Smile For Me. genre: Jazz-Instrumental-Pop-Electronic",
+    "genre": "Jazz-Instrumental-Pop-Electronic",
+    "tags": [
+      "jazz-instrumental-pop-electronic"
+    ],
+    "valence": 6.1,
+    "arousal": 4.0,
+    "valence_std": 0.7,
+    "arousal_std": 1.61,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1715",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1715.mp3",
+    "text_context": "artist: krackatoa. track: We think we know it all. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 5.9,
+    "arousal": 5.6,
+    "valence_std": 1.22,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1716",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1716.mp3",
+    "text_context": "artist: krackatoa. track: Shark on the Lot. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 5.8,
+    "arousal": 5.4,
+    "valence_std": 1.47,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1717",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1717.mp3",
+    "text_context": "artist: Terrero De Jesus. track: Xang\u00f4. genre: Jazz-International-Experimental",
+    "genre": "Jazz-International-Experimental",
+    "tags": [
+      "jazz-international-experimental"
+    ],
+    "valence": 6.0,
+    "arousal": 4.8,
+    "valence_std": 0.89,
+    "arousal_std": 1.33,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1718",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1718.mp3",
+    "text_context": "artist: Nheap. track: The Snow That Never Falls Down. genre: Jazz-Experimental-Electronic-Rock",
+    "genre": "Jazz-Experimental-Electronic-Rock",
+    "tags": [
+      "jazz-experimental-electronic-rock"
+    ],
+    "valence": 4.7,
+    "arousal": 3.5,
+    "valence_std": 1.49,
+    "arousal_std": 1.91,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1719",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1719.mp3",
+    "text_context": "artist: Nheap. track: Crossings. genre: Jazz-Experimental-Electronic-Rock",
+    "genre": "Jazz-Experimental-Electronic-Rock",
+    "tags": [
+      "jazz-experimental-electronic-rock"
+    ],
+    "valence": 5.0,
+    "arousal": 3.3,
+    "valence_std": 1.61,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1720",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1720.mp3",
+    "text_context": "artist: Har-You Percussion Group. track: Welcome To The Party. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 7.5,
+    "arousal": 6.0,
+    "valence_std": 0.92,
+    "arousal_std": 1.48,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1721",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1721.mp3",
+    "text_context": "artist: Nheap. track: Sands. genre: Jazz-Experimental-Electronic-Rock",
+    "genre": "Jazz-Experimental-Electronic-Rock",
+    "tags": [
+      "jazz-experimental-electronic-rock"
+    ],
+    "valence": 4.2,
+    "arousal": 2.9,
+    "valence_std": 1.25,
+    "arousal_std": 1.14,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1722",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1722.mp3",
+    "text_context": "artist: Martin Lowack. track: Evening. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.0,
+    "arousal": 3.1,
+    "valence_std": 1.48,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1723",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1723.mp3",
+    "text_context": "artist: Nheap. track: Daily Improvisation. genre: Jazz-Experimental-Electronic-Rock",
+    "genre": "Jazz-Experimental-Electronic-Rock",
+    "tags": [
+      "jazz-experimental-electronic-rock"
+    ],
+    "valence": 4.3,
+    "arousal": 3.4,
+    "valence_std": 1.27,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1724",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1724.mp3",
+    "text_context": "artist: Learning Music. track: #3. genre: Jazz-Folk-Pop-Rock",
+    "genre": "Jazz-Folk-Pop-Rock",
+    "tags": [
+      "jazz-folk-pop-rock"
+    ],
+    "valence": 3.7,
+    "arousal": 3.3,
+    "valence_std": 1.79,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1725",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1725.mp3",
+    "text_context": "artist: Jazz at Mladost Club. track: Caravan. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.2,
+    "arousal": 4.4,
+    "valence_std": 1.33,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1726",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1726.mp3",
+    "text_context": "artist: Somewhere Off Jazz Street. track: Dawn. genre: Jazz-Instrumental-Electronic",
+    "genre": "Jazz-Instrumental-Electronic",
+    "tags": [
+      "jazz-instrumental-electronic"
+    ],
+    "valence": 4.6,
+    "arousal": 3.2,
+    "valence_std": 1.28,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1727",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1727.mp3",
+    "text_context": "artist: Assif Tsahar. track: deals. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.9,
+    "arousal": 4.7,
+    "valence_std": 1.3,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1728",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1728.mp3",
+    "text_context": "artist: Zloty Dawai. track: Teleopsis belzebuth. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.1,
+    "arousal": 4.7,
+    "valence_std": 1.45,
+    "arousal_std": 2.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1729",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1729.mp3",
+    "text_context": "artist: Nheap. track: Rides. genre: Jazz-Experimental-Electronic-Rock",
+    "genre": "Jazz-Experimental-Electronic-Rock",
+    "tags": [
+      "jazz-experimental-electronic-rock"
+    ],
+    "valence": 5.1,
+    "arousal": 5.4,
+    "valence_std": 1.97,
+    "arousal_std": 1.56,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1730",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1730.mp3",
+    "text_context": "artist: Revolution Void. track: Nebulous Notions. genre: Jazz-Hip-Hop-Electronic",
+    "genre": "Jazz-Hip-Hop-Electronic",
+    "tags": [
+      "jazz-hip-hop-electronic"
+    ],
+    "valence": 5.3,
+    "arousal": 3.9,
+    "valence_std": 0.9,
+    "arousal_std": 1.51,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1731",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1731.mp3",
+    "text_context": "artist: Stefano Roncarolo & Sandro Marinoni. track: Mirage. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 4.2,
+    "arousal": 3.6,
+    "valence_std": 1.08,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1732",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1732.mp3",
+    "text_context": "artist: Bliss Blood & Al Street. track: Paradise. genre: Jazz-International",
+    "genre": "Jazz-International",
+    "tags": [
+      "jazz-international"
+    ],
+    "valence": 4.2,
+    "arousal": 3.0,
+    "valence_std": 1.6,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1733",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1733.mp3",
+    "text_context": "artist: Trio Metrik. track: Vogelperspektive. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.8,
+    "arousal": 3.3,
+    "valence_std": 1.83,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1734",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1734.mp3",
+    "text_context": "artist: Revolution Void. track: Factum par Fictio. genre: Jazz-Hip-Hop-Electronic",
+    "genre": "Jazz-Hip-Hop-Electronic",
+    "tags": [
+      "jazz-hip-hop-electronic"
+    ],
+    "valence": 5.1,
+    "arousal": 5.2,
+    "valence_std": 1.58,
+    "arousal_std": 1.72,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1735",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1735.mp3",
+    "text_context": "artist: Mentz. track: Sleepy. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 4.7,
+    "arousal": 3.0,
+    "valence_std": 1.49,
+    "arousal_std": 1.18,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1736",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1736.mp3",
+    "text_context": "artist: Mentz. track: Tumble. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 4.7,
+    "arousal": 3.1,
+    "valence_std": 1.49,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1737",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1737.mp3",
+    "text_context": "artist: Zloty Dawai. track: Hydrofugarious spasm. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.6,
+    "arousal": 3.6,
+    "valence_std": 1.62,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1738",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1738.mp3",
+    "text_context": "artist: Zloty Dawai. track: Adsurb Peotry. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 2.8,
+    "arousal": 4.8,
+    "valence_std": 1.6,
+    "arousal_std": 1.72,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1739",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1739.mp3",
+    "text_context": "artist: Zloty Dawai. track: Squid in the mouth. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.7,
+    "arousal": 2.8,
+    "valence_std": 1.55,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1740",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1740.mp3",
+    "text_context": "artist: Neuroleptic Trio. track: I. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 5.3,
+    "arousal": 4.3,
+    "valence_std": 1.49,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1741",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1741.mp3",
+    "text_context": "artist: Stefano Roncarolo & Sandro Marinoni. track: Point of no return. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 3.3,
+    "arousal": 3.5,
+    "valence_std": 1.49,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1742",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1742.mp3",
+    "text_context": "artist: Quantum Jazz. track: Intro. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.8,
+    "arousal": 5.1,
+    "valence_std": 0.98,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1743",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1743.mp3",
+    "text_context": "artist: The Swing Ninjas. track: Blue Drag. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.8,
+    "arousal": 6.5,
+    "valence_std": 0.98,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1744",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1744.mp3",
+    "text_context": "artist: The New Mellow Edwards. track: First Loser. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.9,
+    "arousal": 4.3,
+    "valence_std": 0.94,
+    "arousal_std": 0.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1745",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1745.mp3",
+    "text_context": "artist: ProleteR. track: The Misfit Song. genre: Jazz-Hip-Hop-Rock",
+    "genre": "Jazz-Hip-Hop-Rock",
+    "tags": [
+      "jazz-hip-hop-rock"
+    ],
+    "valence": 7.1,
+    "arousal": 5.9,
+    "valence_std": 0.94,
+    "arousal_std": 1.7,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1746",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1746.mp3",
+    "text_context": "artist: Terrero De Jesus. track: Ogum. genre: Jazz-International-Experimental",
+    "genre": "Jazz-International-Experimental",
+    "tags": [
+      "jazz-international-experimental"
+    ],
+    "valence": 5.7,
+    "arousal": 4.8,
+    "valence_std": 1.19,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1747",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1747.mp3",
+    "text_context": "artist: Stefano Roncarolo & Sandro Marinoni. track: Lhasa. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 4.3,
+    "arousal": 2.9,
+    "valence_std": 1.35,
+    "arousal_std": 1.14,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1748",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1748.mp3",
+    "text_context": "artist: Bacco Baccanels. track: Fearless little John. genre: Jazz-International-Pop",
+    "genre": "Jazz-International-Pop",
+    "tags": [
+      "jazz-international-pop"
+    ],
+    "valence": 5.4,
+    "arousal": 4.1,
+    "valence_std": 0.66,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1749",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1749.mp3",
+    "text_context": "artist: Gepel. track: Empingue. genre: Jazz-International",
+    "genre": "Jazz-International",
+    "tags": [
+      "jazz-international"
+    ],
+    "valence": 6.7,
+    "arousal": 4.6,
+    "valence_std": 1.42,
+    "arousal_std": 0.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1750",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1750.mp3",
+    "text_context": "artist: Revolution Void. track: Accelerated Lifestyle. genre: Jazz-Hip-Hop-Electronic",
+    "genre": "Jazz-Hip-Hop-Electronic",
+    "tags": [
+      "jazz-hip-hop-electronic"
+    ],
+    "valence": 4.7,
+    "arousal": 5.3,
+    "valence_std": 1.35,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1751",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1751.mp3",
+    "text_context": "artist: Steve MacKay and the Blue Prostitutes. track: Improv. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.1,
+    "arousal": 4.3,
+    "valence_std": 1.14,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1752",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1752.mp3",
+    "text_context": "artist: Revolution Void. track: City Lights at Night. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 5.5,
+    "arousal": 6.1,
+    "valence_std": 2.25,
+    "arousal_std": 1.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1753",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1753.mp3",
+    "text_context": "artist: Miro. track: I. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.2,
+    "arousal": 3.4,
+    "valence_std": 1.25,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1754",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1754.mp3",
+    "text_context": "artist: Somewhere Off Jazz Street. track: Fly. genre: Jazz-Instrumental-Electronic",
+    "genre": "Jazz-Instrumental-Electronic",
+    "tags": [
+      "jazz-instrumental-electronic"
+    ],
+    "valence": 4.2,
+    "arousal": 2.4,
+    "valence_std": 1.54,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1755",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1755.mp3",
+    "text_context": "artist: Revolution Void. track: Weekend Amnesia. genre: Jazz-Hip-Hop-Electronic",
+    "genre": "Jazz-Hip-Hop-Electronic",
+    "tags": [
+      "jazz-hip-hop-electronic"
+    ],
+    "valence": 6.4,
+    "arousal": 5.7,
+    "valence_std": 1.62,
+    "arousal_std": 1.19,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1756",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1756.mp3",
+    "text_context": "artist: Sandro Marinoni & Stefano Roncarolo with Roberto Padovan. track: Sad Song. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.4,
+    "arousal": 3.9,
+    "valence_std": 1.36,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1757",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1757.mp3",
+    "text_context": "artist: Trio Metrik. track: B\u00e4ume in freier Wildbahn. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 5.0,
+    "arousal": 3.1,
+    "valence_std": 0.77,
+    "arousal_std": 0.83,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1758",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1758.mp3",
+    "text_context": "artist: Calypso. track: Copacabana Palace Hotel. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.4,
+    "arousal": 3.0,
+    "valence_std": 1.02,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1759",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1759.mp3",
+    "text_context": "artist: Terrero De Jesus. track: Oxum. genre: Jazz-International-Experimental",
+    "genre": "Jazz-International-Experimental",
+    "tags": [
+      "jazz-international-experimental"
+    ],
+    "valence": 5.4,
+    "arousal": 4.7,
+    "valence_std": 1.28,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1760",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1760.mp3",
+    "text_context": "artist: Mentz. track: Shackles. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 4.3,
+    "arousal": 4.1,
+    "valence_std": 1.68,
+    "arousal_std": 1.64,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1761",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1761.mp3",
+    "text_context": "artist: Scott Kettner's Brazilian Brass Band. track: Big Leg Woman. genre: Jazz-International",
+    "genre": "Jazz-International",
+    "tags": [
+      "jazz-international"
+    ],
+    "valence": 7.9,
+    "arousal": 7.1,
+    "valence_std": 0.83,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1762",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1762.mp3",
+    "text_context": "artist: Pablie. track: Trying Jazz. genre: Jazz-Hip-Hop",
+    "genre": "Jazz-Hip-Hop",
+    "tags": [
+      "jazz-hip-hop"
+    ],
+    "valence": 6.1,
+    "arousal": 5.4,
+    "valence_std": 1.81,
+    "arousal_std": 1.91,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1763",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1763.mp3",
+    "text_context": "artist: Mike Link &amp; Harvey Taylor. track: Night Song. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 4.4,
+    "arousal": 3.5,
+    "valence_std": 1.11,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1764",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1764.mp3",
+    "text_context": "artist: Jaap Blonk & Splinks. track: Duende. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 4.9,
+    "arousal": 4.0,
+    "valence_std": 1.81,
+    "arousal_std": 1.61,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1765",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1765.mp3",
+    "text_context": "artist: Taiga Blues. track: Karussell. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 5.8,
+    "arousal": 4.6,
+    "valence_std": 0.98,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1766",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1766.mp3",
+    "text_context": "artist: Stefano Roncarolo & Sandro Marinoni. track: Meditation. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 3.7,
+    "arousal": 3.0,
+    "valence_std": 1.19,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1767",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1767.mp3",
+    "text_context": "artist: Kreng. track: Merope. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 3.8,
+    "arousal": 2.4,
+    "valence_std": 1.78,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1768",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1768.mp3",
+    "text_context": "artist: Somewhere Off Jazz Street. track: Ghost. genre: Jazz-Instrumental-Electronic",
+    "genre": "Jazz-Instrumental-Electronic",
+    "tags": [
+      "jazz-instrumental-electronic"
+    ],
+    "valence": 4.1,
+    "arousal": 3.1,
+    "valence_std": 1.64,
+    "arousal_std": 1.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1769",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1769.mp3",
+    "text_context": "artist: M.A.G. Trio. track: All the things. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.9,
+    "arousal": 5.3,
+    "valence_std": 1.37,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1770",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1770.mp3",
+    "text_context": "artist: Assif Tsahar & Tatsuya Nakatani. track: Come Sunday. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.5,
+    "arousal": 2.9,
+    "valence_std": 1.63,
+    "arousal_std": 1.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1771",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1771.mp3",
+    "text_context": "artist: Plaistow. track: Steve Reich. genre: Jazz-Experimental-Rock",
+    "genre": "Jazz-Experimental-Rock",
+    "tags": [
+      "jazz-experimental-rock"
+    ],
+    "valence": 4.9,
+    "arousal": 5.3,
+    "valence_std": 0.94,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1772",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1772.mp3",
+    "text_context": "artist: Oprachina. track: Attimi. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.6,
+    "arousal": 4.3,
+    "valence_std": 1.62,
+    "arousal_std": 1.35,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1773",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1773.mp3",
+    "text_context": "artist: Plaistow. track: Aki's Apple. genre: Jazz-Experimental-Rock",
+    "genre": "Jazz-Experimental-Rock",
+    "tags": [
+      "jazz-experimental-rock"
+    ],
+    "valence": 5.4,
+    "arousal": 4.1,
+    "valence_std": 1.56,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1774",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1774.mp3",
+    "text_context": "artist: Bacco Baccanels. track: Mi fa. genre: Jazz-International-Pop",
+    "genre": "Jazz-International-Pop",
+    "tags": [
+      "jazz-international-pop"
+    ],
+    "valence": 4.9,
+    "arousal": 4.8,
+    "valence_std": 1.58,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1775",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1775.mp3",
+    "text_context": "artist: Jonah Dempcy. track: Mother Matrix Most Mysterious. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.6,
+    "arousal": 3.0,
+    "valence_std": 1.02,
+    "arousal_std": 0.77,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1776",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1776.mp3",
+    "text_context": "artist: Jonah Dempcy. track: Upsurge. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.8,
+    "arousal": 3.8,
+    "valence_std": 1.94,
+    "arousal_std": 1.66,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1777",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1777.mp3",
+    "text_context": "artist: Jonah Dempcy. track: Myriad Ways. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.3,
+    "arousal": 4.4,
+    "valence_std": 1.73,
+    "arousal_std": 1.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1778",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1778.mp3",
+    "text_context": "artist: Jonah Dempcy. track: Lumen Arcanum. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.4,
+    "arousal": 3.2,
+    "valence_std": 1.5,
+    "arousal_std": 1.99,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1779",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1779.mp3",
+    "text_context": "artist: Jonah Dempcy. track: Azurescent. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.7,
+    "arousal": 2.9,
+    "valence_std": 1.9,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1780",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1780.mp3",
+    "text_context": "artist: Stefano Roncarolo & Sandro Marinoni. track: Song for Lisa. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 4.8,
+    "arousal": 3.5,
+    "valence_std": 1.33,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1781",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1781.mp3",
+    "text_context": "artist: Gitarrenarmee. track: Composing after playing part 3. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 4.2,
+    "arousal": 2.7,
+    "valence_std": 1.83,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1782",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1782.mp3",
+    "text_context": "artist: Interkosmos. track: Edentrip. genre: Jazz-Experimental-Electronic-Rock",
+    "genre": "Jazz-Experimental-Electronic-Rock",
+    "tags": [
+      "jazz-experimental-electronic-rock"
+    ],
+    "valence": 4.7,
+    "arousal": 5.2,
+    "valence_std": 1.68,
+    "arousal_std": 1.89,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1783",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1783.mp3",
+    "text_context": "artist: Somewhere Off Jazz Street. track: Dusk. genre: Jazz-Instrumental-Electronic",
+    "genre": "Jazz-Instrumental-Electronic",
+    "tags": [
+      "jazz-instrumental-electronic"
+    ],
+    "valence": 4.2,
+    "arousal": 3.3,
+    "valence_std": 1.47,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1784",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1784.mp3",
+    "text_context": "artist: M.A.G. Trio. track: Spain. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.5,
+    "arousal": 5.1,
+    "valence_std": 1.2,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1785",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1785.mp3",
+    "text_context": "artist: Trio Metrik. track: Reisefenster. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 5.6,
+    "arousal": 5.2,
+    "valence_std": 0.8,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1786",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1786.mp3",
+    "text_context": "artist: Schizo\u00efd Bass. track: Through Fields. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 4.2,
+    "arousal": 3.1,
+    "valence_std": 1.94,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1787",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1787.mp3",
+    "text_context": "artist: Gepel. track: Ta vieja y ya no sale. genre: Jazz-International",
+    "genre": "Jazz-International",
+    "tags": [
+      "jazz-international"
+    ],
+    "valence": 3.9,
+    "arousal": 3.4,
+    "valence_std": 1.64,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1788",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1788.mp3",
+    "text_context": "artist: Jooklo Duo with C. Spencer Yeh. track: Set the Fire. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.6,
+    "arousal": 6.0,
+    "valence_std": 1.74,
+    "arousal_std": 2.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1789",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1789.mp3",
+    "text_context": "artist: Revolution Void. track: Ventus Solaris. genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 5.9,
+    "arousal": 5.1,
+    "valence_std": 1.04,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1790",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1790.mp3",
+    "text_context": "artist: julia a. miller. track: 2. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.8,
+    "arousal": 3.3,
+    "valence_std": 1.99,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1791",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1791.mp3",
+    "text_context": "artist: Oprachina. track: Porta D'Arce. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.3,
+    "arousal": 3.3,
+    "valence_std": 1.79,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1792",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1792.mp3",
+    "text_context": "artist: Quantum Jazz. track: Jingle Jazz. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.1,
+    "arousal": 5.1,
+    "valence_std": 0.54,
+    "arousal_std": 1.04,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1793",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1793.mp3",
+    "text_context": "artist: Antony Raijekov. track: Drop of whisper (2005). genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 5.1,
+    "arousal": 4.2,
+    "valence_std": 0.83,
+    "arousal_std": 0.87,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1794",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1794.mp3",
+    "text_context": "artist: Antony Raijekov. track: Deep blue (2005). genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 4.2,
+    "arousal": 3.7,
+    "valence_std": 0.98,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1795",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1795.mp3",
+    "text_context": "artist: Tim Berne. track: Sequel Ex. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 3.9,
+    "arousal": 3.0,
+    "valence_std": 1.3,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1796",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1796.mp3",
+    "text_context": "artist: Necronomikon Quartett. track: Sofawende. genre: Jazz-Rock",
+    "genre": "Jazz-Rock",
+    "tags": [
+      "jazz-rock"
+    ],
+    "valence": 5.8,
+    "arousal": 6.0,
+    "valence_std": 1.6,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1797",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1797.mp3",
+    "text_context": "artist: Goat. track: The High Priestess. genre: Jazz-Experimental-Electronic",
+    "genre": "Jazz-Experimental-Electronic",
+    "tags": [
+      "jazz-experimental-electronic"
+    ],
+    "valence": 3.6,
+    "arousal": 4.1,
+    "valence_std": 1.11,
+    "arousal_std": 1.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1798",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1798.mp3",
+    "text_context": "artist: Pavel Tukki. track: The Universe & Everything. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.7,
+    "arousal": 4.0,
+    "valence_std": 0.64,
+    "arousal_std": 1.48,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1799",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1799.mp3",
+    "text_context": "artist: Antony Raijekov. track: EXIT 65 (2005). genre: Jazz-Electronic",
+    "genre": "Jazz-Electronic",
+    "tags": [
+      "jazz-electronic"
+    ],
+    "valence": 5.8,
+    "arousal": 4.5,
+    "valence_std": 0.87,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1800",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1800.mp3",
+    "text_context": "artist: Jaap Blonk & Splinks. track: Hymne. genre: Jazz-Experimental",
+    "genre": "Jazz-Experimental",
+    "tags": [
+      "jazz-experimental"
+    ],
+    "valence": 3.4,
+    "arousal": 2.6,
+    "valence_std": 1.62,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1801",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1801.mp3",
+    "text_context": "artist: Fire To The Stars. track: Sunday. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 3.4,
+    "arousal": 2.8,
+    "valence_std": 1.5,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1802",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1802.mp3",
+    "text_context": "artist: The Color and Sound. track: Graves. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.7,
+    "arousal": 6.6,
+    "valence_std": 1.55,
+    "arousal_std": 1.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1803",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1803.mp3",
+    "text_context": "artist: The Spectacular Fantastic. track: Everything. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 3.6,
+    "valence_std": 1.58,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1804",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1804.mp3",
+    "text_context": "artist: The Spectacular Fantastic. track: California. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.7,
+    "arousal": 5.9,
+    "valence_std": 1.1,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1805",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1805.mp3",
+    "text_context": "artist: The Spectacular Fantastic. track: In the mood. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.7,
+    "arousal": 4.9,
+    "valence_std": 1.27,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1806",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1806.mp3",
+    "text_context": "artist: The Spectacular Fantastic. track: Out of time. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.5,
+    "arousal": 6.2,
+    "valence_std": 1.36,
+    "arousal_std": 1.33,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1807",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1807.mp3",
+    "text_context": "artist: The Spectacular Fantastic. track: This old heart. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.7,
+    "arousal": 5.3,
+    "valence_std": 0.9,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1808",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1808.mp3",
+    "text_context": "artist: The Attraction. track: Emma. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.4,
+    "arousal": 5.3,
+    "valence_std": 1.74,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1809",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1809.mp3",
+    "text_context": "artist: Zola Jesus. track: Dog. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.0,
+    "arousal": 4.1,
+    "valence_std": 1.34,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1810",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1810.mp3",
+    "text_context": "artist: The Fresh & Onlys. track: Don't Give Up. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 4.0,
+    "valence_std": 0.94,
+    "arousal_std": 1.41,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1811",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1811.mp3",
+    "text_context": "artist: Silence Is Sexy. track: Low. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.6,
+    "arousal": 4.7,
+    "valence_std": 1.91,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1812",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1812.mp3",
+    "text_context": "artist: Silence Is Sexy. track: Talk. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.0,
+    "arousal": 5.0,
+    "valence_std": 1.9,
+    "arousal_std": 1.61,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1813",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1813.mp3",
+    "text_context": "artist: The Womb. track: Sex Club. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.1,
+    "arousal": 5.7,
+    "valence_std": 2.02,
+    "arousal_std": 1.68,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1814",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1814.mp3",
+    "text_context": "artist: Huge Face. track: Going to Hell. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.0,
+    "arousal": 5.8,
+    "valence_std": 1.61,
+    "arousal_std": 1.66,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1815",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1815.mp3",
+    "text_context": "artist: The Womb. track: Hey Hey Hey Hey Hey. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 6.4,
+    "arousal": 5.8,
+    "valence_std": 1.02,
+    "arousal_std": 1.54,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1816",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1816.mp3",
+    "text_context": "artist: Podington Bear. track: In. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 5.0,
+    "arousal": 4.5,
+    "valence_std": 1.73,
+    "arousal_std": 2.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1817",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1817.mp3",
+    "text_context": "artist: No Monster Club. track: No Life. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.6,
+    "arousal": 6.0,
+    "valence_std": 0.92,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1818",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1818.mp3",
+    "text_context": "artist: The Scallions. track: Goodbye. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 4.3,
+    "arousal": 3.2,
+    "valence_std": 1.79,
+    "arousal_std": 1.33,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1819",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1819.mp3",
+    "text_context": "artist: The Scallions. track: 2. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 4.1,
+    "valence_std": 1.14,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1820",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1820.mp3",
+    "text_context": "artist: The Scallions. track: Gladys. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 4.5,
+    "arousal": 4.4,
+    "valence_std": 1.2,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1821",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1821.mp3",
+    "text_context": "artist: I Am Not Lefthanded. track: Falling. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.2,
+    "arousal": 6.6,
+    "valence_std": 1.33,
+    "arousal_std": 1.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1822",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1822.mp3",
+    "text_context": "artist: Silence Is Sexy. track: Ennio. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.7,
+    "arousal": 3.5,
+    "valence_std": 1.62,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1823",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1823.mp3",
+    "text_context": "artist: The Dick Burrills. track: Hey Joe. genre: Pop-Experimental",
+    "genre": "Pop-Experimental",
+    "tags": [
+      "pop-experimental"
+    ],
+    "valence": 2.7,
+    "arousal": 5.6,
+    "valence_std": 1.19,
+    "arousal_std": 2.01,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1824",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1824.mp3",
+    "text_context": "artist: The Womb. track: Torre. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 6.2,
+    "arousal": 5.7,
+    "valence_std": 0.75,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1825",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1825.mp3",
+    "text_context": "artist: The Womb. track: U. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 4.8,
+    "arousal": 4.5,
+    "valence_std": 1.47,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1826",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1826.mp3",
+    "text_context": "artist: The Womb. track: The Crawl. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.1,
+    "arousal": 3.7,
+    "valence_std": 1.22,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1827",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1827.mp3",
+    "text_context": "artist: Rackets Vs. VED. track: Just Friends. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 5.6,
+    "arousal": 6.7,
+    "valence_std": 1.69,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1828",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1828.mp3",
+    "text_context": "artist: The Sand Pebbles. track: Natalie. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.8,
+    "arousal": 6.6,
+    "valence_std": 1.6,
+    "arousal_std": 1.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1829",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1829.mp3",
+    "text_context": "artist: Dave Shuford. track: NATCH 2. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 4.8,
+    "arousal": 3.6,
+    "valence_std": 1.72,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1830",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1830.mp3",
+    "text_context": "artist: Black Math. track: To You. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 5.7,
+    "arousal": 5.3,
+    "valence_std": 1.0,
+    "arousal_std": 1.27,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1831",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1831.mp3",
+    "text_context": "artist: The Kyoto Connection. track: Fly. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 6.2,
+    "arousal": 5.6,
+    "valence_std": 0.98,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1832",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1832.mp3",
+    "text_context": "artist: Mother Of Pearl. track: Heaven. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.7,
+    "arousal": 5.2,
+    "valence_std": 1.73,
+    "arousal_std": 1.89,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1833",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1833.mp3",
+    "text_context": "artist: Eros and the Eschaton. track: Over and Over. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.5,
+    "arousal": 3.2,
+    "valence_std": 1.43,
+    "arousal_std": 0.75,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1834",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1834.mp3",
+    "text_context": "artist: The Moot. track: Spaceman. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.3,
+    "arousal": 5.7,
+    "valence_std": 1.42,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1835",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1835.mp3",
+    "text_context": "artist: The Keith Walsh Experience. track: Infinity. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.3,
+    "arousal": 3.2,
+    "valence_std": 1.0,
+    "arousal_std": 0.87,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1836",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1836.mp3",
+    "text_context": "artist: Greenskeepers. track: Lotion. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 5.6,
+    "arousal": 4.6,
+    "valence_std": 1.69,
+    "arousal_std": 1.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1837",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1837.mp3",
+    "text_context": "artist: The Hathaway Family Plot. track: Sunshine. genre: Pop-Experimental",
+    "genre": "Pop-Experimental",
+    "tags": [
+      "pop-experimental"
+    ],
+    "valence": 4.2,
+    "arousal": 2.9,
+    "valence_std": 1.78,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1838",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1838.mp3",
+    "text_context": "artist: The Lost Patrol. track: Homecoming. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.6,
+    "arousal": 5.0,
+    "valence_std": 1.69,
+    "arousal_std": 2.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1839",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1839.mp3",
+    "text_context": "artist: The Lost Patrol. track: Play With Fire. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.0,
+    "arousal": 5.7,
+    "valence_std": 1.67,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1840",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1840.mp3",
+    "text_context": "artist: Adam & Alma. track: Naked. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 4.8,
+    "arousal": 5.4,
+    "valence_std": 1.89,
+    "arousal_std": 1.91,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1841",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1841.mp3",
+    "text_context": "artist: Adam & Alma. track: Things. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 4.6,
+    "arousal": 3.1,
+    "valence_std": 1.8,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1842",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1842.mp3",
+    "text_context": "artist: The New Drum. track: The frog. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 5.8,
+    "arousal": 6.3,
+    "valence_std": 1.72,
+    "arousal_std": 1.35,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1843",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1843.mp3",
+    "text_context": "artist: The New Drum. track: Electricity. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 4.9,
+    "arousal": 4.7,
+    "valence_std": 1.37,
+    "arousal_std": 1.27,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1844",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1844.mp3",
+    "text_context": "artist: The Baskervilles. track: Apartment. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.1,
+    "arousal": 5.5,
+    "valence_std": 1.76,
+    "arousal_std": 2.06,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1845",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1845.mp3",
+    "text_context": "artist: The Pop Winds. track: Feel It. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.9,
+    "arousal": 5.9,
+    "valence_std": 1.37,
+    "arousal_std": 1.45,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1846",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1846.mp3",
+    "text_context": "artist: Silence is full of birds. track: Flowers. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 5.8,
+    "arousal": 5.8,
+    "valence_std": 1.6,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1847",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1847.mp3",
+    "text_context": "artist: Charles Ray Experience. track: Drown. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 3.2,
+    "arousal": 2.6,
+    "valence_std": 1.17,
+    "arousal_std": 0.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1848",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1848.mp3",
+    "text_context": "artist: The Lost Patrol. track: Lost At Sea. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.5,
+    "arousal": 5.0,
+    "valence_std": 1.69,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1849",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1849.mp3",
+    "text_context": "artist: The Baskervilles. track: A Little More Time. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.0,
+    "arousal": 5.8,
+    "valence_std": 0.89,
+    "arousal_std": 1.08,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1850",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1850.mp3",
+    "text_context": "artist: Memoryhouse. track: Lately (Deuxi\u00e8me). genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 3.7,
+    "arousal": 2.7,
+    "valence_std": 1.55,
+    "arousal_std": 1.27,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1851",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1851.mp3",
+    "text_context": "artist: The Universal Thump. track: Cockatoos. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.6,
+    "arousal": 3.3,
+    "valence_std": 1.69,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1852",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1852.mp3",
+    "text_context": "artist: Friends or Whatever. track: Maybe. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 4.7,
+    "valence_std": 1.51,
+    "arousal_std": 2.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1853",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1853.mp3",
+    "text_context": "artist: The Suzan. track: Jungle. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.5,
+    "arousal": 5.7,
+    "valence_std": 0.81,
+    "arousal_std": 1.27,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1854",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1854.mp3",
+    "text_context": "artist: The Pop Winds. track: Fools. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.2,
+    "arousal": 4.5,
+    "valence_std": 1.25,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1855",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1855.mp3",
+    "text_context": "artist: The Laureates. track: Hello. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.4,
+    "arousal": 6.0,
+    "valence_std": 1.56,
+    "arousal_std": 1.34,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1856",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1856.mp3",
+    "text_context": "artist: Dan Deacon. track: The Crystal Cat. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 6.1,
+    "arousal": 6.7,
+    "valence_std": 1.76,
+    "arousal_std": 1.85,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1857",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1857.mp3",
+    "text_context": "artist: The Pop Winds. track: Little Sister. genre: Pop-Experimental",
+    "genre": "Pop-Experimental",
+    "tags": [
+      "pop-experimental"
+    ],
+    "valence": 5.3,
+    "arousal": 5.0,
+    "valence_std": 1.27,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1858",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1858.mp3",
+    "text_context": "artist: The Pop Winds. track: The Sun. genre: Pop-Experimental",
+    "genre": "Pop-Experimental",
+    "tags": [
+      "pop-experimental"
+    ],
+    "valence": 5.2,
+    "arousal": 5.6,
+    "valence_std": 1.33,
+    "arousal_std": 1.56,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1859",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1859.mp3",
+    "text_context": "artist: Ariel Pink's Haunted Graffiti. track: Want Me. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.2,
+    "arousal": 5.0,
+    "valence_std": 1.47,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1860",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1860.mp3",
+    "text_context": "artist: The Gasoline Brothers. track: Over Me. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 3.7,
+    "arousal": 3.5,
+    "valence_std": 0.78,
+    "arousal_std": 0.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1861",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1861.mp3",
+    "text_context": "artist: Ergo Phizmiz and the Midnight Florists. track: Groove Is In The Heart. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.1,
+    "arousal": 5.0,
+    "valence_std": 1.3,
+    "arousal_std": 1.48,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1862",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1862.mp3",
+    "text_context": "artist: Fresh Body Shop. track: All you've never felt. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.1,
+    "arousal": 4.9,
+    "valence_std": 1.45,
+    "arousal_std": 1.87,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1863",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1863.mp3",
+    "text_context": "artist: The Rabbits. track: Have It. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.4,
+    "arousal": 5.7,
+    "valence_std": 1.43,
+    "arousal_std": 1.85,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1864",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1864.mp3",
+    "text_context": "artist: The Rabbits. track: Live For Today. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.1,
+    "arousal": 7.4,
+    "valence_std": 1.58,
+    "arousal_std": 1.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1865",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1865.mp3",
+    "text_context": "artist: The Suzan. track: Come. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.8,
+    "arousal": 5.9,
+    "valence_std": 0.75,
+    "arousal_std": 1.51,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1866",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1866.mp3",
+    "text_context": "artist: The Cannanes. track: Mirage. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.8,
+    "arousal": 4.5,
+    "valence_std": 1.4,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1867",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1867.mp3",
+    "text_context": "artist: The Cannanes. track: Guilty. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.2,
+    "arousal": 4.0,
+    "valence_std": 1.54,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1868",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1868.mp3",
+    "text_context": "artist: Monk Turner. track: With You. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.8,
+    "arousal": 5.0,
+    "valence_std": 1.4,
+    "arousal_std": 1.61,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1869",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1869.mp3",
+    "text_context": "artist: Daniel Johnston. track: True Love Will Find You In The End. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 3.7,
+    "valence_std": 1.51,
+    "arousal_std": 1.55,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1870",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1870.mp3",
+    "text_context": "artist: The Kyoto Connection. track: Take on me. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.4,
+    "arousal": 5.6,
+    "valence_std": 1.2,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1871",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1871.mp3",
+    "text_context": "artist: The Kyoto Connection. track: Take On Me. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 6.4,
+    "arousal": 6.6,
+    "valence_std": 1.11,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1872",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1872.mp3",
+    "text_context": "artist: Jay Tholen. track: I Know. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 4.5,
+    "arousal": 4.2,
+    "valence_std": 1.36,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1873",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1873.mp3",
+    "text_context": "artist: Memoryhouse. track: To the Lighthouse. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 4.7,
+    "arousal": 3.4,
+    "valence_std": 1.62,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1874",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1874.mp3",
+    "text_context": "artist: The Electric Nature. track: Dance With Me. genre: Pop-Electronic-Rock",
+    "genre": "Pop-Electronic-Rock",
+    "tags": [
+      "pop-electronic-rock"
+    ],
+    "valence": 5.0,
+    "arousal": 6.3,
+    "valence_std": 1.67,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1875",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1875.mp3",
+    "text_context": "artist: The Rabbits. track: Tower. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.3,
+    "arousal": 6.2,
+    "valence_std": 1.19,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1876",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1876.mp3",
+    "text_context": "artist: The Suzan. track: Devils. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.3,
+    "arousal": 5.0,
+    "valence_std": 1.35,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1877",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1877.mp3",
+    "text_context": "artist: Talkshow Boy. track: Black Remix. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 6.2,
+    "arousal": 5.5,
+    "valence_std": 1.66,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  }
+]

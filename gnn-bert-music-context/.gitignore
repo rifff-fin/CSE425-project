@@ -9,7 +9,6 @@ data/raw/**
 !data/raw/README.md
 !data/raw/**/
 !data/raw/**/.gitkeep
-!data/raw/musiccaps/captions_sample.json
 !data/raw/metadata_sample.csv
 
 # Keep the small processed graph fixtures required by the assignment.

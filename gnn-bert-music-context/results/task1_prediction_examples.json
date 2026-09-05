@@ -1,0 +1,203 @@
+{
+  "task": "task1",
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "audio collage",
+    "avant-garde",
+    "drone",
+    "electroacoustic",
+    "electronic",
+    "experimental",
+    "field recordings",
+    "folk",
+    "free-folk",
+    "hip-hop",
+    "indie-rock",
+    "international",
+    "krautrock",
+    "latin america",
+    "lo-fi",
+    "loud-rock",
+    "metal",
+    "noise",
+    "noise-rock",
+    "pop",
+    "post-punk",
+    "psych-folk",
+    "psych-rock",
+    "punk",
+    "reggae - dub",
+    "rock"
+  ],
+  "examples": [
+    {
+      "track_id": "001649",
+      "text": "artist: So Cow. album: Wackity Schmackity Doo. track: Inis Meain. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "latin america",
+        "noise-rock"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "latin america",
+          "score": 0.5155264139175415
+        },
+        {
+          "label": "noise-rock",
+          "score": 0.5013770461082458
+        },
+        {
+          "label": "post-punk",
+          "score": 0.4937327206134796
+        },
+        {
+          "label": "drone",
+          "score": 0.48616963624954224
+        },
+        {
+          "label": "metal",
+          "score": 0.4761143922805786
+        }
+      ]
+    },
+    {
+      "track_id": "001661",
+      "text": "artist: So Cow. album: Wackity Schmackity Doo. track: Only Fools and Horses Theme. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "latin america"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "latin america",
+          "score": 0.5127715468406677
+        },
+        {
+          "label": "post-punk",
+          "score": 0.49933770298957825
+        },
+        {
+          "label": "noise-rock",
+          "score": 0.4947354793548584
+        },
+        {
+          "label": "drone",
+          "score": 0.49296385049819946
+        },
+        {
+          "label": "metal",
+          "score": 0.4810740649700165
+        }
+      ]
+    },
+    {
+      "track_id": "001663",
+      "text": "artist: Softboiled Eggies. album: Egg Soldiers. track: So High. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "latin america",
+        "post-punk"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "post-punk",
+          "score": 0.5178556442260742
+        },
+        {
+          "label": "latin america",
+          "score": 0.5149462819099426
+        },
+        {
+          "label": "noise-rock",
+          "score": 0.4895940124988556
+        },
+        {
+          "label": "drone",
+          "score": 0.4883229434490204
+        },
+        {
+          "label": "metal",
+          "score": 0.4637727439403534
+        }
+      ]
+    },
+    {
+      "track_id": "001666",
+      "text": "artist: Softboiled Eggies. album: Egg Soldiers. track: She Fell Through the Trees. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "latin america",
+        "post-punk"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "post-punk",
+          "score": 0.5265238285064697
+        },
+        {
+          "label": "latin america",
+          "score": 0.5073215365409851
+        },
+        {
+          "label": "noise-rock",
+          "score": 0.49417972564697266
+        },
+        {
+          "label": "metal",
+          "score": 0.48731300234794617
+        },
+        {
+          "label": "drone",
+          "score": 0.4840802848339081
+        }
+      ]
+    },
+    {
+      "track_id": "001673",
+      "text": "artist: Solemn Man. album: Thee Haunted Cobblestone Sunset Concert Series #10. track: Track 07. genres: experimental, field recordings",
+      "true_tags": [
+        "experimental",
+        "field recordings"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "latin america",
+        "post-punk"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "latin america",
+          "score": 0.5312843918800354
+        },
+        {
+          "label": "post-punk",
+          "score": 0.500472366809845
+        },
+        {
+          "label": "noise-rock",
+          "score": 0.48993441462516785
+        },
+        {
+          "label": "psych-folk",
+          "score": 0.4833282232284546
+        },
+        {
+          "label": "metal",
+          "score": 0.4772022068500519
+        }
+      ]
+    }
+  ],
+  "macro_f1": 0.0,
+  "micro_f1": 0.0,
+  "auc_pr": 0.032746899803455375
+}

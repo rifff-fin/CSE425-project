@@ -1,0 +1,13 @@
+{
+  "audio_root": "D:\\425 project\\gnn-bert-music-context\\data\\raw\\deam\\audio",
+  "target_records": 1802,
+  "matched_audio_records": 1802,
+  "unmatched_audio_files": 0,
+  "metadata_records": 1802,
+  "splits": {
+    "train": 1441,
+    "val": 180,
+    "test": 181
+  },
+  "pairing_rule": "exact normalized numeric DEAM song_id to audio filename stem"
+}

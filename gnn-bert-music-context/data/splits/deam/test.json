@@ -1,0 +1,2717 @@
+[
+  {
+    "deam_song_id": "1878",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1878.mp3",
+    "text_context": "artist: The Suzan. track: Home. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.7,
+    "arousal": 6.3,
+    "valence_std": 0.78,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1879",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1879.mp3",
+    "text_context": "artist: The Kolour Kult. track: Overload. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 5.4,
+    "arousal": 6.4,
+    "valence_std": 2.24,
+    "arousal_std": 2.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1880",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1880.mp3",
+    "text_context": "artist: Plastic Flowers. track: Silence. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.4,
+    "arousal": 3.2,
+    "valence_std": 1.36,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1881",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1881.mp3",
+    "text_context": "artist: The Pop Winds. track: In Harmony. genre: Pop-Experimental",
+    "genre": "Pop-Experimental",
+    "tags": [
+      "pop-experimental"
+    ],
+    "valence": 5.0,
+    "arousal": 5.2,
+    "valence_std": 1.1,
+    "arousal_std": 1.25,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1882",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1882.mp3",
+    "text_context": "artist: The Paparazzi. track: Hi. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.5,
+    "arousal": 6.2,
+    "valence_std": 1.5,
+    "arousal_std": 1.66,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1883",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1883.mp3",
+    "text_context": "artist: Podington Bear. track: LA. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 5.6,
+    "arousal": 4.5,
+    "valence_std": 0.8,
+    "arousal_std": 1.12,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1884",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1884.mp3",
+    "text_context": "artist: Neon Indian. track: Terminally Chill. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 6.5,
+    "arousal": 5.6,
+    "valence_std": 0.81,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1885",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1885.mp3",
+    "text_context": "artist: Fire To The Stars. track: Stay Down. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 3.9,
+    "arousal": 3.9,
+    "valence_std": 2.17,
+    "arousal_std": 1.97,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1886",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1886.mp3",
+    "text_context": "artist: The Scallions. track: Final Frame. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 3.0,
+    "valence_std": 1.3,
+    "arousal_std": 1.18,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1887",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1887.mp3",
+    "text_context": "artist: Silence Is Sexy. track: Us. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.0,
+    "arousal": 5.8,
+    "valence_std": 1.41,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1888",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1888.mp3",
+    "text_context": "artist: Molloy And His Bike. track: Flutter. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 3.4,
+    "arousal": 3.2,
+    "valence_std": 1.5,
+    "arousal_std": 1.78,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1889",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1889.mp3",
+    "text_context": "artist: Silence Is Sexy. track: Sympathy. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.6,
+    "arousal": 5.5,
+    "valence_std": 1.91,
+    "arousal_std": 1.96,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1890",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1890.mp3",
+    "text_context": "artist: The Golden Hours. track: Satellite. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.0,
+    "arousal": 5.8,
+    "valence_std": 1.61,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1891",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1891.mp3",
+    "text_context": "artist: Podington Bear. track: Camp. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 5.0,
+    "arousal": 3.5,
+    "valence_std": 1.18,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1892",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1892.mp3",
+    "text_context": "artist: Void Vision. track: One. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 5.1,
+    "arousal": 6.1,
+    "valence_std": 2.07,
+    "arousal_std": 1.04,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1893",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1893.mp3",
+    "text_context": "artist: Logan Whitehurst and The Jr. Science Club. track: I Want to Rock. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.3,
+    "arousal": 6.2,
+    "valence_std": 1.19,
+    "arousal_std": 1.08,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1894",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1894.mp3",
+    "text_context": "artist: Sally Crewe And the Sudden Moves. track: It's Only Love. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.8,
+    "arousal": 4.8,
+    "valence_std": 0.75,
+    "arousal_std": 0.87,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1895",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1895.mp3",
+    "text_context": "artist: Wheels on Fire. track: Ambulance. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.5,
+    "arousal": 5.9,
+    "valence_std": 0.67,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1896",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1896.mp3",
+    "text_context": "artist: Adam & Alma. track: Bon. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 4.9,
+    "arousal": 2.1,
+    "valence_std": 2.02,
+    "arousal_std": 0.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1897",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1897.mp3",
+    "text_context": "artist: The Sea Life. track: Shoot Me Down. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 4.2,
+    "arousal": 3.8,
+    "valence_std": 1.33,
+    "arousal_std": 1.66,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1898",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1898.mp3",
+    "text_context": "artist: The Paparazzi. track: My O My. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.1,
+    "arousal": 4.2,
+    "valence_std": 0.94,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1899",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1899.mp3",
+    "text_context": "artist: Half-handed Cloud. track: Bees Are Trying To Build Their Nest In You.. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.0,
+    "arousal": 4.1,
+    "valence_std": 2.19,
+    "arousal_std": 1.76,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1900",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1900.mp3",
+    "text_context": "artist: The Toothaches. track: Don't Be Lonely. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.5,
+    "arousal": 6.7,
+    "valence_std": 1.12,
+    "arousal_std": 1.19,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1901",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1901.mp3",
+    "text_context": "artist: The Zombiecops. track: Girl. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.2,
+    "arousal": 6.4,
+    "valence_std": 1.66,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1902",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1902.mp3",
+    "text_context": "artist: Violins is not the answer. track: dead.. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.4,
+    "arousal": 7.3,
+    "valence_std": 2.37,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1903",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1903.mp3",
+    "text_context": "artist: Violins is not the answer. track: dead.. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.2,
+    "arousal": 6.9,
+    "valence_std": 2.36,
+    "arousal_std": 1.76,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1904",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1904.mp3",
+    "text_context": "artist: Pk jazz Collective & Alex Fry. track: Way Out. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.1,
+    "arousal": 3.4,
+    "valence_std": 0.94,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1905",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1905.mp3",
+    "text_context": "artist: Violins is not the answer. track: sick. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.7,
+    "arousal": 6.5,
+    "valence_std": 2.0,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1906",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1906.mp3",
+    "text_context": "artist: Violins is not the answer. track: in the end. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.4,
+    "arousal": 6.2,
+    "valence_std": 1.69,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1907",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1907.mp3",
+    "text_context": "artist: Inside the Mind. track: Live And Die. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.9,
+    "arousal": 6.5,
+    "valence_std": 1.64,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1908",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1908.mp3",
+    "text_context": "artist: Fred and Toody. track: Lost. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.2,
+    "arousal": 5.1,
+    "valence_std": 2.18,
+    "arousal_std": 1.76,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1909",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1909.mp3",
+    "text_context": "artist: Inside the Mind. track: Feelings. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.9,
+    "arousal": 5.0,
+    "valence_std": 1.7,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1910",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1910.mp3",
+    "text_context": "artist: Inside the Mind. track: To You. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.8,
+    "arousal": 3.3,
+    "valence_std": 1.6,
+    "arousal_std": 1.35,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1911",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1911.mp3",
+    "text_context": "artist: Inside the Mind. track: You/Trip. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.3,
+    "arousal": 5.4,
+    "valence_std": 1.95,
+    "arousal_std": 2.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1912",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1912.mp3",
+    "text_context": "artist: The Planes. track: A Life. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.4,
+    "arousal": 5.5,
+    "valence_std": 1.2,
+    "arousal_std": 1.12,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1913",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1913.mp3",
+    "text_context": "artist: The Bomb Busters. track: Paranoia. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.0,
+    "arousal": 6.5,
+    "valence_std": 1.48,
+    "arousal_std": 1.63,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1914",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1914.mp3",
+    "text_context": "artist: the silence industry. track: anthem. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.3,
+    "arousal": 6.3,
+    "valence_std": 2.1,
+    "arousal_std": 1.35,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1915",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1915.mp3",
+    "text_context": "artist: The Monitors. track: Nervous Breakdown. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.3,
+    "arousal": 6.5,
+    "valence_std": 1.27,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1916",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1916.mp3",
+    "text_context": "artist: The Monitors. track: The Station. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.4,
+    "arousal": 6.3,
+    "valence_std": 1.5,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1917",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1917.mp3",
+    "text_context": "artist: Fred and Toody. track: Let It Rain. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.1,
+    "arousal": 4.6,
+    "valence_std": 1.04,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1918",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1918.mp3",
+    "text_context": "artist: Spirit Duplicator. track: On. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.4,
+    "arousal": 4.6,
+    "valence_std": 1.5,
+    "arousal_std": 1.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1919",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1919.mp3",
+    "text_context": "artist: The Dead Mantra. track: A Bomb. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.5,
+    "arousal": 5.4,
+    "valence_std": 1.86,
+    "arousal_std": 1.96,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1920",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1920.mp3",
+    "text_context": "artist: Black Bones. track: Rock N Roll. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.7,
+    "arousal": 6.4,
+    "valence_std": 2.15,
+    "arousal_std": 1.96,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1921",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1921.mp3",
+    "text_context": "artist: No Class. track: Let Down. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.4,
+    "arousal": 6.5,
+    "valence_std": 2.06,
+    "arousal_std": 2.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1922",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1922.mp3",
+    "text_context": "artist: A Banda de Joseph Tourton. track: #3. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.6,
+    "arousal": 5.8,
+    "valence_std": 1.85,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1923",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1923.mp3",
+    "text_context": "artist: Young Love. track: Love On The Run. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.4,
+    "arousal": 6.2,
+    "valence_std": 1.28,
+    "arousal_std": 1.54,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1924",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1924.mp3",
+    "text_context": "artist: Young Love. track: Street. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.3,
+    "arousal": 5.7,
+    "valence_std": 2.1,
+    "arousal_std": 2.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1925",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1925.mp3",
+    "text_context": "artist: You Me Tree. track: Lights. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.9,
+    "arousal": 4.5,
+    "valence_std": 1.51,
+    "arousal_std": 1.57,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1926",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1926.mp3",
+    "text_context": "artist: Flamin' Groovies. track: Shake Some Action. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.2,
+    "arousal": 6.1,
+    "valence_std": 1.99,
+    "arousal_std": 1.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1927",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1927.mp3",
+    "text_context": "artist: The Party Faithful. track: This Is Love. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.6,
+    "arousal": 4.6,
+    "valence_std": 1.28,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1928",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1928.mp3",
+    "text_context": "artist: The Gotobeds. track: Affection. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.7,
+    "arousal": 5.6,
+    "valence_std": 1.35,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1929",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1929.mp3",
+    "text_context": "artist: Room For A Ghost. track: Burn. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.1,
+    "arousal": 6.7,
+    "valence_std": 1.37,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1930",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1930.mp3",
+    "text_context": "artist: The Beets. track: Flower Girl. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.6,
+    "arousal": 4.0,
+    "valence_std": 1.43,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1931",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1931.mp3",
+    "text_context": "artist: The Beets. track: The Devil. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 5.5,
+    "valence_std": 1.27,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1932",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1932.mp3",
+    "text_context": "artist: Six Star General. track: Cold. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.8,
+    "arousal": 6.0,
+    "valence_std": 1.6,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1933",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1933.mp3",
+    "text_context": "artist: The Men. track: Lazarus. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.2,
+    "arousal": 7.0,
+    "valence_std": 1.66,
+    "arousal_std": 1.41,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1934",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1934.mp3",
+    "text_context": "artist: Riding Alone For Thousands Of Miles. track: satellite. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.8,
+    "arousal": 3.8,
+    "valence_std": 1.78,
+    "arousal_std": 1.33,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1935",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1935.mp3",
+    "text_context": "artist: Riding Alone For Thousands Of Miles. track: love song. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 4.4,
+    "valence_std": 1.73,
+    "arousal_std": 1.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1936",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1936.mp3",
+    "text_context": "artist: Riding Alone For Thousands Of Miles. track: lullaby. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 2.9,
+    "arousal": 3.0,
+    "valence_std": 1.3,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1937",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1937.mp3",
+    "text_context": "artist: The Valleys. track: 2. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.3,
+    "arousal": 3.9,
+    "valence_std": 1.35,
+    "arousal_std": 1.51,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1938",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1938.mp3",
+    "text_context": "artist: The Whines. track: Vacation. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.6,
+    "arousal": 7.0,
+    "valence_std": 1.74,
+    "arousal_std": 1.48,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1939",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1939.mp3",
+    "text_context": "artist: The Whines. track: It's Raining. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.4,
+    "arousal": 3.2,
+    "valence_std": 1.11,
+    "arousal_std": 1.25,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1940",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1940.mp3",
+    "text_context": "artist: The Dalai Lama Rama Fa Fa Fa. track: Sun. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.1,
+    "arousal": 5.6,
+    "valence_std": 1.51,
+    "arousal_std": 0.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1941",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1941.mp3",
+    "text_context": "artist: The Koolaid Electric Company. track: Home. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.2,
+    "arousal": 4.4,
+    "valence_std": 1.33,
+    "arousal_std": 1.56,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1942",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1942.mp3",
+    "text_context": "artist: Dan Alfresco & Savage. track: Today. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.4,
+    "arousal": 6.8,
+    "valence_std": 1.8,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1943",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1943.mp3",
+    "text_context": "artist: Toy Sugar. track: The Answer. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.2,
+    "arousal": 4.4,
+    "valence_std": 0.98,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1944",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1944.mp3",
+    "text_context": "artist: Waylon Thornton and the Heavy Hands. track: I Need Love. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.1,
+    "arousal": 5.1,
+    "valence_std": 1.92,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1945",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1945.mp3",
+    "text_context": "artist: The Classic Cluster. track: Again. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.0,
+    "arousal": 6.1,
+    "valence_std": 1.55,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1946",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1946.mp3",
+    "text_context": "artist: The Asound. track: Open Eyes. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.0,
+    "arousal": 6.0,
+    "valence_std": 2.19,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1947",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1947.mp3",
+    "text_context": "artist: The Asound. track: Snow White. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.0,
+    "arousal": 7.4,
+    "valence_std": 2.19,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1948",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1948.mp3",
+    "text_context": "artist: The Asound. track: Joan. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.0,
+    "arousal": 6.7,
+    "valence_std": 2.45,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1949",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1949.mp3",
+    "text_context": "artist: Angels in America. track: II. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 2.2,
+    "arousal": 5.1,
+    "valence_std": 1.54,
+    "arousal_std": 2.59,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1950",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1950.mp3",
+    "text_context": "artist: Angels in America. track: I. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.8,
+    "arousal": 3.4,
+    "valence_std": 1.99,
+    "arousal_std": 2.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1951",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1951.mp3",
+    "text_context": "artist: Baby Scream. track: Nicole. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.6,
+    "arousal": 4.0,
+    "valence_std": 1.5,
+    "arousal_std": 1.26,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1952",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1952.mp3",
+    "text_context": "artist: The Light Beyond. track: State Of Mind. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.1,
+    "arousal": 4.4,
+    "valence_std": 0.94,
+    "arousal_std": 0.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1953",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1953.mp3",
+    "text_context": "artist: Another Day On Earth. track: It's You. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.1,
+    "arousal": 4.4,
+    "valence_std": 1.37,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1954",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1954.mp3",
+    "text_context": "artist: The Raveonettes. track: Last Dance. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.7,
+    "arousal": 5.7,
+    "valence_std": 0.64,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1955",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1955.mp3",
+    "text_context": "artist: The Woolen Men. track: Hammer. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.5,
+    "arousal": 6.5,
+    "valence_std": 1.63,
+    "arousal_std": 1.57,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1956",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1956.mp3",
+    "text_context": "artist: The Woolen Men. track: Boomerang. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.4,
+    "arousal": 5.9,
+    "valence_std": 1.11,
+    "arousal_std": 1.7,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1957",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1957.mp3",
+    "text_context": "artist: The Woolen Men. track: Dogs. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.8,
+    "arousal": 4.8,
+    "valence_std": 1.33,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1958",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1958.mp3",
+    "text_context": "artist: His Electro Blue Voice. track: Call. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.8,
+    "arousal": 5.1,
+    "valence_std": 1.25,
+    "arousal_std": 1.7,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1959",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1959.mp3",
+    "text_context": "artist: Nothing People. track: In the City. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 5.8,
+    "valence_std": 1.85,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1960",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1960.mp3",
+    "text_context": "artist: Fast lady. track: Lady. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.5,
+    "arousal": 6.7,
+    "valence_std": 1.96,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1961",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1961.mp3",
+    "text_context": "artist: The Yolks. track: I Do What I Do. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.9,
+    "arousal": 5.3,
+    "valence_std": 0.54,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1962",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1962.mp3",
+    "text_context": "artist: The Set of Red Things. track: Babies. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.4,
+    "arousal": 5.0,
+    "valence_std": 1.43,
+    "arousal_std": 1.61,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1963",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1963.mp3",
+    "text_context": "artist: The Set of Red Things. track: Between. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.9,
+    "arousal": 5.5,
+    "valence_std": 2.3,
+    "arousal_std": 2.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1964",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1964.mp3",
+    "text_context": "artist: The Functional Blackouts. track: Another Planet. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.6,
+    "arousal": 6.7,
+    "valence_std": 2.2,
+    "arousal_std": 1.95,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1965",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1965.mp3",
+    "text_context": "artist: The Wire Orchestra. track: Track 12. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.3,
+    "arousal": 3.5,
+    "valence_std": 1.35,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1966",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1966.mp3",
+    "text_context": "artist: The Wire Orchestra. track: Evolution. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.6,
+    "arousal": 5.0,
+    "valence_std": 1.2,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1967",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1967.mp3",
+    "text_context": "artist: Mike Rep and the Quotas. track: Black Hole. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 6.9,
+    "valence_std": 2.9,
+    "arousal_std": 1.97,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1968",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1968.mp3",
+    "text_context": "artist: Lightning Bolt. track: Dracula Mountain. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.6,
+    "arousal": 6.18,
+    "valence_std": 1.84,
+    "arousal_std": 1.13,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1969",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1969.mp3",
+    "text_context": "artist: Here Comes A Big Black Cloud!!. track: Vietnam. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.7,
+    "arousal": 5.7,
+    "valence_std": 2.24,
+    "arousal_std": 2.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1970",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1970.mp3",
+    "text_context": "artist: Delusions of Grandeur. track: Alanis Morissette. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.9,
+    "arousal": 7.1,
+    "valence_std": 1.37,
+    "arousal_std": 1.51,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1971",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1971.mp3",
+    "text_context": "artist: Animals & Men. track: I. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.5,
+    "arousal": 5.5,
+    "valence_std": 1.75,
+    "arousal_std": 1.57,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1972",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1972.mp3",
+    "text_context": "artist: Family Of The Year. track: Let's Go Down. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.0,
+    "arousal": 5.9,
+    "valence_std": 1.55,
+    "arousal_std": 1.45,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1973",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1973.mp3",
+    "text_context": "artist: The Snails. track: Lost at Sea. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.3,
+    "arousal": 4.3,
+    "valence_std": 1.49,
+    "arousal_std": 1.19,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1974",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1974.mp3",
+    "text_context": "artist: The Pink Noise. track: Lips #2. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.4,
+    "arousal": 4.7,
+    "valence_std": 1.11,
+    "arousal_std": 1.85,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1975",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1975.mp3",
+    "text_context": "artist: The Pink Noise. track: Glam. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 5.6,
+    "valence_std": 1.55,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1976",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1976.mp3",
+    "text_context": "artist: The Pink Noise. track: Toad. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.9,
+    "arousal": 5.4,
+    "valence_std": 1.64,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1977",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1977.mp3",
+    "text_context": "artist: Pigeons & Crazy Porridgemakers. track: Horse. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 5.2,
+    "valence_std": 1.85,
+    "arousal_std": 1.78,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1978",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1978.mp3",
+    "text_context": "artist: The Unfinished Sympathy. track: Teenage Kicks. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.5,
+    "arousal": 6.5,
+    "valence_std": 1.02,
+    "arousal_std": 0.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1979",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1979.mp3",
+    "text_context": "artist: Confusion Is Next. track: The River. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.5,
+    "arousal": 7.2,
+    "valence_std": 2.29,
+    "arousal_std": 1.33,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1980",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1980.mp3",
+    "text_context": "artist: Le Tigre. track: Fake French. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.5,
+    "arousal": 5.4,
+    "valence_std": 1.43,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1981",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1981.mp3",
+    "text_context": "artist: The Ridiculous Trio. track: Not Right. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.1,
+    "arousal": 5.8,
+    "valence_std": 1.92,
+    "arousal_std": 2.18,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1982",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1982.mp3",
+    "text_context": "artist: Nine Inch Nails. track: The Four of Us are Dying. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.5,
+    "arousal": 4.5,
+    "valence_std": 1.28,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1983",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1983.mp3",
+    "text_context": "artist: Nine Inch Nails. track: Corona Radiata. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 2.9,
+    "arousal": 3.4,
+    "valence_std": 1.51,
+    "arousal_std": 1.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1984",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1984.mp3",
+    "text_context": "artist: Nine Inch Nails. track: Lights in the Sky. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.7,
+    "arousal": 2.9,
+    "valence_std": 1.35,
+    "arousal_std": 1.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1985",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1985.mp3",
+    "text_context": "artist: Nine Inch Nails. track: Head Down. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.8,
+    "arousal": 5.6,
+    "valence_std": 1.89,
+    "arousal_std": 1.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1986",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1986.mp3",
+    "text_context": "artist: Nine Inch Nails. track: Echoplex. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.0,
+    "arousal": 5.1,
+    "valence_std": 2.05,
+    "arousal_std": 2.07,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1987",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1987.mp3",
+    "text_context": "artist: The Blood Lemons. track: Ghost. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.5,
+    "arousal": 6.3,
+    "valence_std": 1.12,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1988",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1988.mp3",
+    "text_context": "artist: Fresh Body Shop. track: One More Reason. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.5,
+    "arousal": 5.8,
+    "valence_std": 1.43,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1989",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1989.mp3",
+    "text_context": "artist: The Franks. track: My Friends. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.0,
+    "arousal": 5.7,
+    "valence_std": 1.84,
+    "arousal_std": 1.27,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1990",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1990.mp3",
+    "text_context": "artist: The Seventh Necronation. track: The Hollow. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.2,
+    "arousal": 4.1,
+    "valence_std": 1.66,
+    "arousal_std": 1.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1991",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1991.mp3",
+    "text_context": "artist: The Home Phonema. track: Plastic Plastic. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.0,
+    "arousal": 6.0,
+    "valence_std": 2.1,
+    "arousal_std": 1.41,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1992",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1992.mp3",
+    "text_context": "artist: Louis Lingg and The Bombs. track: Conspiracy. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.9,
+    "arousal": 6.8,
+    "valence_std": 2.26,
+    "arousal_std": 2.09,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1993",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1993.mp3",
+    "text_context": "artist: The Metamatics. track: InstruMental. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.5,
+    "arousal": 7.0,
+    "valence_std": 2.38,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1994",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1994.mp3",
+    "text_context": "artist: Bombay Laughing Club. track: You Want It All. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.8,
+    "arousal": 3.5,
+    "valence_std": 0.87,
+    "arousal_std": 1.12,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1995",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1995.mp3",
+    "text_context": "artist: The Pink Noise. track: The Tower. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.7,
+    "arousal": 4.7,
+    "valence_std": 1.73,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1996",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1996.mp3",
+    "text_context": "artist: The Matt Kurz One. track: BEAT 'EM. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.9,
+    "arousal": 5.9,
+    "valence_std": 1.87,
+    "arousal_std": 2.21,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1997",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1997.mp3",
+    "text_context": "artist: Ariel Pink's Haunted Graffiti. track: For Kate I Wait. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.3,
+    "arousal": 3.9,
+    "valence_std": 1.42,
+    "arousal_std": 1.14,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1998",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1998.mp3",
+    "text_context": "artist: Fresh Body Shop. track: My Artificial Sun. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.4,
+    "arousal": 6.2,
+    "valence_std": 1.5,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "1999",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1999.mp3",
+    "text_context": "artist: The Gotobeds. track: New Dress. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.6,
+    "arousal": 5.4,
+    "valence_std": 2.11,
+    "arousal_std": 1.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2000",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2000.mp3",
+    "text_context": "artist: Fresh Body Shop. track: Never End Up Like This. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.8,
+    "arousal": 6.0,
+    "valence_std": 1.78,
+    "arousal_std": 1.67,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2001",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2001.mp3",
+    "text_context": "artist: Creepoid. track: Old Tree. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.2,
+    "arousal": 6.6,
+    "valence_std": 0.98,
+    "arousal_std": 0.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2002",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2002.mp3",
+    "text_context": "artist: Amar Lal. track: Spring Day 1. genre: Singer/Songwriter",
+    "genre": "Singer/Songwriter",
+    "tags": [
+      "singer/songwriter"
+    ],
+    "valence": 6.4,
+    "arousal": 5.2,
+    "valence_std": 0.49,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2003",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2003.mp3",
+    "text_context": "artist: Joel Helander. track: Excessive Resistance to Change. genre: Classical",
+    "genre": "Classical",
+    "tags": [
+      "classical"
+    ],
+    "valence": 5.4,
+    "arousal": 4.6,
+    "valence_std": 1.5,
+    "arousal_std": 1.85,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2004",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2004.mp3",
+    "text_context": "artist: Aimee Norwich. track: Flying. genre: World/Folk",
+    "genre": "World/Folk",
+    "tags": [
+      "world/folk"
+    ],
+    "valence": 5.0,
+    "arousal": 4.8,
+    "valence_std": 1.1,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2005",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2005.mp3",
+    "text_context": "artist: Ava Luna. track: Waterduct. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.8,
+    "arousal": 5.2,
+    "valence_std": 1.17,
+    "arousal_std": 0.75,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2006",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2006.mp3",
+    "text_context": "artist: Clara Berry and Wooldog. track: Air Traffic. genre: Singer/Songwriter",
+    "genre": "Singer/Songwriter",
+    "tags": [
+      "singer/songwriter"
+    ],
+    "valence": 5.0,
+    "arousal": 3.2,
+    "valence_std": 0.89,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2007",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2007.mp3",
+    "text_context": "artist: Dreamers of the Ghetto. track: Heavy Love. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 3.4,
+    "arousal": 4.4,
+    "valence_std": 0.49,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2008",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2008.mp3",
+    "text_context": "artist: Invisible Familiars. track: Disturbing Wildlife. genre: Singer/Songwriter",
+    "genre": "Singer/Songwriter",
+    "tags": [
+      "singer/songwriter"
+    ],
+    "valence": 5.6,
+    "arousal": 3.6,
+    "valence_std": 1.02,
+    "arousal_std": 1.74,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2009",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2009.mp3",
+    "text_context": "artist: Joel Helander. track: Definition. genre: Classical",
+    "genre": "Classical",
+    "tags": [
+      "classical"
+    ],
+    "valence": 5.2,
+    "arousal": 4.2,
+    "valence_std": 0.98,
+    "arousal_std": 1.94,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2010",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2010.mp3",
+    "text_context": "artist: Karim Douaidy. track: Yatora. genre: World/Folk",
+    "genre": "World/Folk",
+    "tags": [
+      "world/folk"
+    ],
+    "valence": 6.0,
+    "arousal": 4.8,
+    "valence_std": 0.89,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2011",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2011.mp3",
+    "text_context": "artist: Lushlife. track: Toynbee Suite. genre: Rap",
+    "genre": "Rap",
+    "tags": [
+      "rap"
+    ],
+    "valence": 4.2,
+    "arousal": 5.0,
+    "valence_std": 1.6,
+    "arousal_std": 1.41,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2012",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2012.mp3",
+    "text_context": "artist: Matthew Entwistle. track: Impressions of Saturn. genre: Classical",
+    "genre": "Classical",
+    "tags": [
+      "classical"
+    ],
+    "valence": 3.17,
+    "arousal": 5.17,
+    "valence_std": 0.69,
+    "arousal_std": 1.67,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2013",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2013.mp3",
+    "text_context": "artist: Matthew Entwistle. track: The Arch. genre: Classical",
+    "genre": "Classical",
+    "tags": [
+      "classical"
+    ],
+    "valence": 5.4,
+    "arousal": 5.6,
+    "valence_std": 0.49,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2014",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2014.mp3",
+    "text_context": "artist: Meaxic. track: You Listen. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.0,
+    "arousal": 6.6,
+    "valence_std": 0.63,
+    "arousal_std": 0.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2015",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2015.mp3",
+    "text_context": "artist: NYU. track: Bester Jungling. genre: Classical",
+    "genre": "Classical",
+    "tags": [
+      "classical"
+    ],
+    "valence": 6.6,
+    "arousal": 5.4,
+    "valence_std": 0.8,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2016",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2016.mp3",
+    "text_context": "artist: Music Delta. track: Chinese Jiang Nan. genre: World/Folk",
+    "genre": "World/Folk",
+    "tags": [
+      "world/folk"
+    ],
+    "valence": 7.2,
+    "arousal": 5.6,
+    "valence_std": 0.4,
+    "arousal_std": 2.24,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2017",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2017.mp3",
+    "text_context": "artist: Music Delta. track: Funk Jazz. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.67,
+    "arousal": 6.5,
+    "valence_std": 0.47,
+    "arousal_std": 0.76,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2018",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2018.mp3",
+    "text_context": "artist: Music Delta. track: Modal Jazz. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.5,
+    "arousal": 6.33,
+    "valence_std": 0.5,
+    "arousal_std": 0.75,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2019",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2019.mp3",
+    "text_context": "artist: Phoenix. track: The Broken Pledge - Chicago Reel. genre: World/Folk",
+    "genre": "World/Folk",
+    "tags": [
+      "world/folk"
+    ],
+    "valence": 6.8,
+    "arousal": 6.8,
+    "valence_std": 0.4,
+    "arousal_std": 0.75,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2020",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2020.mp3",
+    "text_context": "artist: Phoenix. track: The Collier's Daughter. genre: World/Folk",
+    "genre": "World/Folk",
+    "tags": [
+      "world/folk"
+    ],
+    "valence": 6.8,
+    "arousal": 5.8,
+    "valence_std": 0.4,
+    "arousal_std": 0.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2021",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2021.mp3",
+    "text_context": "artist: Port St Willow. track: Stay Even. genre: Singer/Songwriter",
+    "genre": "Singer/Songwriter",
+    "tags": [
+      "singer/songwriter"
+    ],
+    "valence": 4.2,
+    "arousal": 4.4,
+    "valence_std": 1.47,
+    "arousal_std": 1.96,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2022",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2022.mp3",
+    "text_context": "artist: NYU. track: Mignon (Kennst du das Land) Op.92a Mvt.1. genre: Classical",
+    "genre": "Classical",
+    "tags": [
+      "classical"
+    ],
+    "valence": 3.8,
+    "arousal": 4.4,
+    "valence_std": 0.75,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2023",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2023.mp3",
+    "text_context": "artist: Strand of Oaks. track: Spacestation. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.6,
+    "arousal": 3.0,
+    "valence_std": 1.02,
+    "arousal_std": 1.26,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2024",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2024.mp3",
+    "text_context": "artist: Tabla Breakbeat Science. track: Captain Sky. genre: Electronic/Fusion",
+    "genre": "Electronic/Fusion",
+    "tags": [
+      "electronic/fusion"
+    ],
+    "valence": 6.4,
+    "arousal": 4.4,
+    "valence_std": 0.8,
+    "arousal_std": 2.33,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2025",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2025.mp3",
+    "text_context": "artist: Tabla Breakbeat Science. track: Rock Steady. genre: Electronic/Fusion",
+    "genre": "Electronic/Fusion",
+    "tags": [
+      "electronic/fusion"
+    ],
+    "valence": 6.0,
+    "arousal": 4.8,
+    "valence_std": 1.41,
+    "arousal_std": 2.32,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2026",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2026.mp3",
+    "text_context": "artist: Tabla Breakbeat Science. track: Scorpio. genre: Electronic/Fusion",
+    "genre": "Electronic/Fusion",
+    "tags": [
+      "electronic/fusion"
+    ],
+    "valence": 5.6,
+    "arousal": 4.0,
+    "valence_std": 1.02,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2027",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2027.mp3",
+    "text_context": "artist: The Districts. track: Vermont. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 5.8,
+    "arousal": 5.4,
+    "valence_std": 0.98,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2028",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2028.mp3",
+    "text_context": "artist: The Scarlet Brand. track: Les Fleurs Du Mal. genre: Rock",
+    "genre": "Rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.4,
+    "arousal": 6.2,
+    "valence_std": 0.49,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2029",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2029.mp3",
+    "text_context": "artist: A Classic Education. track: Night Owl. genre: Singer/Songwriter",
+    "genre": "Singer/Songwriter",
+    "tags": [
+      "singer/songwriter"
+    ],
+    "valence": 4.17,
+    "arousal": 4.0,
+    "valence_std": 1.07,
+    "arousal_std": 1.29,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2030",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2030.mp3",
+    "text_context": "artist: In Faded Glory. track: 990. genre: rock",
+    "genre": "rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 4.2,
+    "arousal": 6.2,
+    "valence_std": 1.47,
+    "arousal_std": 0.75,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2031",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2031.mp3",
+    "text_context": "artist: No. track: Go. genre: n/a",
+    "genre": "n/a",
+    "tags": [
+      "n/a"
+    ],
+    "valence": 4.6,
+    "arousal": 3.4,
+    "valence_std": 1.2,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2032",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2032.mp3",
+    "text_context": "artist: Kryptic Mood. track: Song For Jade. genre: pop",
+    "genre": "pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.2,
+    "arousal": 4.4,
+    "valence_std": 0.75,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2033",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2033.mp3",
+    "text_context": "artist: Hunt Club. track: Uranium. genre: rock",
+    "genre": "rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.17,
+    "arousal": 6.83,
+    "valence_std": 0.37,
+    "arousal_std": 0.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2034",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2034.mp3",
+    "text_context": "artist: Jacques COUTURIER. track: Hey! beauty. genre: pop",
+    "genre": "pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.2,
+    "arousal": 4.6,
+    "valence_std": 1.33,
+    "arousal_std": 1.74,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2035",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2035.mp3",
+    "text_context": "artist: Die Partysahnen. track: Mit dem Unibalett im Ulmer Monster tanzen. genre: rock",
+    "genre": "rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.4,
+    "arousal": 4.6,
+    "valence_std": 0.8,
+    "arousal_std": 0.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2036",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2036.mp3",
+    "text_context": "artist: Feel-ipson. track: Feel-ipson. genre: pop",
+    "genre": "pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 3.83,
+    "arousal": 4.67,
+    "valence_std": 1.07,
+    "arousal_std": 1.8,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2037",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2037.mp3",
+    "text_context": "artist: engeo. track: Dreamworld. genre: pop",
+    "genre": "pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.4,
+    "arousal": 4.4,
+    "valence_std": 0.49,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2038",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2038.mp3",
+    "text_context": "artist: Fabrice Collette. track: rouge et blues. genre: blues",
+    "genre": "blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.0,
+    "arousal": 3.8,
+    "valence_std": 1.41,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2039",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2039.mp3",
+    "text_context": "artist: FOOL DADAZ FIRE. track: Le Blues du Fantome. genre: pop",
+    "genre": "pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 5.4,
+    "arousal": 4.6,
+    "valence_std": 1.2,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2040",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2040.mp3",
+    "text_context": "artist: Ralph Buckley. track: FUCK THE WAR. genre: acoustic",
+    "genre": "acoustic",
+    "tags": [
+      "acoustic"
+    ],
+    "valence": 3.6,
+    "arousal": 7.0,
+    "valence_std": 1.85,
+    "arousal_std": 0.63,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2041",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2041.mp3",
+    "text_context": "artist: Steven Dunston. track: Little White Church. genre: pop",
+    "genre": "pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 4.4,
+    "arousal": 3.0,
+    "valence_std": 1.74,
+    "arousal_std": 1.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2042",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2042.mp3",
+    "text_context": "artist: Ogg Vorbis. track: Classical Delay. genre: groove",
+    "genre": "groove",
+    "tags": [
+      "groove"
+    ],
+    "valence": 4.8,
+    "arousal": 4.6,
+    "valence_std": 0.75,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2043",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2043.mp3",
+    "text_context": "artist: Matti Paalanen. track: Summer. genre: jazz",
+    "genre": "jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.6,
+    "arousal": 4.4,
+    "valence_std": 1.02,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2044",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2044.mp3",
+    "text_context": "artist: Manuzik. track: Habanera. genre: world",
+    "genre": "world",
+    "tags": [
+      "world"
+    ],
+    "valence": 6.4,
+    "arousal": 5.2,
+    "valence_std": 0.49,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2045",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2045.mp3",
+    "text_context": "artist: Behrang Shegarfkar. track: Jazzy Mode. genre: jazz",
+    "genre": "jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.8,
+    "arousal": 3.2,
+    "valence_std": 1.17,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2046",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2046.mp3",
+    "text_context": "artist: PELdeNOZ. track: O Pindo. genre: jazz",
+    "genre": "jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.5,
+    "arousal": 5.17,
+    "valence_std": 0.96,
+    "arousal_std": 1.57,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2047",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2047.mp3",
+    "text_context": "artist: AdHoc. track: La note en cage. genre: jazz",
+    "genre": "jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 6.2,
+    "arousal": 5.0,
+    "valence_std": 0.4,
+    "arousal_std": 1.26,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2048",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2048.mp3",
+    "text_context": "artist: Maneros productions. track: Travelling in balochistan - late night highway. genre: rock",
+    "genre": "rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 6.2,
+    "arousal": 3.6,
+    "valence_std": 0.75,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2049",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2049.mp3",
+    "text_context": "artist: Steve.e!. track: Lonely Fool. genre: electronic",
+    "genre": "electronic",
+    "tags": [
+      "electronic"
+    ],
+    "valence": 4.4,
+    "arousal": 3.8,
+    "valence_std": 1.02,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2050",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2050.mp3",
+    "text_context": "artist: BeatRaider. track: Homecoming. genre: hiphop",
+    "genre": "hiphop",
+    "tags": [
+      "hiphop"
+    ],
+    "valence": 4.4,
+    "arousal": 3.6,
+    "valence_std": 0.8,
+    "arousal_std": 1.02,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2051",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2051.mp3",
+    "text_context": "artist: elbrujo. track: a fleur de peau. genre: rap",
+    "genre": "rap",
+    "tags": [
+      "rap"
+    ],
+    "valence": 3.2,
+    "arousal": 4.6,
+    "valence_std": 0.4,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2052",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2052.mp3",
+    "text_context": "artist: Juice lee. track: Les 3 singes. genre: rap",
+    "genre": "rap",
+    "tags": [
+      "rap"
+    ],
+    "valence": 3.2,
+    "arousal": 5.2,
+    "valence_std": 0.4,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2053",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2053.mp3",
+    "text_context": "artist: ADC LEVEL. track: Neon. genre: electronic",
+    "genre": "electronic",
+    "tags": [
+      "electronic"
+    ],
+    "valence": 3.8,
+    "arousal": 3.8,
+    "valence_std": 0.4,
+    "arousal_std": 1.83,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2054",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2054.mp3",
+    "text_context": "artist: Tom La Meche. track: Interlude. genre: jazz",
+    "genre": "jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.4,
+    "arousal": 3.6,
+    "valence_std": 1.2,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2055",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2055.mp3",
+    "text_context": "artist: Goo Goo Cluster. track: Vide grenier. genre: reggae",
+    "genre": "reggae",
+    "tags": [
+      "reggae"
+    ],
+    "valence": 5.0,
+    "arousal": 5.2,
+    "valence_std": 1.41,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2056",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2056.mp3",
+    "text_context": "artist: Ruediger Kramer. track: happy child singing. genre: jazz",
+    "genre": "jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.0,
+    "arousal": 4.6,
+    "valence_std": 1.41,
+    "arousal_std": 1.74,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2057",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2057.mp3",
+    "text_context": "artist: La Verue. track: Au Feu. genre: rock",
+    "genre": "rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.17,
+    "arousal": 6.83,
+    "valence_std": 1.07,
+    "arousal_std": 0.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  },
+  {
+    "deam_song_id": "2058",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2058.mp3",
+    "text_context": "artist: La Verue. track: Inside Views. genre: rock",
+    "genre": "rock",
+    "tags": [
+      "rock"
+    ],
+    "valence": 3.8,
+    "arousal": 5.8,
+    "valence_std": 0.75,
+    "arousal_std": 1.17,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations"
+  }
+]

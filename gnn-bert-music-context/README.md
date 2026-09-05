@@ -66,6 +66,8 @@ The global training configuration lives in `config.yaml` and controls:
 
 The project is designed for common audio-text/music datasets that support contextual tags and emotion labels.
 
+> Strict verification note: the repository now includes a real MusicCaps caption-to-audio path. `src/download_musiccaps.py` downloads timestamped YouTube clips from the official MusicCaps CSV, and `src/preprocess_musiccaps.py` creates graph manifests only for audio files that exist locally. The checked-in smoke result uses three verified pairs; a full benchmark requires running the same commands with a larger limit.
+
 ### 1) FMA (Free Music Archive)
 - Download the full FMA dataset or a curated subset.
 - Place audio files in `data/raw/fma/`.
@@ -73,9 +75,9 @@ The project is designed for common audio-text/music datasets that support contex
 - Use the audio files for segment extraction and graph construction.
 
 ### 2) MagnaTagATune
-- Use MIDI-like or audio labels for multi-label tagging.
-- Map annotations to a fixed label vocabulary for classification tasks.
-- Keep file-level metadata in `data/raw/metadata.csv`.
+- Use this dataset as an optional future source for multi-label music tagging.
+- The current repo does not include a verified MagnaTagATune audio manifest or audio-aligned retrieval benchmark.
+- Keep file-level metadata in `data/raw/metadata.csv` only when a valid audio mapping is established.
 
 ### 3) DEAM (Database for Emotional Analysis of Music)
 - Use continuous valence and arousal labels from the DEAM annotations.
@@ -83,9 +85,16 @@ The project is designed for common audio-text/music datasets that support contex
 - Normalize labels to the expected regression range before training.
 
 ### 4) MusicCaps
-- Use the MusicCaps captioning data as text supervision.
-- Store text descriptions or prompt strings in `data/raw/captions.json`.
-- Pair each caption with the corresponding audio track or segment.
+- Download timestamped clips and captions with `src/download_musiccaps.py`.
+- Build graph/audio features and leakage-safe train/val/test manifests with `src/preprocess_musiccaps.py`.
+- Train and evaluate Task 4 against the MusicCaps manifest, not FMA metadata text:
+
+```bash
+python src/download_musiccaps.py --limit 100
+python src/preprocess_musiccaps.py --limit 100
+python src/train.py --task task4 --manifest-root data/splits/musiccaps --epochs 20 --batch-size 16 --lr 1e-4
+python src/evaluate_fma_multimodal.py --task task4 --manifest-root data/splits/musiccaps --checkpoint checkpoints/task4_epoch_20.pt --output results/musiccaps_task4_metrics.json
+```
 
 ## Training commands
 
@@ -115,6 +124,8 @@ python src/train.py --task task3 --epochs 20 --batch-size 8 --lr 2e-5
 python src/train.py --task task4 --epochs 20 --batch-size 16 --lr 1e-4
 ```
 
+For the required MusicCaps experiment, use `--manifest-root data/splits/musiccaps` and the MusicCaps-specific preparation commands above.
+
 ## Evaluation commands
 
 ```bash
@@ -130,13 +141,13 @@ The evaluation module computes:
 
 ## Notebook usage
 
-Open the demo notebook:
+Open the real-data demo notebook:
 
 ```bash
 jupyter notebook notebooks/demo_context.ipynb
 ```
 
-The notebook simulates a short synthetic 10-second music clip, converts it into a PyG graph, passes it through the fusion model, and visualizes the graph structure and predictions.
+The notebook runs a real held-out FMA example through the stored Task 3 checkpoint, visualizes its PyG graph, and reports predictions from real metadata text. Verified DEAM audio/emotion manifests are also summarized separately. Synthetic smoke data is still available only through the explicit `--synthetic` flag in `src/train.py`; it is not the default project path.
 
 ## Core modeling components
 

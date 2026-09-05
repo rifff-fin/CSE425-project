@@ -1,0 +1,22 @@
+{
+  "comparison": [
+    {
+      "model": "task2",
+      "epochs": "see training command",
+      "macro_f1": 0.04395604395604395,
+      "micro_f1": 0.11764705882352941,
+      "auc_pr": 0.0498479500894751,
+      "samples": 10,
+      "source": "results/task2_gnn_3epoch_metrics.json"
+    },
+    {
+      "model": "cnn_mel_spectrogram",
+      "epochs": "see training command",
+      "macro_f1": 0.0,
+      "micro_f1": 0.0,
+      "auc_pr": 0.048490176376481675,
+      "samples": 10,
+      "source": "results/task2_cnn_3epoch_metrics.json"
+    }
+  ]
+}

@@ -53,6 +53,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--output", type=Path, default=Path("results/fma_cnn_baseline_metrics.json"))
+    parser.add_argument("--history-output", type=Path, default=None)
     return parser.parse_args()
 
 def main() -> None:
@@ -70,6 +71,7 @@ def main() -> None:
     model = MelCNN(len(labels))
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
     criterion = nn.BCEWithLogitsLoss()
+    history = []
     for epoch in range(1, args.epochs + 1):
         model.train(); running = 0.0
         for features, targets in train_loader:
@@ -79,7 +81,10 @@ def main() -> None:
         with torch.no_grad():
             for features, targets in val_loader:
                 val_loss += criterion(model(features), targets).item()
-        print(f"[CNN] Epoch {epoch}/{args.epochs} | train_loss={running / max(1, len(train_loader)):.4f} | val_loss={val_loss / max(1, len(val_loader)):.4f}")
+        train_loss = running / max(1, len(train_loader))
+        val_loss = val_loss / max(1, len(val_loader))
+        history.append({"epoch": epoch, "train_loss": train_loss, "val_loss": val_loss})
+        print(f"[CNN] Epoch {epoch}/{args.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
     logits, targets = [], []
     with torch.no_grad():
         for features, batch_targets in test_loader:
@@ -87,6 +92,9 @@ def main() -> None:
     scores = evaluate_tagging(torch.cat(logits), torch.cat(targets))
     result: Dict[str, Any] = {"task": "task2_baseline", "model": "cnn_mel_spectrogram", "split": "test", "train_samples": len(train_ds), "val_samples": len(val_ds), "test_samples": len(test_ds), "labels": labels, **scores}
     output.parent.mkdir(parents=True, exist_ok=True); output.write_text(json.dumps(result, indent=2), encoding="utf-8")
+    if args.history_output:
+        args.history_output.parent.mkdir(parents=True, exist_ok=True)
+        args.history_output.write_text(json.dumps({"task": "task2_cnn_baseline", "history": history}, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))
 
 if __name__ == "__main__":

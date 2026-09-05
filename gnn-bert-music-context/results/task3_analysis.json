@@ -1,0 +1,248 @@
+{
+  "task": "task3",
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "audio collage",
+    "avant-garde",
+    "drone",
+    "electroacoustic",
+    "electronic",
+    "experimental",
+    "field recordings",
+    "folk",
+    "free-folk",
+    "hip-hop",
+    "indie-rock",
+    "international",
+    "krautrock",
+    "latin america",
+    "lo-fi",
+    "loud-rock",
+    "metal",
+    "noise",
+    "noise-rock",
+    "pop",
+    "post-punk",
+    "psych-folk",
+    "psych-rock",
+    "punk",
+    "reggae - dub",
+    "rock"
+  ],
+  "ablations": {
+    "bert_only": {
+      "macro_f1": 0.07692307692307693,
+      "micro_f1": 0.5217391304347826,
+      "auc_pr": 0.6523643023643024
+    },
+    "gnn_only": {
+      "macro_f1": 0.019230769230769232,
+      "micro_f1": 0.08,
+      "auc_pr": 0.0976272707714714
+    },
+    "early_concat": {
+      "macro_f1": 0.02564102564102564,
+      "micro_f1": 0.09523809523809523,
+      "auc_pr": 0.11600873002794576
+    }
+  },
+  "tsne_plot": "results/plots/task3_tsne.png",
+  "case_studies": [
+    {
+      "track_id": "001649",
+      "text_context": "artist: So Cow. album: Wackity Schmackity Doo. track: Inis Meain. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_top_tags": [
+        "audio collage",
+        "experimental",
+        "rock",
+        "krautrock",
+        "noise"
+      ],
+      "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001649.pt",
+      "num_nodes": 11,
+      "num_edges": 110,
+      "graph_edge_preview": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "text_tag_alignment": {
+        "metadata_text": "artist: So Cow. album: Wackity Schmackity Doo. track: Inis Meain. genres: pop",
+        "supervised_tags": [
+          "pop"
+        ]
+      }
+    },
+    {
+      "track_id": "001661",
+      "text_context": "artist: So Cow. album: Wackity Schmackity Doo. track: Only Fools and Horses Theme. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_top_tags": [
+        "rock",
+        "loud-rock",
+        "noise-rock",
+        "punk",
+        "noise"
+      ],
+      "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001661.pt",
+      "num_nodes": 11,
+      "num_edges": 110,
+      "graph_edge_preview": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "text_tag_alignment": {
+        "metadata_text": "artist: So Cow. album: Wackity Schmackity Doo. track: Only Fools and Horses Theme. genres: pop",
+        "supervised_tags": [
+          "pop"
+        ]
+      }
+    },
+    {
+      "track_id": "001663",
+      "text_context": "artist: Softboiled Eggies. album: Egg Soldiers. track: So High. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_top_tags": [
+        "rock",
+        "avant-garde",
+        "loud-rock",
+        "reggae - dub",
+        "metal"
+      ],
+      "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001663.pt",
+      "num_nodes": 12,
+      "num_edges": 132,
+      "graph_edge_preview": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "text_tag_alignment": {
+        "metadata_text": "artist: Softboiled Eggies. album: Egg Soldiers. track: So High. genres: pop",
+        "supervised_tags": [
+          "pop"
+        ]
+      }
+    }
+  ]
+}

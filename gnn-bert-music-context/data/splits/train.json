@@ -11,7 +11,6 @@
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Hip-Hop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       21
     ],
@@ -19,7 +18,8 @@
       "hip-hop"
     ],
     "text_tags": [],
-    "text_context": "artist: AWOL. album: AWOL - A Way Of Life. track: Food. genres: hip-hop"
+    "text_context": "artist: AWOL. album: AWOL - A Way Of Life. track: Food. genres: hip-hop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000005",
@@ -33,7 +33,6 @@
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Hip-Hop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       21
     ],
@@ -41,7 +40,8 @@
       "hip-hop"
     ],
     "text_tags": [],
-    "text_context": "artist: AWOL. album: AWOL - A Way Of Life. track: This World. genres: hip-hop"
+    "text_context": "artist: AWOL. album: AWOL - A Way Of Life. track: This World. genres: hip-hop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000010",
@@ -55,7 +55,6 @@
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Pop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       10
     ],
@@ -63,7 +62,8 @@
       "pop"
     ],
     "text_tags": [],
-    "text_context": "artist: Kurt Vile. album: Constant Hitmaker. track: Freeway. genres: pop"
+    "text_context": "artist: Kurt Vile. album: Constant Hitmaker. track: Freeway. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000140",
@@ -77,7 +77,6 @@
     "num_nodes": 11,
     "num_edges": 96,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -85,7 +84,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Alec K. Redfearn & the Eyesores. album: The Blind Spot. track: Queen Of The Wires. genres: folk"
+    "text_context": "artist: Alec K. Redfearn & the Eyesores. album: The Blind Spot. track: Queen Of The Wires. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000141",
@@ -99,7 +99,6 @@
     "num_nodes": 11,
     "num_edges": 66,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -107,7 +106,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Alec K. Redfearn & the Eyesores. album: Every Man For Himself. track: Ohio. genres: folk"
+    "text_context": "artist: Alec K. Redfearn & the Eyesores. album: Every Man For Himself. track: Ohio. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000148",
@@ -122,7 +122,6 @@
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Experimental",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       1,
       38
@@ -132,7 +131,8 @@
       "experimental"
     ],
     "text_tags": [],
-    "text_context": "artist: Contradiction. album: Contradiction. track: Blackout 2. genres: avant-garde, experimental"
+    "text_context": "artist: Contradiction. album: Contradiction. track: Blackout 2. genres: avant-garde, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000182",
@@ -147,7 +147,6 @@
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Rock",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       27,
       12
@@ -157,7 +156,8 @@
       "rock"
     ],
     "text_tags": [],
-    "text_context": "artist: Ariel Pink's Haunted Graffiti. album: Worn Copy. track: Jules Lost His Jewels. genres: lo-fi, rock"
+    "text_context": "artist: Ariel Pink's Haunted Graffiti. album: Worn Copy. track: Jules Lost His Jewels. genres: lo-fi, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000190",
@@ -171,7 +171,6 @@
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -179,7 +178,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: Castle Of Stars. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Castle Of Stars. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000193",
@@ -193,7 +193,6 @@
     "num_nodes": 11,
     "num_edges": 106,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -201,7 +200,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: Here With You. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Here With You. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000194",
@@ -215,7 +215,6 @@
     "num_nodes": 12,
     "num_edges": 120,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -223,7 +222,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: All I want to Do. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: All I want to Do. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000197",
@@ -237,7 +237,6 @@
     "num_nodes": 11,
     "num_edges": 106,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -245,7 +244,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: Piano 2. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Piano 2. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000200",
@@ -259,7 +259,6 @@
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -267,7 +266,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: Baby Come Home. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Baby Come Home. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000203",
@@ -281,7 +281,6 @@
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -289,7 +288,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: Song For R. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Song For R. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000204",
@@ -303,7 +303,6 @@
     "num_nodes": 11,
     "num_edges": 110,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -311,7 +310,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: My Dream. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: My Dream. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000207",
@@ -325,7 +325,6 @@
     "num_nodes": 11,
     "num_edges": 90,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -333,7 +332,8 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: Piano 3. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: Piano 3. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
     "track_id": "000210",
@@ -347,7 +347,6 @@
     "num_nodes": 12,
     "num_edges": 132,
     "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       17
     ],
@@ -355,6 +354,1530 @@
       "folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: In the French Court. genres: folk"
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: In the French Court. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000211",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000211.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000211.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000211.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: In America. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000212",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000212.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000212.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000212.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Blue Piano. track: When I Arive. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000213",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000213.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000213.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000213.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 98,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Au. album: Au. track: Boute. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000255",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000255.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000255.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000255.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Bird Names. album: On Opaque Things. track: We Want to be Old. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000256",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000256.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000256.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000256.pt",
+    "tags": [
+      "metal",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12,
+      31
+    ],
+    "genre_tags": [
+      "metal",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Black Elk. album: Black Elk. track: Toggle. genres: metal, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000368",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000368.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000368.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000368.pt",
+    "tags": [
+      "post-punk",
+      "punk",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      89,
+      12,
+      25
+    ],
+    "genre_tags": [
+      "post-punk",
+      "punk",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Blah Blah Blah. album: 30th Anniversary Blah Blah Blah. track: Vampires. genres: post-punk, punk, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000424",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000424.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000424.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000424.pt",
+    "tags": [
+      "avant-garde",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      1,
+      38
+    ],
+    "genre_tags": [
+      "avant-garde",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Brian Joseph Davis. album: The Definitive Host. track: The Ambient Honky. genres: avant-garde, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000459",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000459.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000459.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000459.pt",
+    "tags": [
+      "krautrock",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Rock",
+    "genre_ids": [
+      36,
+      12
+    ],
+    "genre_tags": [
+      "krautrock",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: CAVE. album: Butthash. track: Machines and Muscles. genres: krautrock, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000534",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000534.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000534.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000534.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Charles Manson. album: One Mind. track: I Can See You. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000540",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000540.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000540.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000540.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Charles Manson. album: One Mind. track: The Black Pirate. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000546",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000546.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000546.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000546.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Charles Manson. album: One Mind. track: If You Have No One. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000574",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000574.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000574.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000574.pt",
+    "tags": [
+      "punk",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      25,
+      12
+    ],
+    "genre_tags": [
+      "punk",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Clockcleaner. album: Babylon Rules. track: Caliente Queen. genres: punk, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000602",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000602.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000602.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000602.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Dora Bleu. album: Clones of Eros. track: Disappearing. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000615",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000615.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000615.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000615.pt",
+    "tags": [
+      "electroacoustic",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      41,
+      38
+    ],
+    "genre_tags": [
+      "electroacoustic",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: EKG. album: Immaterial. track: Immaterial, side A. genres: electroacoustic, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000620",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000620.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000620.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000620.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Viridian City. track: Arabesque. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000621",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000621.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000621.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000621.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Rainy Day Song. track: Blue Eyed Baby. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000625",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000625.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000625.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000625.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 104,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ed Askew. album: Rainy Day Song. track: Climbing To The Top. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000666",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000666.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000666.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000666.pt",
+    "tags": [
+      "international",
+      "reggae - dub"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      79
+    ],
+    "genre_tags": [
+      "international",
+      "reggae - dub"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Explode Into Colors. album: summer 2008 demos. track: Heat. genres: international, reggae - dub",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000667",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000667.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000667.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000667.pt",
+    "tags": [
+      "international",
+      "reggae - dub"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      79
+    ],
+    "genre_tags": [
+      "international",
+      "reggae - dub"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Explode Into Colors. album: summer 2008 demos. track: Sharpen The Knife. genres: international, reggae - dub",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000676",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000676.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000676.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000676.pt",
+    "tags": [
+      "hip-hop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Hip-Hop",
+    "genre_ids": [
+      21
+    ],
+    "genre_tags": [
+      "hip-hop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Fanatic. album: Change Thoughts (radio edit). track: The Tension. genres: hip-hop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000690",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000690.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000690.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000690.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Flying Luttenbachers. album: Cataclysm. track: Cataclysm. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000694",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000694.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000694.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000694.pt",
+    "tags": [
+      "hip-hop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Hip-Hop",
+    "genre_ids": [
+      21
+    ],
+    "genre_tags": [
+      "hip-hop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Food For Animals. album: mp3 single with Faust. track: Planet Say (featuring Faust). genres: hip-hop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000695",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000695.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000695.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000695.pt",
+    "tags": [
+      "hip-hop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Hip-Hop",
+    "genre_ids": [
+      21
+    ],
+    "genre_tags": [
+      "hip-hop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Food For Animals. album: Cock Rock Disco 2006 Free Compilation. track: Elephants. genres: hip-hop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000704",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000704.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000704.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000704.pt",
+    "tags": [
+      "international",
+      "latin america"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      46
+    ],
+    "genre_tags": [
+      "international",
+      "latin america"
+    ],
+    "text_tags": [],
+    "text_context": "artist: F\u00f3sforo. album: Macondo. track: Mano De Dios. genres: international, latin america",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000705",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000705.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000705.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000705.pt",
+    "tags": [
+      "international",
+      "latin america"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      46
+    ],
+    "genre_tags": [
+      "international",
+      "latin america"
+    ],
+    "text_tags": [],
+    "text_context": "artist: F\u00f3sforo. album: Macondo. track: Tio Cocodrilo. genres: international, latin america",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000706",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000706.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000706.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000706.pt",
+    "tags": [
+      "international",
+      "latin america"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      46
+    ],
+    "genre_tags": [
+      "international",
+      "latin america"
+    ],
+    "text_tags": [],
+    "text_context": "artist: F\u00f3sforo. album: Macondo. track: Esto Es Califas. genres: international, latin america",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000707",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000707.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000707.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000707.pt",
+    "tags": [
+      "international",
+      "latin america"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      46
+    ],
+    "genre_tags": [
+      "international",
+      "latin america"
+    ],
+    "text_tags": [],
+    "text_context": "artist: F\u00f3sforo. album: Macondo. track: Cochabamba. genres: international, latin america",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000708",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000708.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000708.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000708.pt",
+    "tags": [
+      "international",
+      "latin america"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      46
+    ],
+    "genre_tags": [
+      "international",
+      "latin america"
+    ],
+    "text_tags": [],
+    "text_context": "artist: F\u00f3sforo. album: Macondo. track: Desconocido. genres: international, latin america",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000709",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000709.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000709.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000709.pt",
+    "tags": [
+      "international",
+      "latin america"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "International",
+    "genre_ids": [
+      2,
+      46
+    ],
+    "genre_tags": [
+      "international",
+      "latin america"
+    ],
+    "text_tags": [],
+    "text_context": "artist: F\u00f3sforo. album: Macondo. track: Cumbia De Obama. genres: international, latin america",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000714",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000714.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000714.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000714.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Fursaxa. album: The Cult From Moon Mountain. track: Circle Moon. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000715",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000715.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000715.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000715.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Fursaxa. album: Kobold Moon. track: Kokopelli. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000716",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000716.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000716.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000716.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Fursaxa. album: Kobold Moon. track: Saxalainen. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000718",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000718.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000718.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000718.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Fursaxa. album: Kobold Moon. track: Song Of The Spindle Berry. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000777",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000777.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000777.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000777.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 66,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Glove Compartment. album: Quickies. track: Relaxing. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000814",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000814.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000814.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000814.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Hall Of Fame. album: Hall of Fame (2000). track: Motion Passings. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000821",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000821.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000821.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000821.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 124,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Hecuba. album: Sir 12\" EP. track: Sir. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000822",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000822.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000822.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000822.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Hecuba. album: Sir 12\" EP. track: Tom & Jerry. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000825",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000825.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000825.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000825.pt",
+    "tags": [
+      "indie-rock",
+      "loud-rock",
+      "psych-rock",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      58,
+      66,
+      12,
+      45
+    ],
+    "genre_tags": [
+      "indie-rock",
+      "loud-rock",
+      "psych-rock",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Here Comes A Big Black Cloud!!. album: Pompeii. track: Death March. genres: indie-rock, loud-rock, psych-rock, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000853",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000853.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000853.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000853.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Hutzl Ukranian Ensemble. album: Black Mirror: Reflections In Global Musics (1915-1955). track: Welsinsni Melodyi. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000890",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000890.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000890.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000890.pt",
+    "tags": [
+      "folk",
+      "free-folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      49,
+      17
+    ],
+    "genre_tags": [
+      "folk",
+      "free-folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ilyas Ahmed. album: Century of Moonlight. track: Softly Tomorrow. genres: folk, free-folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000892",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000892.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000892.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000892.pt",
+    "tags": [
+      "folk",
+      "free-folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      49,
+      17
+    ],
+    "genre_tags": [
+      "folk",
+      "free-folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ilyas Ahmed. album: The Vertigo of Dawn. track: Phantom Sky. genres: folk, free-folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000897",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000897.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000897.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000897.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Infinite Body. album: White Hymn. track: 02. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000993",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000993.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000993.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000993.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [
+      "baltimore"
+    ],
+    "text_context": "artist: Jad Fair and Jason Willett. album: The Sounds of Megaphone Unlimited. track: Or So I've Been Told. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000995",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000995.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000995.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000995.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Kevin Shields. album: The Death of Patience. track: No Good Deed Goes Unpunished. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000997",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000997.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000997.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000997.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Kevin Shields. album: The Death of Patience. track: Nothing's Ever Ending. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "000998",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000998.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000998.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000998.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Kevin Shields. album: The Death of Patience. track: Apparently. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001039",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001039.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001039.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001039.pt",
+    "tags": [
+      "loud-rock",
+      "noise-rock",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      45,
+      12,
+      53
+    ],
+    "genre_tags": [
+      "loud-rock",
+      "noise-rock",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Lightning Bolt. album: Ride the Skies. track: 13 Monsters. genres: loud-rock, noise-rock, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001040",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001040.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001040.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001040.pt",
+    "tags": [
+      "loud-rock",
+      "noise-rock",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Rock",
+    "genre_ids": [
+      45,
+      12,
+      53
+    ],
+    "genre_tags": [
+      "loud-rock",
+      "noise-rock",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Lightning Bolt. album: Wonderful Rainbow. track: Dracula Mountain. genres: loud-rock, noise-rock, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001066",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001066.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001066.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001066.pt",
+    "tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      22
+    ],
+    "genre_tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Lucky Dragons. album: Norte\u00f1as. track: Helicopter de Cristal. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001069",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001069.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001069.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001069.pt",
+    "tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      22
+    ],
+    "genre_tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Lucky Dragons. album: Norte\u00f1as. track: Un Lagrima en la Discoteca. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001073",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001073.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001073.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001073.pt",
+    "tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      22
+    ],
+    "genre_tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Lucky Dragons. album: Norte\u00f1as. track: Onda Tocadisco. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001075",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001075.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001075.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001075.pt",
+    "tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 106,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      22
+    ],
+    "genre_tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Lucky Dragons. album: Norte\u00f1as. track: Painful Corazon. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001082",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001082.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001082.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001082.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: M. Nguyen Van Minh-Con. album: Black Mirror: Reflections In Global Musics (1915-1955). track: Nam Nhi-tu. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001083",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001083.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001083.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001083.pt",
+    "tags": [
+      "avant-garde",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      1,
+      38
+    ],
+    "genre_tags": [
+      "avant-garde",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Magic Lantern. album: High Beams. track: Feasting on Energy. genres: avant-garde, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001087",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001087.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001087.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001087.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Mahjongg. album: Kontpab. track: Tell The Police The Truth. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001102",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001102.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001102.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001102.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 92,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Mary Halvorson and Weasel Walter. album: Opulence. track: Rare Vodka from the Fourteenth Century. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001193",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001193.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001193.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001193.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Mount Eerie. album: Seven New Songs. track: Wooly Mammoth's Absence. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001195",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001195.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001195.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001195.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 120,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Mount Eerie. album: Seven New Songs. track: With My Hands Out. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001196",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001196.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001196.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001196.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Mount Eerie. album: Seven New Songs. track: 2 Blonde Braids. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001197",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001197.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001197.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001197.pt",
+    "tags": [
+      "folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Folk",
+    "genre_ids": [
+      17
+    ],
+    "genre_tags": [
+      "folk"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Mount Eerie. album: Seven New Songs. track: My Burning. genres: folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001249",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001249.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001249.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001249.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [
+      "baltimore"
+    ],
+    "text_context": "artist: Nautical Almanac. album: Handcut Record Transfers. track: \"Cleanse Bath\" 10\" Metal Laquer. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001259",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001259.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001259.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001259.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Nautical Almanac. album: Cover The Earth. track: Rolling In The Green. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001270",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001270.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001270.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001270.pt",
+    "tags": [
+      "punk",
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Rock",
+    "genre_ids": [
+      25,
+      12
+    ],
+    "genre_tags": [
+      "punk",
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Necropolis. album: Workingman / Cocksuckerbastardmotherfucker 7\". track: Cocksuckerbastardmotherfucker. genres: punk, rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001276",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001276.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001276.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001276.pt",
+    "tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      22
+    ],
+    "genre_tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Negativland. album: Thigmotactic. track: Richard Nixon Died Today. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   }
 ]

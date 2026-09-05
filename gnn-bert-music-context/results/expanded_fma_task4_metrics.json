@@ -1,0 +1,43 @@
+{
+  "task": "task4",
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "audio collage",
+    "avant-garde",
+    "drone",
+    "electroacoustic",
+    "electronic",
+    "experimental",
+    "field recordings",
+    "folk",
+    "free-folk",
+    "hip-hop",
+    "indie-rock",
+    "international",
+    "krautrock",
+    "latin america",
+    "lo-fi",
+    "loud-rock",
+    "metal",
+    "noise",
+    "noise-rock",
+    "pop",
+    "post-punk",
+    "psych-folk",
+    "psych-rock",
+    "punk",
+    "reggae - dub",
+    "rock"
+  ],
+  "caption_to_audio": {
+    "R@1": 0.2,
+    "R@5": 0.6,
+    "R@10": 1.0
+  },
+  "audio_to_caption": {
+    "R@1": 0.3,
+    "R@5": 0.5,
+    "R@10": 1.0
+  }
+}

@@ -12,12 +12,14 @@ This repository targets a multimodal music understanding pipeline that combines:
 - Cross-attention fusion for tag + emotion prediction
 - Contrastive audio-text retrieval for multimodal matching
 
-The project is organized around four task tracks:
+The project is organized around four task tracks using the verified real-data pipeline currently supported by the repo:
 
 1. Task 1: BERT multi-label music tag classification
 2. Task 2: GNN-based music audio encoding
 3. Task 3: GNN-BERT fusion for tag and emotion prediction
-4. Task 4: contrastive audio-text retrieval
+4. Task 4: contrastive MusicCaps audio-text retrieval using timestamped clips and natural-language captions
+
+Synthetic smoke data remains optional only via `--synthetic` and is not the default path used by the notebook or final validation workflow. MusicCaps manifests are accepted only after local audio files are downloaded and graph-processed.
 
 ---
 
@@ -184,9 +186,9 @@ data/
 
 ### 7.2 MagnaTagATune
 
-- Use the dataset for multi-label music tagging.
-- Match audio files with tag labels.
-- Create a consistent label vocabulary to align with model output dimensions.
+- Use the dataset as an optional future source for multi-label music tagging.
+- A valid MagnaTagATune audio manifest is not yet established in this repository, so the current branch does not claim a real retrieval or audio-aligned classification benchmark from this source.
+- Match audio files with tag labels only after a verified manifest is created.
 
 ### 7.3 DEAM
 
@@ -196,9 +198,10 @@ data/
 
 ### 7.4 MusicCaps
 
-- Use MusicCaps captions as text supervision.
-- Store prompts in `data/captions.json`.
-- Pair text captions with the matching audio track or audio-derived segments.
+- Download the official MusicCaps CSV and timestamped YouTube clips with `src/download_musiccaps.py`.
+- Run `src/preprocess_musiccaps.py` to create one graph and one caption record per verified local clip.
+- The generated `data/splits/musiccaps/alignment_report.json` records the exact verified IDs.
+- Run Task 4 with `--manifest-root data/splits/musiccaps`; do not use the FMA metadata manifests for the MusicCaps result.
 
 ### Example file schema for metadata
 
@@ -292,7 +295,7 @@ jupyter notebook notebooks/demo_context.ipynb
 
 The notebook does the following:
 
-- creates a synthetic 10-second waveform
+- loads a real held-out FMA graph and metadata record
 - creates a text prompt and tag list
 - extracts segments and features
 - builds a PyG graph
@@ -449,7 +452,7 @@ Python installed and on PATH
 
 - This project is structured as a research/starter multimodal music understanding pipeline.
 - It is designed for modular experimentation and extension.
-- The synthetic notebook demo is the best first smoke test when a real dataset is not yet available.
+- The real FMA notebook demo is the recommended first validation path; synthetic smoke data is available only through the explicit `--synthetic` training flag.
 - The project is intentionally organized so that each major component can be swapped or improved independently.
 
 ---

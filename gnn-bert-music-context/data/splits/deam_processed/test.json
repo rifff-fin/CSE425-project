@@ -1,0 +1,202 @@
+[
+  {
+    "deam_song_id": "1878",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1878.mp3",
+    "text_context": "artist: The Suzan. track: Home. genre: Pop",
+    "genre": "Pop",
+    "tags": [
+      "pop"
+    ],
+    "valence": 6.7,
+    "arousal": 6.3,
+    "valence_std": 0.78,
+    "arousal_std": 1.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1878",
+    "graph_path": "data/processed/deam/graphs/1878.pt",
+    "feature_path": "data/processed/deam/audio_features/1878.pt",
+    "num_nodes": 18,
+    "num_edges": 292
+  },
+  {
+    "deam_song_id": "1879",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1879.mp3",
+    "text_context": "artist: The Kolour Kult. track: Overload. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 5.4,
+    "arousal": 6.4,
+    "valence_std": 2.24,
+    "arousal_std": 2.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1879",
+    "graph_path": "data/processed/deam/graphs/1879.pt",
+    "feature_path": "data/processed/deam/audio_features/1879.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1880",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1880.mp3",
+    "text_context": "artist: Plastic Flowers. track: Silence. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.4,
+    "arousal": 3.2,
+    "valence_std": 1.36,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1880",
+    "graph_path": "data/processed/deam/graphs/1880.pt",
+    "feature_path": "data/processed/deam/audio_features/1880.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1881",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1881.mp3",
+    "text_context": "artist: The Pop Winds. track: In Harmony. genre: Pop-Experimental",
+    "genre": "Pop-Experimental",
+    "tags": [
+      "pop-experimental"
+    ],
+    "valence": 5.0,
+    "arousal": 5.2,
+    "valence_std": 1.1,
+    "arousal_std": 1.25,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1881",
+    "graph_path": "data/processed/deam/graphs/1881.pt",
+    "feature_path": "data/processed/deam/audio_features/1881.pt",
+    "num_nodes": 18,
+    "num_edges": 278
+  },
+  {
+    "deam_song_id": "1882",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1882.mp3",
+    "text_context": "artist: The Paparazzi. track: Hi. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 5.5,
+    "arousal": 6.2,
+    "valence_std": 1.5,
+    "arousal_std": 1.66,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1882",
+    "graph_path": "data/processed/deam/graphs/1882.pt",
+    "feature_path": "data/processed/deam/audio_features/1882.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1883",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1883.mp3",
+    "text_context": "artist: Podington Bear. track: LA. genre: Pop-Experimental-Electronic",
+    "genre": "Pop-Experimental-Electronic",
+    "tags": [
+      "pop-experimental-electronic"
+    ],
+    "valence": 5.6,
+    "arousal": 4.5,
+    "valence_std": 0.8,
+    "arousal_std": 1.12,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1883",
+    "graph_path": "data/processed/deam/graphs/1883.pt",
+    "feature_path": "data/processed/deam/audio_features/1883.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1884",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1884.mp3",
+    "text_context": "artist: Neon Indian. track: Terminally Chill. genre: Pop-Electronic",
+    "genre": "Pop-Electronic",
+    "tags": [
+      "pop-electronic"
+    ],
+    "valence": 6.5,
+    "arousal": 5.6,
+    "valence_std": 0.81,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1884",
+    "graph_path": "data/processed/deam/graphs/1884.pt",
+    "feature_path": "data/processed/deam/audio_features/1884.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1885",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1885.mp3",
+    "text_context": "artist: Fire To The Stars. track: Stay Down. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 3.9,
+    "arousal": 3.9,
+    "valence_std": 2.17,
+    "arousal_std": 1.97,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1885",
+    "graph_path": "data/processed/deam/graphs/1885.pt",
+    "feature_path": "data/processed/deam/audio_features/1885.pt",
+    "num_nodes": 18,
+    "num_edges": 236
+  },
+  {
+    "deam_song_id": "1886",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1886.mp3",
+    "text_context": "artist: The Scallions. track: Final Frame. genre: Pop-Experimental-Rock",
+    "genre": "Pop-Experimental-Rock",
+    "tags": [
+      "pop-experimental-rock"
+    ],
+    "valence": 4.1,
+    "arousal": 3.0,
+    "valence_std": 1.3,
+    "arousal_std": 1.18,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1886",
+    "graph_path": "data/processed/deam/graphs/1886.pt",
+    "feature_path": "data/processed/deam/audio_features/1886.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1887",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1887.mp3",
+    "text_context": "artist: Silence Is Sexy. track: Us. genre: Pop-Rock",
+    "genre": "Pop-Rock",
+    "tags": [
+      "pop-rock"
+    ],
+    "valence": 6.0,
+    "arousal": 5.8,
+    "valence_std": 1.41,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1887",
+    "graph_path": "data/processed/deam/graphs/1887.pt",
+    "feature_path": "data/processed/deam/audio_features/1887.pt",
+    "num_nodes": 18,
+    "num_edges": 236
+  }
+]

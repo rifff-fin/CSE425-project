@@ -16,6 +16,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--checkpoint", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=Path("results/fma_task1_text_metrics.json"))
     parser.add_argument("--batch-size", type=int, default=4)
+    parser.add_argument("--examples", type=int, default=5)
     return parser.parse_args()
 
 def main() -> None:
@@ -31,14 +32,30 @@ def main() -> None:
     model.classifier = nn.Linear(768, len(labels))
     model.load_state_dict(torch.load(checkpoint, map_location="cpu"))
     model.eval()
-    logits, targets = [], []
+    logits, targets, track_ids, texts = [], [], [], []
     with torch.no_grad():
         for batch in loader:
             _, pooled = model(batch["texts"])
             logits.append(model.classifier(pooled))
             targets.append(batch["tags"])
-    scores = evaluate_tagging(torch.cat(logits), torch.cat(targets))
-    result = {"task": "task1", "split": "test", "samples": len(dataset), "labels": labels, **scores}
+            texts.extend(batch["texts"])
+            track_ids.extend([row["track_id"] for row in dataset.records[len(track_ids):len(track_ids) + len(batch["texts"])]] )
+    all_logits = torch.cat(logits)
+    all_targets = torch.cat(targets)
+    scores = evaluate_tagging(all_logits, all_targets)
+    probabilities = torch.sigmoid(all_logits)
+    examples = []
+    for index in range(min(args.examples, len(dataset))):
+        predicted = [labels[i] for i in torch.where(probabilities[index] >= 0.5)[0].tolist()]
+        ranked = torch.argsort(probabilities[index], descending=True)[:5].tolist()
+        examples.append({
+            "track_id": track_ids[index],
+            "text": texts[index],
+            "true_tags": [labels[i] for i in torch.where(all_targets[index] > 0)[0].tolist()],
+            "predicted_tags_threshold_0.5": predicted,
+            "top_5_predictions": [{"label": labels[i], "score": float(probabilities[index, i])} for i in ranked],
+        })
+    result = {"task": "task1", "split": "test", "samples": len(dataset), "labels": labels, "examples": examples, **scores}
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))

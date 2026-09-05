@@ -1,46 +1,237 @@
 [
   {
-    "track_id": "000211",
-    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000211.mp3",
-    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000211.pt",
-    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000211.pt",
+    "track_id": "001277",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001277.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001277.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001277.pt",
     "tags": [
-      "folk"
+      "audio collage",
+      "experimental"
     ],
     "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
-    "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_top": "Experimental",
     "genre_ids": [
-      17
+      38,
+      22
     ],
     "genre_tags": [
-      "folk"
+      "audio collage",
+      "experimental"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: In America. genres: folk"
+    "text_context": "artist: Negativland. album: No Business. track: No Business. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
-    "track_id": "000212",
-    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000212.mp3",
-    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000212.pt",
-    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000212.pt",
+    "track_id": "001278",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001278.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001278.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001278.pt",
     "tags": [
-      "folk"
+      "audio collage",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      22
+    ],
+    "genre_tags": [
+      "audio collage",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Negativland. album: No Business. track: Downloading. genres: audio collage, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001417",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001417.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001417.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001417.pt",
+    "tags": [
+      "rock"
     ],
     "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
-    "genre_top": "Folk",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_top": "Rock",
     "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Pierced Arrows. album: Straight To the Heart. track: Guns of Thunder. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001427",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001427.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001427.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001427.pt",
+    "tags": [
+      "rock"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Rock",
+    "genre_ids": [
+      12
+    ],
+    "genre_tags": [
+      "rock"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Plastic Crimewave Sound. album: Painted Shadows. track: I Feel Evils. genres: rock",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001443",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001443.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001443.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001443.pt",
+    "tags": [
+      "drone",
+      "experimental"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      47
+    ],
+    "genre_tags": [
+      "drone",
+      "experimental"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Pocahaunted. album: Bored Fortress Single Series Split w. Charalambides. track: Time Fist. genres: drone, experimental",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001482",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001482.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001482.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001482.pt",
+    "tags": [
+      "electronic"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Electronic",
+    "genre_ids": [
+      15
+    ],
+    "genre_tags": [
+      "electronic"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Rainbro. album: Vectors. track: Reindeer Dance. genres: electronic",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001510",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001510.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001510.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001510.pt",
+    "tags": [
+      "experimental",
+      "noise"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 94,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      32,
+      38
+    ],
+    "genre_tags": [
+      "experimental",
+      "noise"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Ric Royer &amp; G. Lucas Crane. album: They Lured Us Into the Basement. track: Zombie. genres: experimental, noise",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001544",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001544.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001544.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001544.pt",
+    "tags": [
+      "folk",
+      "psych-folk"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Folk",
+    "genre_ids": [
+      33,
       17
     ],
     "genre_tags": [
-      "folk"
+      "folk",
+      "psych-folk"
     ],
     "text_tags": [],
-    "text_context": "artist: Ed Askew. album: Blue Piano. track: When I Arive. genres: folk"
+    "text_context": "artist: Samara Lubelski. album: In The Valley. track: Song of The Stations. genres: folk, psych-folk",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001642",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001642.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001642.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001642.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: So Cow. album: Wackity Schmackity Doo. track: Hrz. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001644",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001644.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001644.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001644.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: So Cow. album: Wackity Schmackity Doo. track: Outskirts. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   }
 ]

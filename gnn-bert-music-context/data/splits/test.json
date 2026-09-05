@@ -1,17 +1,16 @@
 [
   {
-    "track_id": "000213",
-    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000213.mp3",
-    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000213.pt",
-    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000213.pt",
+    "track_id": "001649",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001649.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001649.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001649.pt",
     "tags": [
       "pop"
     ],
     "metadata_available": true,
     "num_nodes": 11,
-    "num_edges": 98,
+    "num_edges": 110,
     "genre_top": "Pop",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
     "genre_ids": [
       10
     ],
@@ -19,28 +18,208 @@
       "pop"
     ],
     "text_tags": [],
-    "text_context": "artist: Au. album: Au. track: Boute. genres: pop"
+    "text_context": "artist: So Cow. album: Wackity Schmackity Doo. track: Inis Meain. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   },
   {
-    "track_id": "000255",
-    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/000/000255.mp3",
-    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/000255.pt",
-    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/000255.pt",
+    "track_id": "001661",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001661.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001661.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001661.pt",
     "tags": [
-      "rock"
+      "pop"
     ],
     "metadata_available": true,
     "num_nodes": 11,
     "num_edges": 110,
-    "genre_top": "Rock",
-    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv",
+    "genre_top": "Pop",
     "genre_ids": [
-      12
+      10
     ],
     "genre_tags": [
-      "rock"
+      "pop"
     ],
     "text_tags": [],
-    "text_context": "artist: Bird Names. album: On Opaque Things. track: We Want to be Old. genres: rock"
+    "text_context": "artist: So Cow. album: Wackity Schmackity Doo. track: Only Fools and Horses Theme. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001663",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001663.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001663.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001663.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Softboiled Eggies. album: Egg Soldiers. track: So High. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001666",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001666.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001666.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001666.pt",
+    "tags": [
+      "pop"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "Pop",
+    "genre_ids": [
+      10
+    ],
+    "genre_tags": [
+      "pop"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Softboiled Eggies. album: Egg Soldiers. track: She Fell Through the Trees. genres: pop",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001673",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001673.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001673.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001673.pt",
+    "tags": [
+      "experimental",
+      "field recordings"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "Experimental",
+    "genre_ids": [
+      38,
+      30
+    ],
+    "genre_tags": [
+      "experimental",
+      "field recordings"
+    ],
+    "text_tags": [],
+    "text_context": "artist: Solemn Man. album: Thee Haunted Cobblestone Sunset Concert Series #10. track: Track 07. genres: experimental, field recordings",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001680",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001680.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001680.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001680.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 98,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Bashraf Salama. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001681",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001681.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001681.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001681.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Daka Kozi Manowe. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001682",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001682.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001682.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001682.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Nie Zama Nie Sema. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001683",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001683.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001683.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001683.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 12,
+    "num_edges": 132,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Mapenzi Matamu. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
+  },
+  {
+    "track_id": "001684",
+    "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/fma/extracted/fma_small/001/001684.mp3",
+    "graph_path": "D:/425 project/gnn-bert-music-context/data/processed/graphs/001684.pt",
+    "feature_path": "D:/425 project/gnn-bert-music-context/data/processed/audio_features/001684.pt",
+    "tags": [
+      "international"
+    ],
+    "metadata_available": true,
+    "num_nodes": 11,
+    "num_edges": 110,
+    "genre_top": "International",
+    "genre_ids": [
+      2
+    ],
+    "genre_tags": [
+      "international"
+    ],
+    "text_tags": [],
+    "text_context": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Mahaba Wa Taka Nini. genres: international",
+    "label_source": "data/raw/fma/metadata/extracted/fma_metadata/tracks.csv"
   }
 ]

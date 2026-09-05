@@ -1,0 +1,202 @@
+[
+  {
+    "deam_song_id": "1698",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1698.mp3",
+    "text_context": "artist: Ofir Klemperer. track: come here. genre: International-Folk-Pop-Experimental-Rock",
+    "genre": "International-Folk-Pop-Experimental-Rock",
+    "tags": [
+      "international-folk-pop-experimental-rock"
+    ],
+    "valence": 4.5,
+    "arousal": 4.5,
+    "valence_std": 1.36,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1698",
+    "graph_path": "data/processed/deam/graphs/1698.pt",
+    "feature_path": "data/processed/deam/audio_features/1698.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1699",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1699.mp3",
+    "text_context": "artist: Damscray. track: Rural Metric Seven. genre: International-Electronic",
+    "genre": "International-Electronic",
+    "tags": [
+      "international-electronic"
+    ],
+    "valence": 5.1,
+    "arousal": 5.0,
+    "valence_std": 1.76,
+    "arousal_std": 1.95,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1699",
+    "graph_path": "data/processed/deam/graphs/1699.pt",
+    "feature_path": "data/processed/deam/audio_features/1699.pt",
+    "num_nodes": 18,
+    "num_edges": 294
+  },
+  {
+    "deam_song_id": "1700",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1700.mp3",
+    "text_context": "artist: Damscray. track: Your Rainbow Colour Changer. genre: International-Electronic",
+    "genre": "International-Electronic",
+    "tags": [
+      "international-electronic"
+    ],
+    "valence": 5.6,
+    "arousal": 5.0,
+    "valence_std": 1.5,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1700",
+    "graph_path": "data/processed/deam/graphs/1700.pt",
+    "feature_path": "data/processed/deam/audio_features/1700.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1701",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1701.mp3",
+    "text_context": "artist: Assif Tsahar. track: JAM. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.0,
+    "arousal": 3.1,
+    "valence_std": 1.55,
+    "arousal_std": 1.51,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1701",
+    "graph_path": "data/processed/deam/graphs/1701.pt",
+    "feature_path": "data/processed/deam/audio_features/1701.pt",
+    "num_nodes": 18,
+    "num_edges": 192
+  },
+  {
+    "deam_song_id": "1702",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1702.mp3",
+    "text_context": "artist: Assif Tsahar. track: JAM. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.1,
+    "arousal": 3.9,
+    "valence_std": 1.3,
+    "arousal_std": 1.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1702",
+    "graph_path": "data/processed/deam/graphs/1702.pt",
+    "feature_path": "data/processed/deam/audio_features/1702.pt",
+    "num_nodes": 18,
+    "num_edges": 234
+  },
+  {
+    "deam_song_id": "1703",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1703.mp3",
+    "text_context": "artist: The Chris Kelsey 4. track: \u201cThe Oppo\u00adsite of Paul Desmond\u201d). genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 5.3,
+    "arousal": 6.7,
+    "valence_std": 1.42,
+    "arousal_std": 2.1,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1703",
+    "graph_path": "data/processed/deam/graphs/1703.pt",
+    "feature_path": "data/processed/deam/audio_features/1703.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1704",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1704.mp3",
+    "text_context": "artist: Jason Ajemian & The Highlife. track: Soak up the Sun. genre: Jazz-Rock",
+    "genre": "Jazz-Rock",
+    "tags": [
+      "jazz-rock"
+    ],
+    "valence": 5.3,
+    "arousal": 6.4,
+    "valence_std": 1.62,
+    "arousal_std": 1.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1704",
+    "graph_path": "data/processed/deam/graphs/1704.pt",
+    "feature_path": "data/processed/deam/audio_features/1704.pt",
+    "num_nodes": 18,
+    "num_edges": 228
+  },
+  {
+    "deam_song_id": "1705",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1705.mp3",
+    "text_context": "artist: Jason Ajemian & The Highlife. track: Monsters. genre: Jazz-Rock",
+    "genre": "Jazz-Rock",
+    "tags": [
+      "jazz-rock"
+    ],
+    "valence": 4.0,
+    "arousal": 4.4,
+    "valence_std": 1.34,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1705",
+    "graph_path": "data/processed/deam/graphs/1705.pt",
+    "feature_path": "data/processed/deam/audio_features/1705.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1706",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1706.mp3",
+    "text_context": "artist: Voodoo Suite. track: Voodoo. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 4.9,
+    "arousal": 4.0,
+    "valence_std": 1.81,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1706",
+    "graph_path": "data/processed/deam/graphs/1706.pt",
+    "feature_path": "data/processed/deam/audio_features/1706.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "1707",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/1707.mp3",
+    "text_context": "artist: Sandro Marinoni & Stefano Roncarolo. track: The Crow. genre: Jazz",
+    "genre": "Jazz",
+    "tags": [
+      "jazz"
+    ],
+    "valence": 3.5,
+    "arousal": 4.0,
+    "valence_std": 1.28,
+    "arousal_std": 1.26,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "1707",
+    "graph_path": "data/processed/deam/graphs/1707.pt",
+    "feature_path": "data/processed/deam/audio_features/1707.pt",
+    "num_nodes": 18,
+    "num_edges": 178
+  }
+]

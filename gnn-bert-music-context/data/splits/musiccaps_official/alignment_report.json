@@ -1,0 +1,9 @@
+{
+  "caption_source": "D:\\425 project\\gnn-bert-music-context\\data\\raw\\musiccaps\\musiccaps-public.csv",
+  "caption_records": 5521,
+  "matched": 0,
+  "unmatched": 20,
+  "train_records": 0,
+  "val_records": 0,
+  "test_records": 0
+}

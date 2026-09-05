@@ -1,0 +1,1602 @@
+[
+  {
+    "deam_song_id": "2",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/2.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Tonight  A Lonely Century. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.1,
+    "arousal": 3.0,
+    "valence_std": 0.94,
+    "arousal_std": 0.63,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "2",
+    "graph_path": "data/processed/deam/graphs/2.pt",
+    "feature_path": "data/processed/deam/audio_features/2.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "3",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/3.mp3",
+    "text_context": "artist: Kevin MacLeod. track: DD Groove. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.5,
+    "arousal": 3.3,
+    "valence_std": 1.75,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "3",
+    "graph_path": "data/processed/deam/graphs/3.pt",
+    "feature_path": "data/processed/deam/audio_features/3.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "4",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/4.mp3",
+    "text_context": "artist: Kevin MacLeod. track: Slow Burn. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.7,
+    "arousal": 5.5,
+    "valence_std": 1.42,
+    "arousal_std": 1.63,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "4",
+    "graph_path": "data/processed/deam/graphs/4.pt",
+    "feature_path": "data/processed/deam/audio_features/4.pt",
+    "num_nodes": 18,
+    "num_edges": 302
+  },
+  {
+    "deam_song_id": "5",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/5.mp3",
+    "text_context": "artist: My Bubba & Mi. track: Nothing Much. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.4,
+    "arousal": 5.3,
+    "valence_std": 2.01,
+    "arousal_std": 1.85,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "5",
+    "graph_path": "data/processed/deam/graphs/5.pt",
+    "feature_path": "data/processed/deam/audio_features/5.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "7",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/7.mp3",
+    "text_context": "artist: Kevin MacLeod. track: Hustle. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.8,
+    "arousal": 6.4,
+    "valence_std": 1.47,
+    "arousal_std": 1.69,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "7",
+    "graph_path": "data/processed/deam/graphs/7.pt",
+    "feature_path": "data/processed/deam/audio_features/7.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "8",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/8.mp3",
+    "text_context": "artist: Kevin MacLeod. track: Dirt Rhodes. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.2,
+    "arousal": 4.8,
+    "valence_std": 1.4,
+    "arousal_std": 1.54,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "8",
+    "graph_path": "data/processed/deam/graphs/8.pt",
+    "feature_path": "data/processed/deam/audio_features/8.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "10",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/10.mp3",
+    "text_context": "artist: Arne Bang Huseby. track: Stormy Blues. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.0,
+    "arousal": 4.7,
+    "valence_std": 1.67,
+    "arousal_std": 1.85,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "10",
+    "graph_path": "data/processed/deam/graphs/10.pt",
+    "feature_path": "data/processed/deam/audio_features/10.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "12",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/12.mp3",
+    "text_context": "artist: Sul Rebel. track: Rebel Blues. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.5,
+    "arousal": 5.8,
+    "valence_std": 1.91,
+    "arousal_std": 1.89,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "12",
+    "graph_path": "data/processed/deam/graphs/12.pt",
+    "feature_path": "data/processed/deam/audio_features/12.pt",
+    "num_nodes": 18,
+    "num_edges": 298
+  },
+  {
+    "deam_song_id": "13",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/13.mp3",
+    "text_context": "artist: My Bubba & Mi. track: Oh Kiss No. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.2,
+    "arousal": 4.0,
+    "valence_std": 1.4,
+    "arousal_std": 1.67,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "13",
+    "graph_path": "data/processed/deam/graphs/13.pt",
+    "feature_path": "data/processed/deam/audio_features/13.pt",
+    "num_nodes": 18,
+    "num_edges": 302
+  },
+  {
+    "deam_song_id": "17",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/17.mp3",
+    "text_context": "artist: Phoephus. track: Fjcb Reddit Gtr Fills Mix. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.4,
+    "arousal": 6.0,
+    "valence_std": 1.8,
+    "arousal_std": 2.05,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "17",
+    "graph_path": "data/processed/deam/graphs/17.pt",
+    "feature_path": "data/processed/deam/audio_features/17.pt",
+    "num_nodes": 18,
+    "num_edges": 302
+  },
+  {
+    "deam_song_id": "18",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/18.mp3",
+    "text_context": "artist: Black Rebel Motorcycle Club. track: Beat The Devil's Tattoo (Live @ KEXP). genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.8,
+    "arousal": 3.9,
+    "valence_std": 1.72,
+    "arousal_std": 1.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "18",
+    "graph_path": "data/processed/deam/graphs/18.pt",
+    "feature_path": "data/processed/deam/audio_features/18.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "19",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/19.mp3",
+    "text_context": "artist: WHO'S PANDA. track: Vultures. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.9,
+    "arousal": 4.3,
+    "valence_std": 1.64,
+    "arousal_std": 1.9,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "19",
+    "graph_path": "data/processed/deam/graphs/19.pt",
+    "feature_path": "data/processed/deam/audio_features/19.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "20",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/20.mp3",
+    "text_context": "artist: Stevie's Amp Shack. track: Blues Shuffle in A One Take Improv Exercise. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.4,
+    "arousal": 6.5,
+    "valence_std": 2.5,
+    "arousal_std": 2.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "20",
+    "graph_path": "data/processed/deam/graphs/20.pt",
+    "feature_path": "data/processed/deam/audio_features/20.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "21",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/21.mp3",
+    "text_context": "artist: Cian Nugent. track: My War Blues. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.6,
+    "arousal": 6.3,
+    "valence_std": 0.92,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "21",
+    "graph_path": "data/processed/deam/graphs/21.pt",
+    "feature_path": "data/processed/deam/audio_features/21.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "22",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/22.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: The Holy Feele. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.0,
+    "arousal": 4.8,
+    "valence_std": 1.34,
+    "arousal_std": 1.47,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "22",
+    "graph_path": "data/processed/deam/graphs/22.pt",
+    "feature_path": "data/processed/deam/audio_features/22.pt",
+    "num_nodes": 18,
+    "num_edges": 228
+  },
+  {
+    "deam_song_id": "24",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/24.mp3",
+    "text_context": "artist: Bombay Laughing Club. track: Workin Boy Blues. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.3,
+    "arousal": 3.9,
+    "valence_std": 1.62,
+    "arousal_std": 1.76,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "24",
+    "graph_path": "data/processed/deam/graphs/24.pt",
+    "feature_path": "data/processed/deam/audio_features/24.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "25",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/25.mp3",
+    "text_context": "artist: The Jon Spencer Blues Explosion. track: RL Got Soul. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 7.9,
+    "arousal": 4.7,
+    "valence_std": 0.7,
+    "arousal_std": 2.53,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "25",
+    "graph_path": "data/processed/deam/graphs/25.pt",
+    "feature_path": "data/processed/deam/audio_features/25.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "31",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/31.mp3",
+    "text_context": "artist: Short Hand. track: All is Right. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.7,
+    "arousal": 3.8,
+    "valence_std": 1.55,
+    "arousal_std": 1.54,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "31",
+    "graph_path": "data/processed/deam/graphs/31.pt",
+    "feature_path": "data/processed/deam/audio_features/31.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "32",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/32.mp3",
+    "text_context": "artist: The Agrarians. track: Princely & Comely. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.2,
+    "arousal": 3.3,
+    "valence_std": 1.78,
+    "arousal_std": 1.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "32",
+    "graph_path": "data/processed/deam/graphs/32.pt",
+    "feature_path": "data/processed/deam/audio_features/32.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "35",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/35.mp3",
+    "text_context": "artist: Olima Anditi. track: Apoli. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.8,
+    "arousal": 6.5,
+    "valence_std": 2.14,
+    "arousal_std": 2.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "35",
+    "graph_path": "data/processed/deam/graphs/35.pt",
+    "feature_path": "data/processed/deam/audio_features/35.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "37",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/37.mp3",
+    "text_context": "artist: The Jon Spencer Blues Explosion. track: Afro. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.6,
+    "arousal": 5.3,
+    "valence_std": 2.11,
+    "arousal_std": 2.0,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "37",
+    "graph_path": "data/processed/deam/graphs/37.pt",
+    "feature_path": "data/processed/deam/audio_features/37.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "39",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/39.mp3",
+    "text_context": "artist: Barrence Whitfield and The Savages. track: Ramblin' Rose. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 7.3,
+    "arousal": 5.4,
+    "valence_std": 1.85,
+    "arousal_std": 2.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "39",
+    "graph_path": "data/processed/deam/graphs/39.pt",
+    "feature_path": "data/processed/deam/audio_features/39.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "40",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/40.mp3",
+    "text_context": "artist: Chuck Prophet. track: You And Me Baby (Holding On) (Live @ KEXP). genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.6,
+    "arousal": 4.8,
+    "valence_std": 1.28,
+    "arousal_std": 1.54,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "40",
+    "graph_path": "data/processed/deam/graphs/40.pt",
+    "feature_path": "data/processed/deam/audio_features/40.pt",
+    "num_nodes": 18,
+    "num_edges": 242
+  },
+  {
+    "deam_song_id": "41",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/41.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Like Nothing Else. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 5.1,
+    "valence_std": 1.62,
+    "arousal_std": 1.3,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "41",
+    "graph_path": "data/processed/deam/graphs/41.pt",
+    "feature_path": "data/processed/deam/audio_features/41.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "42",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/42.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: A Cinematic Influence. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.1,
+    "arousal": 5.1,
+    "valence_std": 1.58,
+    "arousal_std": 1.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "42",
+    "graph_path": "data/processed/deam/graphs/42.pt",
+    "feature_path": "data/processed/deam/audio_features/42.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "43",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/43.mp3",
+    "text_context": "artist: The Agrarians. track: PuritansToo. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.7,
+    "arousal": 3.5,
+    "valence_std": 2.33,
+    "arousal_std": 1.5,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "43",
+    "graph_path": "data/processed/deam/graphs/43.pt",
+    "feature_path": "data/processed/deam/audio_features/43.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "44",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/44.mp3",
+    "text_context": "artist: Digital Primitives. track: Walkabout. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.9,
+    "arousal": 4.9,
+    "valence_std": 1.04,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "44",
+    "graph_path": "data/processed/deam/graphs/44.pt",
+    "feature_path": "data/processed/deam/audio_features/44.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "45",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/45.mp3",
+    "text_context": "artist: Mountain Cult. track: Untitled 05. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.1,
+    "arousal": 2.1,
+    "valence_std": 2.43,
+    "arousal_std": 1.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "45",
+    "graph_path": "data/processed/deam/graphs/45.pt",
+    "feature_path": "data/processed/deam/audio_features/45.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "46",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/46.mp3",
+    "text_context": "artist: Little Howlin' Wolf. track: Shes Too Fat. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.3,
+    "arousal": 4.0,
+    "valence_std": 1.95,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "46",
+    "graph_path": "data/processed/deam/graphs/46.pt",
+    "feature_path": "data/processed/deam/audio_features/46.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "47",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/47.mp3",
+    "text_context": "artist: Jahzzar. track: Boulevard St Germain. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.4,
+    "arousal": 4.4,
+    "valence_std": 1.74,
+    "arousal_std": 1.56,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "47",
+    "graph_path": "data/processed/deam/graphs/47.pt",
+    "feature_path": "data/processed/deam/audio_features/47.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "48",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/48.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Our Sacred Cues. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.5,
+    "arousal": 4.8,
+    "valence_std": 1.86,
+    "arousal_std": 1.78,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "48",
+    "graph_path": "data/processed/deam/graphs/48.pt",
+    "feature_path": "data/processed/deam/audio_features/48.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "49",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/49.mp3",
+    "text_context": "artist: The Agrarians. track: Our Nights on the Turnpike. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.9,
+    "arousal": 5.3,
+    "valence_std": 1.3,
+    "arousal_std": 1.19,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "49",
+    "graph_path": "data/processed/deam/graphs/49.pt",
+    "feature_path": "data/processed/deam/audio_features/49.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "50",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/50.mp3",
+    "text_context": "artist: Jahzzar. track: Railroad's Whiskey Co. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.6,
+    "arousal": 4.8,
+    "valence_std": 1.02,
+    "arousal_std": 1.08,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "50",
+    "graph_path": "data/processed/deam/graphs/50.pt",
+    "feature_path": "data/processed/deam/audio_features/50.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "51",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/51.mp3",
+    "text_context": "artist: The Agrarians. track: Fathers Tell Yr Sons. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.6,
+    "arousal": 3.2,
+    "valence_std": 1.11,
+    "arousal_std": 0.98,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "51",
+    "graph_path": "data/processed/deam/graphs/51.pt",
+    "feature_path": "data/processed/deam/audio_features/51.pt",
+    "num_nodes": 18,
+    "num_edges": 228
+  },
+  {
+    "deam_song_id": "52",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/52.mp3",
+    "text_context": "artist: The Agrarians. track: Recognize An Hour Divine. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.6,
+    "arousal": 5.1,
+    "valence_std": 1.11,
+    "arousal_std": 1.81,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "52",
+    "graph_path": "data/processed/deam/graphs/52.pt",
+    "feature_path": "data/processed/deam/audio_features/52.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "53",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/53.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Owed to Old Poets  Our Role in the Play. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 5.1,
+    "valence_std": 2.37,
+    "arousal_std": 1.7,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "53",
+    "graph_path": "data/processed/deam/graphs/53.pt",
+    "feature_path": "data/processed/deam/audio_features/53.pt",
+    "num_nodes": 18,
+    "num_edges": 228
+  },
+  {
+    "deam_song_id": "54",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/54.mp3",
+    "text_context": "artist: Fit and the Conniptions. track: Broken. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.1,
+    "arousal": 3.3,
+    "valence_std": 1.58,
+    "arousal_std": 1.62,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "54",
+    "graph_path": "data/processed/deam/graphs/54.pt",
+    "feature_path": "data/processed/deam/audio_features/54.pt",
+    "num_nodes": 18,
+    "num_edges": 292
+  },
+  {
+    "deam_song_id": "55",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/55.mp3",
+    "text_context": "artist: Big Bill Broonzy. track: Baby Please Don't Go. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.8,
+    "arousal": 5.4,
+    "valence_std": 1.33,
+    "arousal_std": 1.11,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "55",
+    "graph_path": "data/processed/deam/graphs/55.pt",
+    "feature_path": "data/processed/deam/audio_features/55.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "56",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/56.mp3",
+    "text_context": "artist: Vieux Farka Tour\u00e9. track: Fafa. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.4,
+    "arousal": 5.8,
+    "valence_std": 1.43,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "56",
+    "graph_path": "data/processed/deam/graphs/56.pt",
+    "feature_path": "data/processed/deam/audio_features/56.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "58",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/58.mp3",
+    "text_context": "artist: Fit and the Conniptions. track: Nothing's Any Fun Any More. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.3,
+    "arousal": 3.4,
+    "valence_std": 1.55,
+    "arousal_std": 1.56,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "58",
+    "graph_path": "data/processed/deam/graphs/58.pt",
+    "feature_path": "data/processed/deam/audio_features/58.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "59",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/59.mp3",
+    "text_context": "artist: The Agrarians. track: The Truth Is What We Make of It. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.3,
+    "arousal": 4.1,
+    "valence_std": 1.73,
+    "arousal_std": 1.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "59",
+    "graph_path": "data/processed/deam/graphs/59.pt",
+    "feature_path": "data/processed/deam/audio_features/59.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "60",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/60.mp3",
+    "text_context": "artist: Michael Chapman & The Woodpiles. track: Heat Index. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 6.4,
+    "valence_std": 1.49,
+    "arousal_std": 0.49,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "60",
+    "graph_path": "data/processed/deam/graphs/60.pt",
+    "feature_path": "data/processed/deam/audio_features/60.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "62",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/62.mp3",
+    "text_context": "artist: Zombie Prom Queen. track: Baby's Got Morphine Eyes. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.2,
+    "arousal": 3.9,
+    "valence_std": 0.87,
+    "arousal_std": 1.22,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "62",
+    "graph_path": "data/processed/deam/graphs/62.pt",
+    "feature_path": "data/processed/deam/audio_features/62.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "64",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/64.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Jungle Love Revisited. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.6,
+    "arousal": 4.9,
+    "valence_std": 1.28,
+    "arousal_std": 1.58,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "64",
+    "graph_path": "data/processed/deam/graphs/64.pt",
+    "feature_path": "data/processed/deam/audio_features/64.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "65",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/65.mp3",
+    "text_context": "artist: The Jon Spencer Blues Explosion. track: Bellbottoms. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.4,
+    "arousal": 5.8,
+    "valence_std": 1.43,
+    "arousal_std": 1.83,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "65",
+    "graph_path": "data/processed/deam/graphs/65.pt",
+    "feature_path": "data/processed/deam/audio_features/65.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "67",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/67.mp3",
+    "text_context": "artist: The Jon Spencer Blues Explosion. track: Gadzooks. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 7.2,
+    "arousal": 6.8,
+    "valence_std": 0.75,
+    "arousal_std": 1.4,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "67",
+    "graph_path": "data/processed/deam/graphs/67.pt",
+    "feature_path": "data/processed/deam/audio_features/67.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "68",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/68.mp3",
+    "text_context": "artist: Cian Nugent. track: Sixes & Sevens (Excerpt). genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.8,
+    "arousal": 4.9,
+    "valence_std": 1.33,
+    "arousal_std": 1.64,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "68",
+    "graph_path": "data/processed/deam/graphs/68.pt",
+    "feature_path": "data/processed/deam/audio_features/68.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "69",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/69.mp3",
+    "text_context": "artist: Billy Childish. track: Keep Your Lamp Trimmed And Burning [traditional]. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.2,
+    "arousal": 3.9,
+    "valence_std": 0.87,
+    "arousal_std": 0.83,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "69",
+    "graph_path": "data/processed/deam/graphs/69.pt",
+    "feature_path": "data/processed/deam/audio_features/69.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "70",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/70.mp3",
+    "text_context": "artist: Michael Chapman & The Woodpiles. track: Deportee. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.4,
+    "arousal": 3.6,
+    "valence_std": 1.69,
+    "arousal_std": 1.43,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "70",
+    "graph_path": "data/processed/deam/graphs/70.pt",
+    "feature_path": "data/processed/deam/audio_features/70.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "71",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/71.mp3",
+    "text_context": "artist: The Agrarians. track: The Daily Dose Age. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.9,
+    "arousal": 3.7,
+    "valence_std": 1.51,
+    "arousal_std": 0.78,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "71",
+    "graph_path": "data/processed/deam/graphs/71.pt",
+    "feature_path": "data/processed/deam/audio_features/71.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "72",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/72.mp3",
+    "text_context": "artist: Crete Boom. track: Bona Fide. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.7,
+    "arousal": 5.6,
+    "valence_std": 1.73,
+    "arousal_std": 2.01,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "72",
+    "graph_path": "data/processed/deam/graphs/72.pt",
+    "feature_path": "data/processed/deam/audio_features/72.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "73",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/73.mp3",
+    "text_context": "artist: Solo Dja Kabako. track: Lalalala. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.8,
+    "arousal": 5.6,
+    "valence_std": 1.72,
+    "arousal_std": 1.74,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "73",
+    "graph_path": "data/processed/deam/graphs/73.pt",
+    "feature_path": "data/processed/deam/audio_features/73.pt",
+    "num_nodes": 18,
+    "num_edges": 294
+  },
+  {
+    "deam_song_id": "74",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/74.mp3",
+    "text_context": "artist: Mount Carmel. track: Interview. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.0,
+    "arousal": 4.3,
+    "valence_std": 1.67,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "74",
+    "graph_path": "data/processed/deam/graphs/74.pt",
+    "feature_path": "data/processed/deam/audio_features/74.pt",
+    "num_nodes": 18,
+    "num_edges": 304
+  },
+  {
+    "deam_song_id": "76",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/76.mp3",
+    "text_context": "artist: Mountain Cult. track: Untitled 07. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 3.2,
+    "valence_std": 1.42,
+    "arousal_std": 1.83,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "76",
+    "graph_path": "data/processed/deam/graphs/76.pt",
+    "feature_path": "data/processed/deam/audio_features/76.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "77",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/77.mp3",
+    "text_context": "artist: The Rope River Blues Band. track: Yr Blues Tripping. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.2,
+    "arousal": 2.9,
+    "valence_std": 2.04,
+    "arousal_std": 1.14,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "77",
+    "graph_path": "data/processed/deam/graphs/77.pt",
+    "feature_path": "data/processed/deam/audio_features/77.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "78",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/78.mp3",
+    "text_context": "artist: Mr. & Mrs. Smith. track: How to go to sleep. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.4,
+    "arousal": 3.9,
+    "valence_std": 1.56,
+    "arousal_std": 1.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "78",
+    "graph_path": "data/processed/deam/graphs/78.pt",
+    "feature_path": "data/processed/deam/audio_features/78.pt",
+    "num_nodes": 18,
+    "num_edges": 302
+  },
+  {
+    "deam_song_id": "79",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/79.mp3",
+    "text_context": "artist: Digital Primitives. track: No Holiday. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.5,
+    "arousal": 5.5,
+    "valence_std": 2.11,
+    "arousal_std": 1.36,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "79",
+    "graph_path": "data/processed/deam/graphs/79.pt",
+    "feature_path": "data/processed/deam/audio_features/79.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "80",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/80.mp3",
+    "text_context": "artist: Lorenzo's Music. track: Roulette. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.0,
+    "arousal": 5.1,
+    "valence_std": 1.34,
+    "arousal_std": 1.37,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "80",
+    "graph_path": "data/processed/deam/graphs/80.pt",
+    "feature_path": "data/processed/deam/audio_features/80.pt",
+    "num_nodes": 18,
+    "num_edges": 272
+  },
+  {
+    "deam_song_id": "81",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/81.mp3",
+    "text_context": "artist: The Agrarians. track: The Newest Fashions. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.1,
+    "arousal": 3.9,
+    "valence_std": 1.92,
+    "arousal_std": 1.7,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "81",
+    "graph_path": "data/processed/deam/graphs/81.pt",
+    "feature_path": "data/processed/deam/audio_features/81.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "82",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/82.mp3",
+    "text_context": "artist: Mr. & Mrs. Smith. track: Goin On. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 2.9,
+    "arousal": 3.5,
+    "valence_std": 1.45,
+    "arousal_std": 1.63,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "82",
+    "graph_path": "data/processed/deam/graphs/82.pt",
+    "feature_path": "data/processed/deam/audio_features/82.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "83",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/83.mp3",
+    "text_context": "artist: Paul  Wine  Jones. track: If You Love Me Like You Say. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.1,
+    "arousal": 5.8,
+    "valence_std": 1.04,
+    "arousal_std": 1.72,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "83",
+    "graph_path": "data/processed/deam/graphs/83.pt",
+    "feature_path": "data/processed/deam/audio_features/83.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "84",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/84.mp3",
+    "text_context": "artist: Mount Carmel. track: Swallow Me Up. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.9,
+    "arousal": 5.6,
+    "valence_std": 2.02,
+    "arousal_std": 1.74,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "84",
+    "graph_path": "data/processed/deam/graphs/84.pt",
+    "feature_path": "data/processed/deam/audio_features/84.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "85",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/85.mp3",
+    "text_context": "artist: Lantern. track: Out Of Our Heads. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 7.1,
+    "arousal": 6.2,
+    "valence_std": 1.14,
+    "arousal_std": 1.6,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "85",
+    "graph_path": "data/processed/deam/graphs/85.pt",
+    "feature_path": "data/processed/deam/audio_features/85.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "86",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/86.mp3",
+    "text_context": "artist: Eat at Joe's. track: Eat at Joe's. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.4,
+    "arousal": 5.6,
+    "valence_std": 1.62,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "86",
+    "graph_path": "data/processed/deam/graphs/86.pt",
+    "feature_path": "data/processed/deam/audio_features/86.pt",
+    "num_nodes": 18,
+    "num_edges": 190
+  },
+  {
+    "deam_song_id": "87",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/87.mp3",
+    "text_context": "artist: Mountain Cult. track: Untitled 04. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.3,
+    "arousal": 2.6,
+    "valence_std": 2.45,
+    "arousal_std": 0.92,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "87",
+    "graph_path": "data/processed/deam/graphs/87.pt",
+    "feature_path": "data/processed/deam/audio_features/87.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "88",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/88.mp3",
+    "text_context": "artist: Lorenzo's Music. track: We All Fall Down. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.7,
+    "arousal": 5.5,
+    "valence_std": 1.73,
+    "arousal_std": 1.28,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "88",
+    "graph_path": "data/processed/deam/graphs/88.pt",
+    "feature_path": "data/processed/deam/audio_features/88.pt",
+    "num_nodes": 18,
+    "num_edges": 296
+  },
+  {
+    "deam_song_id": "89",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/89.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Common Experiences Man. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.5,
+    "arousal": 4.8,
+    "valence_std": 2.29,
+    "arousal_std": 2.04,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "89",
+    "graph_path": "data/processed/deam/graphs/89.pt",
+    "feature_path": "data/processed/deam/audio_features/89.pt",
+    "num_nodes": 18,
+    "num_edges": 238
+  },
+  {
+    "deam_song_id": "90",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/90.mp3",
+    "text_context": "artist: Fit and the Conniptions. track: Wood For The Trees. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 4.2,
+    "valence_std": 1.73,
+    "arousal_std": 1.72,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "90",
+    "graph_path": "data/processed/deam/graphs/90.pt",
+    "feature_path": "data/processed/deam/audio_features/90.pt",
+    "num_nodes": 18,
+    "num_edges": 206
+  },
+  {
+    "deam_song_id": "91",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/91.mp3",
+    "text_context": "artist: Sim Cain. track: One. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.5,
+    "arousal": 5.5,
+    "valence_std": 1.43,
+    "arousal_std": 1.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "91",
+    "graph_path": "data/processed/deam/graphs/91.pt",
+    "feature_path": "data/processed/deam/audio_features/91.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "92",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/92.mp3",
+    "text_context": "artist: The Rope River Blues Band. track: Further. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.8,
+    "arousal": 4.7,
+    "valence_std": 2.18,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "92",
+    "graph_path": "data/processed/deam/graphs/92.pt",
+    "feature_path": "data/processed/deam/audio_features/92.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "93",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/93.mp3",
+    "text_context": "artist: Betsy Olson. track: Waitin' (Live @ KEXP). genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 7.2,
+    "arousal": 6.0,
+    "valence_std": 0.75,
+    "arousal_std": 1.73,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "93",
+    "graph_path": "data/processed/deam/graphs/93.pt",
+    "feature_path": "data/processed/deam/audio_features/93.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "95",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/95.mp3",
+    "text_context": "artist: Steve Gunn. track: Old Strange. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.3,
+    "arousal": 4.6,
+    "valence_std": 1.85,
+    "arousal_std": 2.2,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "95",
+    "graph_path": "data/processed/deam/graphs/95.pt",
+    "feature_path": "data/processed/deam/audio_features/95.pt",
+    "num_nodes": 18,
+    "num_edges": 296
+  },
+  {
+    "deam_song_id": "96",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/96.mp3",
+    "text_context": "artist: The Devil Makes Three. track: Aces and Twos (Live @ KEXP). genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.8,
+    "arousal": 6.9,
+    "valence_std": 1.33,
+    "arousal_std": 1.3,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "96",
+    "graph_path": "data/processed/deam/graphs/96.pt",
+    "feature_path": "data/processed/deam/audio_features/96.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "98",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/98.mp3",
+    "text_context": "artist: The Agrarians. track: The Index of Memory. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 2.7,
+    "valence_std": 1.73,
+    "arousal_std": 1.42,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "98",
+    "graph_path": "data/processed/deam/graphs/98.pt",
+    "feature_path": "data/processed/deam/audio_features/98.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "99",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/99.mp3",
+    "text_context": "artist: The New Mystikal Troubadours. track: Chamber Blues' Tidal Band Presents. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 4.3,
+    "arousal": 4.1,
+    "valence_std": 1.85,
+    "arousal_std": 1.97,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "99",
+    "graph_path": "data/processed/deam/graphs/99.pt",
+    "feature_path": "data/processed/deam/audio_features/99.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "101",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/101.mp3",
+    "text_context": "artist: Mr. & Mrs. Smith. track: Least the Ocean is Wet. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 3.4,
+    "arousal": 2.8,
+    "valence_std": 1.62,
+    "arousal_std": 0.87,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "101",
+    "graph_path": "data/processed/deam/graphs/101.pt",
+    "feature_path": "data/processed/deam/audio_features/101.pt",
+    "num_nodes": 18,
+    "num_edges": 268
+  },
+  {
+    "deam_song_id": "102",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/102.mp3",
+    "text_context": "artist: Marisa Anderson. track: Electricity. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.5,
+    "arousal": 5.4,
+    "valence_std": 0.92,
+    "arousal_std": 1.56,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "102",
+    "graph_path": "data/processed/deam/graphs/102.pt",
+    "feature_path": "data/processed/deam/audio_features/102.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "103",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/103.mp3",
+    "text_context": "artist: Mountain Cult. track: Untitled 01. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 5.6,
+    "arousal": 3.3,
+    "valence_std": 1.91,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "103",
+    "graph_path": "data/processed/deam/graphs/103.pt",
+    "feature_path": "data/processed/deam/audio_features/103.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "104",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/104.mp3",
+    "text_context": "artist: The Rope River Blues Band. track: Ben Jonson's Blues. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.1,
+    "arousal": 3.3,
+    "valence_std": 1.81,
+    "arousal_std": 1.79,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "104",
+    "graph_path": "data/processed/deam/graphs/104.pt",
+    "feature_path": "data/processed/deam/audio_features/104.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  },
+  {
+    "deam_song_id": "105",
+    "audio_path": "data/raw/deam/audio/MEMD_audio/105.mp3",
+    "text_context": "artist: mojo monkeys. track: Girl Might Do. genre: Blues",
+    "genre": "Blues",
+    "tags": [
+      "blues"
+    ],
+    "valence": 6.5,
+    "arousal": 5.0,
+    "valence_std": 1.43,
+    "arousal_std": 1.41,
+    "audio_source": "DEAM official audio archive",
+    "target_source": "DEAM song-level averaged annotations",
+    "track_id": "105",
+    "graph_path": "data/processed/deam/graphs/105.pt",
+    "feature_path": "data/processed/deam/audio_features/105.pt",
+    "num_nodes": 18,
+    "num_edges": 306
+  }
+]

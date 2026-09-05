@@ -1,0 +1,19 @@
+{
+  "task": "task4",
+  "dataset": "MusicCaps verified audio-caption pairs",
+  "split": "test",
+  "train_samples": 76,
+  "validation_samples": 9,
+  "samples": 10,
+  "labels": [],
+  "caption_to_audio": {
+    "R@1": 0.2,
+    "R@5": 0.6,
+    "R@10": 1.0
+  },
+  "audio_to_caption": {
+    "R@1": 0.2,
+    "R@5": 0.8,
+    "R@10": 1.0
+  }
+}
