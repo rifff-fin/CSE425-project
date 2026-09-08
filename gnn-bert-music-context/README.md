@@ -14,31 +14,61 @@ A modular PyTorch project for music understanding that fuses graph-based audio r
 | Sajid Safiullah | 23201686 | `sajid.safiullah@g.bracu.ac.bd` | 4 |
 | Ariful Islam Naeem | 24141141 | `ariful.islam.naeem@g.bracu.ac.bd` | 6 |
 
-## Repository layout
+## Repository and project layout
+The Git repository root is `D:\\425 project`. This directory contains the course specification and the implementation directory. The **implementation project root** is `D:\\425 project\\gnn-bert-music-context`; run Python commands from there.
 
 ```text
-gnn-bert-music-context/
-├── config.yaml
-├── requirements.txt
-├── README.md
-├── src/
-│   ├── audio_features.py
-│   ├── graph_builder.py
-│   ├── preprocess_fma.py
-│   ├── enrich_fma_metadata.py
-│   ├── fma_dataset.py
-│   ├── bert_encoder.py
-│   ├── gnn_model.py
-│   ├── fusion_model.py
-│   ├── contrastive.py
-│   ├── train.py
-│   └── evaluate.py
-├── notebooks/
-│   └── demo_context.ipynb
-└── data/
-    ├── raw/              # downloaded datasets; excluded from Git
-    ├── processed/        # graph fixtures and generated features
-    └── splits/            # train/validation/test manifests
+D:\\425 project/                         # Git repository root
+├── README.md                              # repository overview
+├── CSE425_Project_GNN_BERT_Music_Context.md
+├── CSE425_Project_GNN_BERT_Music_Context (1) (4).pdf
+├── .gitignore
+├── drive musics/                          # tracked demo audio files
+└── gnn-bert-music-context/                 # implementation project root
+    ├── README.md
+    ├── requirements.txt
+    ├── config.yaml
+    ├── .gitignore
+    ├── CURRENT_PROJECT_STATUS.md
+    ├── PROJECT_REQUIREMENTS_AUDIT.md
+    ├── TASK_1_3_SUBMISSION_CHECKLIST.md
+    ├── TASK4_PROGRESS.md
+    ├── TASK_4_EXPLANATION.md
+    ├── data/
+    │   ├── raw/                            # downloaded datasets; excluded from Git
+    │   ├── processed/                       # graph fixtures and generated features
+    │   ├── processed_full/                  # full processed FMA artifacts
+    │   └── splits/                          # train/validation/test manifests
+    ├── notebooks/
+    │   ├── eda.ipynb
+    │   ├── demo_context.ipynb
+    │   └── demo_context.html
+    ├── src/
+    │   ├── audio_features.py               # mel, chroma, MFCC, segmentation
+    │   ├── graph_builder.py                 # segment graph construction
+    │   ├── preprocess_fma.py
+    │   ├── bert_encoder.py                  # BERT/DistilBERT encoder
+    │   ├── gnn_model.py                     # GraphSAGE/GAT encoder
+    │   ├── fusion_model.py                  # cross-attention GNN-BERT
+    │   ├── contrastive.py                   # Task 4 InfoNCE
+    │   ├── train.py
+    │   └── evaluate.py
+    ├── results/
+    │   ├── metrics.json
+    │   ├── plots/
+    │   └── retrieval_examples/
+    ├── checkpoints/                         # local checkpoints; excluded from Git
+    └── report/
+        ├── final_report.tex
+        └── final_report.md
+```
+
+Example Windows PowerShell setup:
+
+```powershell
+Set-Location 'D:\\425 project\\gnn-bert-music-context'
+pip install -r requirements.txt
+python src/train.py --task task1
 ```
 
 ## Environment setup

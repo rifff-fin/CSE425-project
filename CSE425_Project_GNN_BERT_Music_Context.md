@@ -381,36 +381,62 @@ Each group must submit:
 4. Final report PDF (6–10 pages; NeurIPS / IEEE / ICML Overleaf template)
 5. Demo notebook (`notebooks/demo_context.ipynb`) with one end-to-end inference example
 
-### GitHub project structure
+### GitHub repository structure
+The GitHub repository root is `D:\\425 project`. The implementation lives in the `gnn-bert-music-context/` subdirectory. Therefore, the repository-level structure is:
 
 ```
-gnn-bert-music-context/
-├── README.md
-├── requirements.txt
-├── config.yaml
-├── data/
-│   ├── raw/              # FMA, MagnaTagATune, MusicCaps downloads
-│   ├── processed/        # graphs, mel-spec, BERT caches
-│   └── splits/           # train/val/test JSON
-├── notebooks/
-│   ├── eda.ipynb
-│   └── demo_context.ipynb
-├── src/
-│   ├── audio_features.py   # mel, chroma, segmentation
-│   ├── graph_builder.py    # chord + segment graphs
-│   ├── bert_encoder.py
-│   ├── gnn_model.py        # GraphSAGE / GAT
-│   ├── fusion_model.py     # cross-attention GNN-BERT
-│   ├── contrastive.py      # Task 4 InfoNCE
-│   ├── train.py
-│   └── evaluate.py
-├── results/
-│   ├── metrics.json
-│   ├── plots/
-│   └── retrieval_examples/
-└── report/
-    └── final_report.pdf
+D:\\425 project/                         # Git repository root
+├── README.md                              # repository overview and Group 27 members
+├── CSE425_Project_GNN_BERT_Music_Context.md
+├── CSE425_Project_GNN_BERT_Music_Context (1) (4).pdf
+├── .gitignore
+├── drive musics/                          # local/demo audio files tracked for the project
+└── gnn-bert-music-context/                 # project implementation root
+    ├── README.md
+    ├── requirements.txt
+    ├── config.yaml
+    ├── .gitignore
+    ├── CURRENT_PROJECT_STATUS.md
+    ├── PROJECT_REQUIREMENTS_AUDIT.md
+    ├── TASK_1_3_SUBMISSION_CHECKLIST.md
+    ├── TASK4_PROGRESS.md
+    ├── TASK_4_EXPLANATION.md
+    ├── data/
+    │   ├── raw/                            # downloaded datasets; local/raw files are ignored
+    │   ├── processed/                       # processed graph/audio fixtures
+    │   ├── processed_full/                  # full processed FMA graph/audio artifacts
+    │   └── splits/                          # train/validation/test manifests
+    ├── notebooks/
+    │   ├── eda.ipynb
+    │   ├── demo_context.ipynb
+    │   └── demo_context.html
+    ├── src/
+    │   ├── audio_features.py                # mel, chroma, MFCC, segmentation
+    │   ├── graph_builder.py                 # segment graph construction
+    │   ├── bert_encoder.py                   # BERT/DistilBERT encoder
+    │   ├── gnn_model.py                      # GraphSAGE/GAT encoder
+    │   ├── fusion_model.py                   # cross-attention GNN-BERT
+    │   ├── contrastive.py                    # Task 4 InfoNCE
+    │   ├── train.py                          # task training entry point
+    │   └── evaluate.py                       # metrics and evaluation
+    ├── results/
+    │   ├── metrics.json
+    │   ├── plots/
+    │   └── retrieval_examples/
+    ├── checkpoints/                          # local model checkpoints; excluded from Git
+    └── report/
+        ├── final_report.tex
+        └── final_report.md
 ```
+
+Commands for the implementation must be run from the project implementation root:
+
+```powershell
+Set-Location 'D:\\425 project\\gnn-bert-music-context'
+python src/train.py --task task1
+```
+
+The final report PDF should be generated as `gnn-bert-music-context/report/final_report.pdf` after compiling `report/final_report.tex`.
 
 ### Report template links (Overleaf)
 
