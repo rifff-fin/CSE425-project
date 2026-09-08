@@ -1,0 +1,245 @@
+{
+  "dataset": "MusicCaps",
+  "examples": [
+    {
+      "query_caption": "The Romance song features an electric guitar lick, low toms roll and soft crash cymbal, followed by emotional piano chord progression and wide background crowd screams, as the passionate male vocal sings over it. Judging by the crowd sound effect, it seems that this is a live performance. Sounds emotional, passionate, heartfelt and romantic.",
+      "query_audio_id": "-r2-9oyIzkQ",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-sRFfU8k0Zs",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-sRFfU8k0Zs.wav",
+          "similarity": 0.24129429459571838
+        },
+        {
+          "rank": 2,
+          "track_id": "-rAhS48FkYw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-rAhS48FkYw.wav",
+          "similarity": 0.23076801002025604
+        },
+        {
+          "rank": 3,
+          "track_id": "-v5hgCh3M2w",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-v5hgCh3M2w.wav",
+          "similarity": 0.22952936589717865
+        }
+      ]
+    },
+    {
+      "query_caption": "This song features a female voice singing in opera style using only vocables and no words. This is accompanied by violins playing eighth note patterns that change according to the chords being played. The bass follows the root notes of the chords. A muted guitar or string instrument plays arpeggiated chords. This song can be played in a fantasy game.",
+      "query_audio_id": "-r7iz-9v9bA",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-r7iz-9v9bA",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r7iz-9v9bA.wav",
+          "similarity": 0.36587661504745483
+        },
+        {
+          "rank": 2,
+          "track_id": "-rAhS48FkYw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-rAhS48FkYw.wav",
+          "similarity": 0.29979389905929565
+        },
+        {
+          "rank": 3,
+          "track_id": "-tpq_bzSKes",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tpq_bzSKes.wav",
+          "similarity": 0.27669042348861694
+        }
+      ]
+    },
+    {
+      "query_caption": "The low quality recording features a pop song that consists of a passionate male vocal singing over mellow kick hits, shimmering hi hats, wide electric guitar melody, syncopated snare and wooden percussion. The first half of the loop does not consist of the vocal, snare and hi hats. It sounds happy, fun and joyful.",
+      "query_audio_id": "-rAhS48FkYw",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-v5hgCh3M2w",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-v5hgCh3M2w.wav",
+          "similarity": 0.3768227696418762
+        },
+        {
+          "rank": 2,
+          "track_id": "-r2-9oyIzkQ",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r2-9oyIzkQ.wav",
+          "similarity": 0.23642732203006744
+        },
+        {
+          "rank": 3,
+          "track_id": "-rAhS48FkYw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-rAhS48FkYw.wav",
+          "similarity": 0.23469042778015137
+        }
+      ]
+    },
+    {
+      "query_caption": "This is an Arabic movie music piece. It is an instrumental piece. There is a clarinet playing a vague melody. The sound of knives being rubbed against one another can be heard. There is an ominous, terrifying atmosphere. This piece could be used in the soundtrack of a horror movie to imply the feeling of hopelessness.",
+      "query_audio_id": "-sRFfU8k0Zs",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-tKZOl4q1Kw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tKZOl4q1Kw.wav",
+          "similarity": 0.16252820193767548
+        },
+        {
+          "rank": 2,
+          "track_id": "-tpq_bzSKes",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tpq_bzSKes.wav",
+          "similarity": 0.15573328733444214
+        },
+        {
+          "rank": 3,
+          "track_id": "-taO6N-rxv4",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-taO6N-rxv4.wav",
+          "similarity": 0.047187596559524536
+        }
+      ]
+    },
+    {
+      "query_caption": "The clip just contains a high pitched synth melody. The motif keeps going higher in pitch, and then eventually a riser comes in. The combination of these two factors creates a sense of build-up to a climactic moment.",
+      "query_audio_id": "-tKZOl4q1Kw",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-tpq_bzSKes",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tpq_bzSKes.wav",
+          "similarity": 0.21396708488464355
+        },
+        {
+          "rank": 2,
+          "track_id": "-rAhS48FkYw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-rAhS48FkYw.wav",
+          "similarity": 0.19600139558315277
+        },
+        {
+          "rank": 3,
+          "track_id": "-tKZOl4q1Kw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tKZOl4q1Kw.wav",
+          "similarity": 0.03884400427341461
+        }
+      ]
+    },
+    {
+      "query_caption": "This is a rock music piece playing in the background of a tutorial video. There is an electric guitar playing a simple tune as the lead while another provides a rhythmic backing by playing the same note repeatedly in rapid procession. There is an acoustic drum beat playing. There are water sound effects related to the video. The piece has a generic feeling. It does not evoke much excitement. It could be used as a jingle for an advertisement or in the background of an instructive video.",
+      "query_audio_id": "-taO6N-rxv4",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-tmY1GEH3_Y",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tmY1GEH3_Y.wav",
+          "similarity": 0.10875537991523743
+        },
+        {
+          "rank": 2,
+          "track_id": "-uaTK8sa5Ms",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-uaTK8sa5Ms.wav",
+          "similarity": 0.08459972590208054
+        },
+        {
+          "rank": 3,
+          "track_id": "-tpq_bzSKes",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tpq_bzSKes.wav",
+          "similarity": 0.05477026104927063
+        }
+      ]
+    },
+    {
+      "query_caption": "The low quality recording features a pop song that consists of an echoing male vocal singing over punchy kick and snare hits, shimmering hi hats, metallic percussions, synth lead melody, synth pad chords and groovy synth bass. It sounds energetic, nostalgic and exciting - like something you would hear in clubs during the 80s.",
+      "query_audio_id": "-tmY1GEH3_Y",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-v5hgCh3M2w",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-v5hgCh3M2w.wav",
+          "similarity": 0.4242767095565796
+        },
+        {
+          "rank": 2,
+          "track_id": "-r2-9oyIzkQ",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r2-9oyIzkQ.wav",
+          "similarity": 0.27976781129837036
+        },
+        {
+          "rank": 3,
+          "track_id": "-rAhS48FkYw",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-rAhS48FkYw.wav",
+          "similarity": 0.16225242614746094
+        }
+      ]
+    },
+    {
+      "query_caption": "This composition contains an upright bass playing softly along to a harp and strings playing a melody while a male deep voice is softly singing a melody sounding like telling a story. The song sounds like it was made for Christmas. This song may be playing at home having dinner with the whole family.",
+      "query_audio_id": "-tpq_bzSKes",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-sRFfU8k0Zs",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-sRFfU8k0Zs.wav",
+          "similarity": 0.45812007784843445
+        },
+        {
+          "rank": 2,
+          "track_id": "-uaTK8sa5Ms",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-uaTK8sa5Ms.wav",
+          "similarity": 0.3702309727668762
+        },
+        {
+          "rank": 3,
+          "track_id": "-taO6N-rxv4",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-taO6N-rxv4.wav",
+          "similarity": 0.24016621708869934
+        }
+      ]
+    },
+    {
+      "query_caption": "An acoustic drum set is playing a 16th note rhythm using the edge of his snare and a hihat sound opening and closing. A banjo is playing a fast melody along with a violin/viola playing the same melody. An upright bass is playing a walking bassline. This song may be playing in a funny tv-show.",
+      "query_audio_id": "-uaTK8sa5Ms",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-v5hgCh3M2w",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-v5hgCh3M2w.wav",
+          "similarity": 0.4101351201534271
+        },
+        {
+          "rank": 2,
+          "track_id": "-r2-9oyIzkQ",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r2-9oyIzkQ.wav",
+          "similarity": 0.3247399926185608
+        },
+        {
+          "rank": 3,
+          "track_id": "-tmY1GEH3_Y",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-tmY1GEH3_Y.wav",
+          "similarity": 0.2653283476829529
+        }
+      ]
+    },
+    {
+      "query_caption": "The Soft Rock song features a passionate female vocalist singing over a wide electric guitar melody, punchy snare, soft kick hits, groovy bass guitar and shimmering hi-hats. It sounds sad, emotional and passionate - like something you would listen to on a day you are feeling down.",
+      "query_audio_id": "-v5hgCh3M2w",
+      "top_3_retrieved_audio": [
+        {
+          "rank": 1,
+          "track_id": "-v5hgCh3M2w",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-v5hgCh3M2w.wav",
+          "similarity": 0.3830486536026001
+        },
+        {
+          "rank": 2,
+          "track_id": "-r2-9oyIzkQ",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r2-9oyIzkQ.wav",
+          "similarity": 0.2560155689716339
+        },
+        {
+          "rank": 3,
+          "track_id": "-uaTK8sa5Ms",
+          "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-uaTK8sa5Ms.wav",
+          "similarity": 0.16961213946342468
+        }
+      ]
+    }
+  ]
+}

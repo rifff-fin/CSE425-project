@@ -1,0 +1,28 @@
+{
+  "expected_ratings": 150,
+  "completed_ratings": 150,
+  "missing_ratings": 0,
+  "invalid_ratings": 0,
+  "listeners": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "queries": 10,
+  "mean_score": 2.1266666666666665,
+  "score_distribution": {
+    "1": 80,
+    "2": 23,
+    "3": 20,
+    "4": 2,
+    "5": 25
+  },
+  "mean_score_by_rank": {
+    "1": 2.1,
+    "2": 1.92,
+    "3": 2.36
+  },
+  "status": "complete"
+}
