@@ -104,12 +104,15 @@ def main() -> None:
     for index, record in enumerate(test_records[:3]):
         graph = test_ds[index]["graph"]
         edge_preview = graph.edge_index[:, : min(10, graph.edge_index.size(1))].T.tolist()
+        graph_path = Path(record["graph_path"])
+        if graph_path.is_absolute():
+            graph_path = graph_path.resolve().relative_to(root.resolve())
         case_studies.append({
             "track_id": record["track_id"],
             "text_context": record.get("text_context", ""),
             "true_tags": record.get("tags", []),
             "predicted_top_tags": [labels[item] for item in torch.argsort(predictions["early_concat"][index], descending=True)[:5].tolist()],
-            "graph_path": record["graph_path"],
+            "graph_path": graph_path.as_posix(),
             "num_nodes": record.get("num_nodes"),
             "num_edges": record.get("num_edges"),
             "graph_edge_preview": edge_preview,
