@@ -1,0 +1,177 @@
+{
+  "task": "task3",
+  "analysis": "caption_graph_alignment_case_studies",
+  "dataset": "MusicCaps verified audio-caption subset",
+  "samples": 3,
+  "case_studies": [
+    {
+      "track_id": "-r2-9oyIzkQ",
+      "caption": "The Romance song features an electric guitar lick, low toms roll and soft crash cymbal, followed by emotional piano chord progression and wide background crowd screams, as the passionate male vocal sings over it. Judging by the crowd sound effect, it seems that this is a live performance. Sounds emotional, passionate, heartfelt and romantic.",
+      "text_source": "musiccaps",
+      "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r2-9oyIzkQ.wav",
+      "graph_path": "data/processed/musiccaps/graphs/-r2-9oyIzkQ.pt",
+      "caption_graph_alignment": {
+        "shared_track_id": "-r2-9oyIzkQ",
+        "caption_start_s": 30.0,
+        "caption_end_s": 40.0,
+        "num_nodes": 7,
+        "num_edges": 32,
+        "edge_preview": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "track_id": "-r7iz-9v9bA",
+      "caption": "This song features a female voice singing in opera style using only vocables and no words. This is accompanied by violins playing eighth note patterns that change according to the chords being played. The bass follows the root notes of the chords. A muted guitar or string instrument plays arpeggiated chords. This song can be played in a fantasy game.",
+      "text_source": "musiccaps",
+      "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-r7iz-9v9bA.wav",
+      "graph_path": "data/processed/musiccaps/graphs/-r7iz-9v9bA.pt",
+      "caption_graph_alignment": {
+        "shared_track_id": "-r7iz-9v9bA",
+        "caption_start_s": 30.0,
+        "caption_end_s": 40.0,
+        "num_nodes": 7,
+        "num_edges": 42,
+        "edge_preview": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "track_id": "-rAhS48FkYw",
+      "caption": "The low quality recording features a pop song that consists of a passionate male vocal singing over mellow kick hits, shimmering hi hats, wide electric guitar melody, syncopated snare and wooden percussion. The first half of the loop does not consist of the vocal, snare and hi hats. It sounds happy, fun and joyful.",
+      "text_source": "musiccaps",
+      "audio_path": "D:/425 project/gnn-bert-music-context/data/raw/musiccaps/audio/-rAhS48FkYw.wav",
+      "graph_path": "data/processed/musiccaps/graphs/-rAhS48FkYw.pt",
+      "caption_graph_alignment": {
+        "shared_track_id": "-rAhS48FkYw",
+        "caption_start_s": 30.0,
+        "caption_end_s": 40.0,
+        "num_nodes": 7,
+        "num_edges": 32,
+        "edge_preview": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    }
+  ],
+  "note": "These are verified caption/graph alignment cases for Task 3 analysis; FMA supervised tags and DEAM emotion regression remain separate task paths."
+}

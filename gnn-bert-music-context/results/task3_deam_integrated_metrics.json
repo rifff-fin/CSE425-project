@@ -1,0 +1,31 @@
+{
+  "task": "task3",
+  "dataset": "DEAM verified audio-text-emotion pairs",
+  "split": "test",
+  "train_samples": 80,
+  "validation_samples": 10,
+  "samples": 10,
+  "labels": [
+    "blues",
+    "international-electronic",
+    "international-folk-pop-experimental-rock",
+    "jazz",
+    "jazz-rock",
+    "pop",
+    "pop-electronic",
+    "pop-experimental",
+    "pop-experimental-electronic",
+    "pop-experimental-rock",
+    "pop-rock"
+  ],
+  "emotion_target_scale": "DEAM song-level valence/arousal, 1-9 scale",
+  "macro_f1": 0.01652892561983471,
+  "micro_f1": 0.03571428571428571,
+  "auc_pr": 0.0803131627419662,
+  "valence": {
+    "mae": 4.271796226501465
+  },
+  "arousal": {
+    "mae": 3.742548704147339
+  }
+}

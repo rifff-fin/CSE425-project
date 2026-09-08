@@ -1,0 +1,271 @@
+{
+  "task": "task1_caption_to_tag_proxy",
+  "dataset": "MusicCaps verified caption subset",
+  "label_count": 50,
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "acoustic",
+    "arabic",
+    "bass",
+    "brass",
+    "calm",
+    "choir",
+    "clarinet",
+    "classical",
+    "concert",
+    "country",
+    "dance",
+    "dark",
+    "drums",
+    "electric",
+    "electronic",
+    "emotional",
+    "energetic",
+    "female vocal",
+    "folk",
+    "funk",
+    "guitar",
+    "happy",
+    "hip hop",
+    "horror",
+    "instrumental",
+    "jazz",
+    "live",
+    "male vocal",
+    "melody",
+    "metal",
+    "orchestral",
+    "piano",
+    "pop",
+    "rap",
+    "reggae",
+    "rock",
+    "romantic",
+    "sad",
+    "saxophone",
+    "singer",
+    "soul",
+    "strings",
+    "synth",
+    "tempo",
+    "violin",
+    "vocal",
+    "voice",
+    "woodwind",
+    "world",
+    "worship"
+  ],
+  "proxy_labeling": "deterministic lexical caption matches; not independent human ground truth",
+  "examples": [
+    {
+      "track_id": "-r2-9oyIzkQ",
+      "caption": "The Romance song features an electric guitar lick, low toms roll and soft crash cymbal, followed by emotional piano chord progression and wide background crowd screams, as the passionate male vocal sings over it. Judging by the crowd sound effect, it seems that this is a live performance. Sounds emotional, passionate, heartfelt and romantic.",
+      "proxy_tags": [
+        "electric",
+        "emotional",
+        "guitar",
+        "live",
+        "male vocal",
+        "piano",
+        "romantic",
+        "vocal"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "bass",
+        "female vocal",
+        "funk",
+        "instrumental",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "instrumental",
+          "score": 0.5838212966918945
+        },
+        {
+          "label": "funk",
+          "score": 0.5595702528953552
+        },
+        {
+          "label": "bass",
+          "score": 0.5440921187400818
+        },
+        {
+          "label": "female vocal",
+          "score": 0.5435867309570312
+        },
+        {
+          "label": "voice",
+          "score": 0.5180710554122925
+        }
+      ]
+    },
+    {
+      "track_id": "-r7iz-9v9bA",
+      "caption": "This song features a female voice singing in opera style using only vocables and no words. This is accompanied by violins playing eighth note patterns that change according to the chords being played. The bass follows the root notes of the chords. A muted guitar or string instrument plays arpeggiated chords. This song can be played in a fantasy game.",
+      "proxy_tags": [
+        "bass",
+        "female vocal",
+        "guitar",
+        "violin",
+        "voice"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "bass",
+        "female vocal",
+        "funk",
+        "instrumental",
+        "pop",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "female vocal",
+          "score": 0.5633915066719055
+        },
+        {
+          "label": "instrumental",
+          "score": 0.5627972483634949
+        },
+        {
+          "label": "voice",
+          "score": 0.538160502910614
+        },
+        {
+          "label": "bass",
+          "score": 0.527297854423523
+        },
+        {
+          "label": "funk",
+          "score": 0.5243089199066162
+        }
+      ]
+    },
+    {
+      "track_id": "-rAhS48FkYw",
+      "caption": "The low quality recording features a pop song that consists of a passionate male vocal singing over mellow kick hits, shimmering hi hats, wide electric guitar melody, syncopated snare and wooden percussion. The first half of the loop does not consist of the vocal, snare and hi hats. It sounds happy, fun and joyful.",
+      "proxy_tags": [
+        "electric",
+        "guitar",
+        "happy",
+        "male vocal",
+        "melody",
+        "pop",
+        "vocal"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "bass",
+        "female vocal",
+        "funk",
+        "instrumental"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "instrumental",
+          "score": 0.5913209319114685
+        },
+        {
+          "label": "funk",
+          "score": 0.5732417106628418
+        },
+        {
+          "label": "bass",
+          "score": 0.5394212603569031
+        },
+        {
+          "label": "female vocal",
+          "score": 0.5232421159744263
+        },
+        {
+          "label": "metal",
+          "score": 0.483247309923172
+        }
+      ]
+    },
+    {
+      "track_id": "-sRFfU8k0Zs",
+      "caption": "This is an Arabic movie music piece. It is an instrumental piece. There is a clarinet playing a vague melody. The sound of knives being rubbed against one another can be heard. There is an ominous, terrifying atmosphere. This piece could be used in the soundtrack of a horror movie to imply the feeling of hopelessness.",
+      "proxy_tags": [
+        "arabic",
+        "clarinet",
+        "horror",
+        "instrumental",
+        "melody"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "bass",
+        "female vocal",
+        "funk",
+        "instrumental",
+        "male vocal",
+        "piano",
+        "rock",
+        "world"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "instrumental",
+          "score": 0.5864137411117554
+        },
+        {
+          "label": "female vocal",
+          "score": 0.5442124605178833
+        },
+        {
+          "label": "bass",
+          "score": 0.5339934825897217
+        },
+        {
+          "label": "funk",
+          "score": 0.5249137282371521
+        },
+        {
+          "label": "rock",
+          "score": 0.5128308534622192
+        }
+      ]
+    },
+    {
+      "track_id": "-tKZOl4q1Kw",
+      "caption": "The clip just contains a high pitched synth melody. The motif keeps going higher in pitch, and then eventually a riser comes in. The combination of these two factors creates a sense of build-up to a climactic moment.",
+      "proxy_tags": [
+        "melody",
+        "synth"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "bass",
+        "female vocal",
+        "funk",
+        "instrumental",
+        "male vocal",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "instrumental",
+          "score": 0.5929949283599854
+        },
+        {
+          "label": "bass",
+          "score": 0.5873623490333557
+        },
+        {
+          "label": "funk",
+          "score": 0.5501194596290588
+        },
+        {
+          "label": "male vocal",
+          "score": 0.5215960144996643
+        },
+        {
+          "label": "female vocal",
+          "score": 0.5131943225860596
+        }
+      ]
+    }
+  ],
+  "macro_f1": 0.03703463203463203,
+  "micro_f1": 0.17391304347826086,
+  "auc_pr": 0.18030607363039997
+}

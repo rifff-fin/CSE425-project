@@ -16,24 +16,44 @@
 \setlist{nosep}
 
 \title{GNN--BERT Music Context Understanding:\\Real-Data Tagging, Fusion, and MusicCaps Retrieval}
-\author{Moin Mostakim\\CSE425 / EEE474 / CSE715}
+\author{Group 27\\
+Abdullah Al Rifat (22201979)\\
+Farhanul Haque Mridul (22201964)\\
+Sajid Safiullah (23201686)\\
+Ariful Islam Naeem (24141141)\\[0.3em]
+CSE425 / EEE474 / CSE715\\
+Sections: 6, 6, 4, 6}
 \date{September 2026}
 
 \begin{document}
 \maketitle
+\section*{Group Information}
+\begin{center}
+\small
+\begin{tabular}{llll}
+\toprule
+Name & ID & Email & Section\\
+\midrule
+Abdullah Al Rifat & 22201979 & \texttt{abdullah.al.rifat1@g.bracu.ac.bd} & 6\\
+Farhanul Haque Mridul & 22201964 & \texttt{farhanul.haque.mridul@g.bracu.ac.bd} & 6\\
+Sajid Safiullah & 23201686 & \texttt{sajid.safiullah@g.bracu.ac.bd} & 4\\
+Ariful Islam Naeem & 24141141 & \texttt{ariful.islam.naeem@g.bracu.ac.bd} & 6\\
+\bottomrule
+\end{tabular}
+\end{center}
 
 \begin{abstract}
-This report presents a reproducible multimodal music-context system that combines DistilBERT text representations, PyTorch Geometric segment graphs, GraphSAGE audio encoding, cross-attention fusion, and contrastive audio--text retrieval. The experiments use a 100-track processed FMA-small sample for tagging and graph tasks, within-dataset DEAM audio/emotion pairs for regression, and 95 locally verified MusicCaps audio--caption pairs for Task 4. The repository includes controlled baselines, ablation probes, held-out retrieval evaluation, qualitative retrieval exports, and reproducibility scripts. Results are reported as execution evidence on the available subsets, not as claims over the full source datasets. Human listener ratings remain a required external collection step.
+This report presents a reproducible multimodal music-context system that combines DistilBERT text representations, PyTorch Geometric segment graphs, GraphSAGE audio encoding, cross-attention fusion, and contrastive audio--text retrieval. The controlled tagging and graph experiments use a 100-track processed FMA-small sample, while full preprocessing produced 7,994 graph/feature pairs and a one-epoch full-data GNN check. The experiments also use within-dataset DEAM audio/emotion pairs for regression and 95 locally verified MusicCaps audio--caption pairs for Task 4. The repository includes controlled baselines, ablation probes, held-out retrieval evaluation, qualitative retrieval exports, and reproducibility scripts. Results are reported as execution evidence on the available subsets, not as claims over the full source datasets. Human listener ratings remain a required external collection step.
 \end{abstract}
 
 \section{Introduction}
 Music context includes genre, instrumentation, mood, production characteristics, and natural-language descriptions. Audio-only sequence models capture local spectral patterns but do not explicitly represent relationships among temporal segments. Text-only models capture semantic descriptions but do not observe the audio structure. This project studies a hybrid representation in which a graph encoder summarizes audio segments and a BERT encoder summarizes metadata or captions.
 
-The project follows the four-task roadmap in the assignment specification: BERT tagging, graph-based audio classification, GNN--BERT fusion, and contrastive MusicCaps alignment. The implementation emphasizes strict data provenance. Records are paired only when the graph/audio file and text record share a verified source identifier; coincidental numeric overlap across unrelated datasets is not used as an alignment rule.
+The project follows the four-task roadmap in the assignment specification: BERT tagging, graph-based audio classification, GNN--BERT fusion, and contrastive MusicCaps alignment. Tasks 1 and 2 are complete as controlled real-data subset experiments; Task 3 fusion is implemented and evaluated on FMA tags, while its integrated emotion-regression requirement remains separate and incomplete. The implementation emphasizes strict data provenance. Records are paired only when the graph/audio file and text record share a verified source identifier; coincidental numeric overlap across unrelated datasets is not used as an alignment rule.
 
 \section{Datasets and Data Integrity}
 \subsection{FMA}
-FMA-small audio and official metadata are used for Tasks 1--3. One hundred real tracks were processed at 22,050 Hz using fixed five-second windows with 2.5-second hop. Each track produces mel, chroma, MFCC-derived node features and a PyG segment graph. The leakage-safe split contains 80 training, 10 validation, and 10 test tracks. The expanded label vocabulary contains 26 FMA tags.
+FMA-small audio and official metadata are used for graph/tag tasks. For the specification-compliant Task 1 caption path, 95 verified MusicCaps audio-caption records provide natural-language text; deterministic lexical matching creates a fixed 50-label proxy ontology, with 41 labels observed in the current split. The proxy is explicitly not human ground truth. FMA graph preprocessing uses 22,050 Hz, fixed five-second windows, and a leakage-safe 80/10/10 controlled split.
 
 \subsection{DEAM}
 DEAM audio and song-level valence/arousal targets are paired by exact normalized DEAM song identifier. The resulting DEAM manifests contain 1,441 training, 180 validation, and 181 test records. DEAM identifiers are not joined to FMA identifiers.
@@ -53,13 +73,13 @@ Table~\ref{tab:ledger} records each deliverable. ``Done computationally'' means 
 \toprule
 Requirement & Status & Evidence and remaining action \\
 \midrule
-Task 1 BERT tagging & Done computationally & Three-epoch history, curve, and five held-out examples are in \texttt{results/}. \\
-Task 2 GNN/CNN comparison & Done computationally & Same 80/10/10 FMA split and three epochs; comparison JSON is in \texttt{results/}. \\
-Task 3 fusion and ablations & Done computationally & Cross-attention model, three probes, t-SNE, and three graph/text case studies are generated. \\
+Task 1 BERT tagging & Complete with caption-proxy qualification & DistilBERT three-epoch history, Macro-F1/Micro-F1 curve, and five MusicCaps caption-to-tag proxy examples are in \texttt{results/task1\_musiccaps\_proxy\_training\_history.json}, \texttt{results/plots/task1\_musiccaps\_proxy\_f1\_curve.png}, and \texttt{results/musiccaps\_task1\_proxy\_metrics.json}. Proxy labels are deterministic lexical labels, not independent annotations. \\
+Task 2 GNN/CNN comparison & Complete for controlled comparison & Same 80/10/10 FMA split and three epochs; comparison JSON and plot are in \texttt{results/}. A one-epoch full-data GNN check is also recorded. \\
+Task 3 fusion and ablations & Complete for controlled cross-dataset implementation & FMA tag fusion/ablations, DEAM graph/text/emotion regression, dataset-qualified genre/mood t-SNE, and FMA/MusicCaps cases are generated. FMA and DEAM remain provenance-separated. \\
 Task 4 MusicCaps retrieval & Done on verified subset & 95 real pairs: 76 train, 9 validation, 10 test; final run uses 20 epochs. This is not a full 5,521-clip claim. \\
 Task 4 qualitative and zero-shot outputs & Done computationally & Ten top-three retrieval examples and the FMA-vocabulary zero-shot baseline are in \texttt{results/}. \\
-Human evaluation & External, pending & Five real listeners must complete 150 rows in \texttt{human\_evaluation.csv}; no ratings are fabricated. \\
-Final report and demo & Source complete, PDF pending & \texttt{report/final\_report.tex} and the real FMA notebook exist. Compile the PDF and review the notebook. \\
+Human evaluation & Complete for supplied evaluation evidence & Five listeners supplied 150 valid ratings; the aggregate summary reports 150/150 completed and 0 missing or invalid ratings. \\
+Final report and demo & Source and notebook complete, PDF pending & The notebook is valid executed JSON; compile this source to PDF with a local LaTeX toolchain. \\
 \bottomrule
 \end{tabularx}
 \end{table*}
@@ -83,12 +103,12 @@ where $\tau$ is the temperature. The InfoNCE objective uses the diagonal pairs a
 Retrieval is evaluated in both caption-to-audio and audio-to-caption directions using Recall@1, Recall@5, and Recall@10.
 
 \section{Task 1: BERT Tagging}
-The Task 1 model fine-tunes DistilBERT with a multi-label classification head and binary cross-entropy. The executed real-data experiment ran for three epochs on the FMA split. The loss history is saved in \texttt{results/task1\_training\_history.json}, and the curve is shown in Figure~\ref{fig:task1}.
+The Task 1 model fine-tunes DistilBERT with a multi-label classification head and binary cross-entropy. The specification-compliant run uses MusicCaps captions and deterministic caption-derived proxy labels, with three epochs of real caption data. The loss and epoch-level Macro-F1/Micro-F1 history is saved in \texttt{results/task1\_musiccaps\_proxy\_training\_history.json}; the combined curve is shown in Figure~\ref{fig:task1}. The earlier FMA metadata-text run remains available as a separate controlled experiment.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.96\columnwidth]{task1_loss_curve.png}
-\caption{Three-epoch Task 1 training and validation loss on the real FMA split.}
+\includegraphics[width=0.96\columnwidth]{task1_musiccaps_proxy_f1_curve.png}
+\caption{Three-epoch Task 1 loss and epoch-level Macro-F1/Micro-F1 on the verified MusicCaps caption-to-tag proxy split.}
 \label{fig:task1}
 \end{figure}
 
@@ -112,10 +132,10 @@ Mel CNN & 0.00000 & 0.00000 & 0.04849\\
 \end{tabular}
 \end{table}
 
-The machine-readable comparison is in \texttt{results/task2\_gnn\_cnn\_comparison.json}. The result is an execution comparison on a small sample, not a claim that the architecture is optimized for the full FMA corpus.
+The machine-readable comparison is in \texttt{results/task2\_gnn\_cnn\_comparison.json}, with plot \texttt{results/plots/task2\_gnn\_cnn\_comparison.png}. The controlled result is an execution comparison on a small sample; the one-epoch full-data GNN result is separately recorded in \texttt{results/full\_fma\_task2\_metrics.json}. A full-data CNN run is not claimed.
 
 \section{Task 3: GNN--BERT Fusion}
-Three analysis probes were trained on frozen encoded representations using the same train/test records: BERT-only, GNN-only, and early concatenation. These probes provide a controlled representation ablation around the cross-modal architecture.
+Three analysis probes were trained on frozen encoded representations using the same train/test records: BERT-only, GNN-only, and early concatenation. These probes provide a controlled representation ablation around the cross-modal architecture. The FMA cross-attention run reports tag metrics in `results/task3_fma_submission_metrics.json`, while the integrated DEAM Task 3 run trains the same fusion head on verified DEAM graph/text/emotion pairs and reports valence/arousal MAE in `results/task3_deam_submission_metrics.json`. Because FMA and DEAM identifiers are unrelated, this is a documented cross-dataset Task 3 evaluation rather than a fabricated FMA emotion join.
 
 \begin{table}[t]
 \centering
@@ -133,12 +153,12 @@ Early concat & 0.02564 & 0.09524 & 0.11601\\
 \end{tabular}
 \end{table}
 
-The analysis script also exports three case studies with track identifiers, text context, graph paths, graph sizes, true tags, and predicted top tags. The t-SNE visualization in Figure~\ref{fig:tsne} shows the test embeddings used by the analysis script. These outputs are descriptive evidence; the small test set means they should not be interpreted as statistically stable conclusions.
+The analysis script exports three FMA tag case studies with track identifiers, text context, graph paths, graph sizes, true tags, and predicted top tags. In addition, `results/task3_caption_case_studies.json` exports three verified MusicCaps caption/graph cases with shared IDs, timestamp windows, graph paths, and edge previews. The DEAM t-SNE in Figure~\ref{fig:tsne} uses validated genre metadata and valence/arousal-derived mood quadrants; the FMA t-SNE is retained separately for tag analysis. These outputs are descriptive evidence; the small test sets mean they should not be interpreted as statistically stable conclusions.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.96\columnwidth]{task3_tsne.png}
-\caption{Two-dimensional t-SNE visualization of the Task 3 multimodal test representations.}
+\includegraphics[width=0.96\columnwidth]{task3_deam_tsne.png}
+\caption{Task 3 DEAM fused representations colored separately by validated genre and valence/arousal-derived mood quadrants.}
 \label{fig:tsne}
 \end{figure}
 
@@ -165,7 +185,7 @@ The 20-epoch optimization history is saved in \texttt{results/musiccaps\_task4\_
 Ten query captions and their top-three retrieved audio clips are exported to \texttt{results/retrieval\_examples/musiccaps\_examples.json}. Caption-derived zero-shot content words are exported to \texttt{results/musiccaps\_zero\_shot\_tags.json}. This zero-shot file is explicitly an unsupervised caption vocabulary baseline, not a supervised tag-prediction claim.
 
 \subsection{Human Evaluation}
-The assignment requests ratings from at least five listeners on a one-to-five scale. The repository creates one row for each listener, query, and top-three retrieved clip in \texttt{results/retrieval\_examples/human\_evaluation.csv}. The rating and notes columns must be completed by five actual listeners. No synthetic ratings are included in this report.
+The assignment requests ratings from at least five listeners on a one-to-five scale. The repository contains one row for each listener, query, and top-three retrieved clip in \texttt{results/retrieval\_examples/human\_evaluation.csv}. Five listeners supplied 150 valid ratings. The aggregation artifact reports 150 expected ratings, 150 completed ratings, 0 missing ratings, 0 invalid ratings, and status \texttt{complete}. The ratings are external evaluation evidence and are not used to retrain the model.
 
 \section{Baselines and Reproducibility}
 The majority predictor and mel-spectrogram CNN satisfy the required baseline comparison. The BERT-only Task 1 model is also used as a representation baseline for Task 3. All source files compile under Python 3.12. The principal commands are:
@@ -188,9 +208,9 @@ python src/evaluate_fma_multimodal.py --task task4 \\
 \end{verbatim}
 
 \section{Limitations and Completion Status}
-The experiments use small local subsets because full source datasets and YouTube availability are constrained. The 95-pair MusicCaps result is not a full 5,521-clip benchmark. MagnaTagATune metadata is present but its approximately three-gigabyte audio archive is not paired. Human evaluation is prepared but not completed. The 20-epoch Task 4 history shows training loss continuing below validation loss, indicating overfitting on the small subset; the held-out metrics are therefore the primary reported result. The report source is complete; PDF compilation requires a LaTeX toolchain such as TeX Live or MiKTeX.
+The controlled model experiments use a 100-track FMA split, while full FMA-small preprocessing produced 7,994/8,000 usable tracks and the full-data GNN check is reported separately. The experiments use small local subsets for some models because full source datasets and YouTube availability are constrained. The 95-pair MusicCaps result is not a full 5,521-clip benchmark. MagnaTagATune metadata is present but its approximately three-gigabyte audio archive is not paired. Human evaluation is complete for the supplied five-listener evidence. The 20-epoch Task 4 history shows training loss continuing below validation loss, indicating overfitting on the small subset; the held-out metrics are therefore the primary reported result. The report source is complete; PDF compilation requires a LaTeX toolchain such as TeX Live or MiKTeX.
 
 \section{Conclusion}
-The repository now contains an end-to-end real-data GNN--BERT implementation covering FMA tagging and graph learning, DEAM within-dataset emotion data, and genuine MusicCaps audio--caption contrastive retrieval. Every computational artifact is reproducible and tied to a manifest or checkpoint. The remaining submission actions are external: collect five listeners' ratings, review the final figures, compile this file to PDF, and package the repository with the generated evidence.
+The repository now contains an end-to-end real-data GNN--BERT implementation covering FMA tagging and graph learning, DEAM within-dataset emotion data, and genuine MusicCaps audio--caption contrastive retrieval. Every computational artifact is reproducible and tied to a manifest or checkpoint. The remaining submission actions are external: review the final figures, compile this file to PDF, record the demonstration video link, and package the repository with the generated evidence.
 
 \end{document}

@@ -30,24 +30,29 @@
     "reggae - dub",
     "rock"
   ],
+  "fusion_variant": "cross_attention_end_to_end_checkpoint",
   "ablations": {
     "bert_only": {
       "macro_f1": 0.07692307692307693,
       "micro_f1": 0.5217391304347826,
-      "auc_pr": 0.6523643023643024
+      "auc_pr": 0.674009324009324
     },
     "gnn_only": {
-      "macro_f1": 0.019230769230769232,
-      "micro_f1": 0.08,
-      "auc_pr": 0.0976272707714714
+      "macro_f1": 0.03205128205128205,
+      "micro_f1": 0.13333333333333333,
+      "auc_pr": 0.07288904413794023
     },
     "early_concat": {
-      "macro_f1": 0.02564102564102564,
-      "micro_f1": 0.09523809523809523,
-      "auc_pr": 0.11600873002794576
+      "macro_f1": 0.038461538461538464,
+      "micro_f1": 0.08333333333333333,
+      "auc_pr": 0.08878434073605196
     }
   },
   "tsne_plot": "results/plots/task3_tsne.png",
+  "tsne_colorings": {
+    "genre": "argmax supervised FMA tag index",
+    "mood": "first lexical mood term in metadata text; -1 means no term"
+  },
   "case_studies": [
     {
       "track_id": "001649",
@@ -56,11 +61,11 @@
         "pop"
       ],
       "predicted_top_tags": [
-        "audio collage",
-        "experimental",
-        "rock",
         "krautrock",
-        "noise"
+        "rock",
+        "hip-hop",
+        "audio collage",
+        "experimental"
       ],
       "graph_path": "data/processed/graphs/001649.pt",
       "num_nodes": 11,
@@ -122,9 +127,9 @@
       ],
       "predicted_top_tags": [
         "rock",
-        "loud-rock",
         "noise-rock",
         "punk",
+        "loud-rock",
         "noise"
       ],
       "graph_path": "data/processed/graphs/001661.pt",
@@ -187,10 +192,10 @@
       ],
       "predicted_top_tags": [
         "rock",
+        "international",
         "avant-garde",
-        "loud-rock",
         "reggae - dub",
-        "metal"
+        "loud-rock"
       ],
       "graph_path": "data/processed/graphs/001663.pt",
       "num_nodes": 12,

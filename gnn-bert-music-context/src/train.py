@@ -19,6 +19,8 @@ from gnn_model import MusicGNNEncoder
 from fma_dataset import FMAGraphDataset, load_fma_label_names, load_manifest_label_names
 from fma_text_dataset import FMATextDataset
 from fma_paired_dataset import FMAPairedDataset
+from musiccaps_proxy_dataset import MusicCapsProxyTextDataset, load_proxy_label_names
+from evaluate import evaluate_tagging
 class FusionTrainingModel(nn.Module):
     # End-to-end graph/text wrapper used by the real Task 3 and Task 4 paths.
 
@@ -117,6 +119,8 @@ def run_task_1(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
     for epoch in range(1, config.epochs + 1):
         model.train()
         running_loss = 0.0
+        train_logits: List[torch.Tensor] = []
+        train_targets: List[torch.Tensor] = []
 
         for batch in train_loader:
             texts = batch["texts"]
@@ -131,9 +135,14 @@ def run_task_1(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
             optimizer.step()
             scheduler.step()
             running_loss += loss.item()
+            train_logits.append(logits.detach().cpu())
+            train_targets.append(labels.detach().cpu())
 
         train_loss = running_loss / max(1, len(train_loader))
+        train_scores = evaluate_tagging(torch.cat(train_logits), torch.cat(train_targets))
         val_loss = 0.0
+        val_logits: List[torch.Tensor] = []
+        val_targets: List[torch.Tensor] = []
         model.eval()
         with torch.no_grad():
             for batch in val_loader:
@@ -142,10 +151,26 @@ def run_task_1(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
                 _, t = model(texts)
                 logits = model.classifier(t)
                 val_loss += criterion(logits, labels).item()
+                val_logits.append(logits.detach().cpu())
+                val_targets.append(labels.detach().cpu())
 
         val_loss = val_loss / max(1, len(val_loader))
-        history.append({"epoch": float(epoch), "train_loss": train_loss, "val_loss": val_loss})
-        print(f"[Task 1] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+        val_scores = evaluate_tagging(torch.cat(val_logits), torch.cat(val_targets))
+        history.append({
+            "epoch": float(epoch),
+            "train_loss": train_loss,
+            "val_loss": val_loss,
+            "val_macro_f1": val_scores["macro_f1"],
+            "val_micro_f1": val_scores["micro_f1"],
+            "val_auc_pr": val_scores["auc_pr"],
+        })
+        history[-1].update({"train_macro_f1": train_scores["macro_f1"], "train_micro_f1": train_scores["micro_f1"], "train_auc_pr": train_scores["auc_pr"]})
+        print(
+            f"[Task 1] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} "
+            f"| train_macro_f1={train_scores['macro_f1']:.4f} | train_micro_f1={train_scores['micro_f1']:.4f} "
+            f"| val_loss={val_loss:.4f} | val_macro_f1={val_scores['macro_f1']:.4f} "
+            f"| val_micro_f1={val_scores['micro_f1']:.4f}"
+        )
 
         os.makedirs(config.checkpoint_dir, exist_ok=True)
         torch.save(model.state_dict(), os.path.join(config.checkpoint_dir, f"task1_epoch_{epoch}.pt"))
@@ -164,6 +189,7 @@ def run_task_2(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
     total_steps = max(1, len(train_loader) * config.epochs)
     scheduler = make_linear_warmup_scheduler(optimizer, total_steps=total_steps, warmup_steps=config.warmup_steps)
     criterion = nn.BCEWithLogitsLoss()
+    history: List[Dict[str, float]] = []
 
     for epoch in range(1, config.epochs + 1):
         model.train()
@@ -185,6 +211,8 @@ def run_task_2(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
 
         train_loss = running_loss / max(1, len(train_loader))
         val_loss = 0.0
+        val_logits: List[torch.Tensor] = []
+        val_targets: List[torch.Tensor] = []
         model.eval()
         with torch.no_grad():
             for batch in val_loader:
@@ -193,12 +221,33 @@ def run_task_2(model: nn.Module, train_loader: DataLoader, val_loader: DataLoade
                 embedding = model(graph)
                 logits = model.classifier(embedding)
                 val_loss += criterion(logits, labels).item()
+                val_logits.append(logits.detach().cpu())
+                val_targets.append(labels.detach().cpu())
 
         val_loss = val_loss / max(1, len(val_loader))
-        print(f"[Task 2] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+        val_scores = evaluate_tagging(torch.cat(val_logits), torch.cat(val_targets))
+        history.append({
+            "epoch": float(epoch),
+            "train_loss": train_loss,
+            "val_loss": val_loss,
+            "val_macro_f1": val_scores["macro_f1"],
+            "val_micro_f1": val_scores["micro_f1"],
+            "val_auc_pr": val_scores["auc_pr"],
+        })
+        print(
+            f"[Task 2] Epoch {epoch}/{config.epochs} | train_loss={train_loss:.4f} "
+            f"| val_loss={val_loss:.4f} | val_macro_f1={val_scores['macro_f1']:.4f} "
+            f"| val_micro_f1={val_scores['micro_f1']:.4f}"
+        )
 
         os.makedirs(config.checkpoint_dir, exist_ok=True)
         torch.save(model.state_dict(), os.path.join(config.checkpoint_dir, f"task2_epoch_{epoch}.pt"))
+    if config.history_output:
+        history_path = config.history_output
+        os.makedirs(os.path.dirname(history_path) or ".", exist_ok=True)
+        import json
+        with open(history_path, "w", encoding="utf-8") as handle:
+            json.dump({"task": "task2", "history": history}, handle, indent=2)
 
 
 def run_task_3(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: TrainingConfig) -> None:
@@ -368,16 +417,21 @@ def main() -> None:
     use_real_data = not args.synthetic
     if use_real_data:
         manifest_root = os.path.abspath(args.manifest_root)
-        label_names = load_fma_label_names(manifest_root) if args.task != "task4" else load_manifest_label_names(manifest_root)
-        if args.task == "task1":
-            train_ds = FMATextDataset(os.path.join(manifest_root, "train.json"), label_names)
-            val_ds = FMATextDataset(os.path.join(manifest_root, "val.json"), label_names)
-        elif args.task == "task2":
-            train_ds = FMAGraphDataset(os.path.join(manifest_root, "train.json"), label_names)
-            val_ds = FMAGraphDataset(os.path.join(manifest_root, "val.json"), label_names)
+        if args.task == "task1" and "musiccaps_task1_proxy" in manifest_root.replace("\\", "/"):
+            label_names = load_proxy_label_names(manifest_root)
+            train_ds = MusicCapsProxyTextDataset(os.path.join(manifest_root, "train.json"), label_names)
+            val_ds = MusicCapsProxyTextDataset(os.path.join(manifest_root, "val.json"), label_names)
         else:
-            train_ds = FMAPairedDataset(os.path.join(manifest_root, "train.json"), label_names)
-            val_ds = FMAPairedDataset(os.path.join(manifest_root, "val.json"), label_names)
+            label_names = load_fma_label_names(manifest_root) if args.task != "task4" else load_manifest_label_names(manifest_root)
+            if args.task == "task1":
+                train_ds = FMATextDataset(os.path.join(manifest_root, "train.json"), label_names)
+                val_ds = FMATextDataset(os.path.join(manifest_root, "val.json"), label_names)
+            elif args.task == "task2":
+                train_ds = FMAGraphDataset(os.path.join(manifest_root, "train.json"), label_names)
+                val_ds = FMAGraphDataset(os.path.join(manifest_root, "val.json"), label_names)
+            else:
+                train_ds = FMAPairedDataset(os.path.join(manifest_root, "train.json"), label_names)
+                val_ds = FMAPairedDataset(os.path.join(manifest_root, "val.json"), label_names)
     else:
         train_ds, val_ds = build_dummy_task_data(args.task)
     collate_fn = lambda samples: collate_task_samples(samples, args.task)

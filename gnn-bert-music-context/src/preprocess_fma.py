@@ -43,14 +43,28 @@ def process_track(
     graph_builder: MusicGraphBuilder,
     output_root: Path,
     metadata: Dict[str, Dict[str, Any]],
+    skip_existing: bool = False,
 ) -> Dict[str, Any]:
     track_id = track_id_from_path(audio_path)
+    graph_path = output_root / "graphs" / f"{track_id}.pt"
+    feature_path = output_root / "audio_features" / f"{track_id}.pt"
+    if skip_existing and graph_path.exists() and feature_path.exists():
+        graph = torch.load(graph_path, weights_only=False)
+        row = metadata.get(track_id, {})
+        return {
+            "track_id": track_id,
+            "audio_path": str(audio_path).replace("\\", "/"),
+            "graph_path": str(graph_path).replace("\\", "/"),
+            "feature_path": str(feature_path).replace("\\", "/"),
+            "tags": parse_tags(row),
+            "metadata_available": bool(row),
+            "num_nodes": int(graph.num_nodes),
+            "num_edges": int(graph.edge_index.size(1)),
+        }
     segments = processor.segment_file(audio_path)
     vectors = [processor.summarize_segment(segment) for segment in segments]
     graph = graph_builder.build_graph(vectors)
 
-    graph_path = output_root / "graphs" / f"{track_id}.pt"
-    feature_path = output_root / "audio_features" / f"{track_id}.pt"
     graph_path.parent.mkdir(parents=True, exist_ok=True)
     feature_path.parent.mkdir(parents=True, exist_ok=True)
     torch.save(graph, graph_path)
@@ -107,6 +121,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--window-sec", type=float, default=5.0)
     parser.add_argument("--hop-sec", type=float, default=2.5)
     parser.add_argument("--similarity-threshold", type=float, default=0.7)
+    parser.add_argument("--skip-existing", action="store_true", help="Reuse existing graph/feature files when available.")
     return parser.parse_args()
 
 
@@ -129,7 +144,7 @@ def main() -> None:
 
     for index, audio_path in enumerate(iter_audio_files(audio_root, args.limit), start=1):
         try:
-            record = process_track(audio_path, processor, graph_builder, output_root, metadata)
+            record = process_track(audio_path, processor, graph_builder, output_root, metadata, skip_existing=args.skip_existing)
             records.append(record)
             print(f"[{index}] processed {record['track_id']} ({record['num_nodes']} nodes)")
         except Exception as error:

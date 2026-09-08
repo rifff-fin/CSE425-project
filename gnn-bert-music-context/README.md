@@ -6,6 +6,13 @@ A modular PyTorch project for music understanding that fuses graph-based audio r
 2. Graph-based audio encoding with GNNs
 3. Joint GNN-BERT fusion for tag and emotion prediction
 4. Contrastive audio-text retrieval with dual encoders
+## Group 27
+| Name | Student ID | Email | Section |
+|---|---:|---|---:|
+| Abdullah Al Rifat | 22201979 | `abdullah.al.rifat1@g.bracu.ac.bd` | 6 |
+| Farhanul Haque Mridul | 22201964 | `farhanul.haque.mridul@g.bracu.ac.bd` | 6 |
+| Sajid Safiullah | 23201686 | `sajid.safiullah@g.bracu.ac.bd` | 4 |
+| Ariful Islam Naeem | 24141141 | `ariful.islam.naeem@g.bracu.ac.bd` | 6 |
 
 ## Repository layout
 
@@ -66,7 +73,7 @@ The global training configuration lives in `config.yaml` and controls:
 
 The project is designed for common audio-text/music datasets that support contextual tags and emotion labels.
 
-> Strict verification note: the repository now includes a real MusicCaps caption-to-audio path. `src/download_musiccaps.py` downloads timestamped YouTube clips from the official MusicCaps CSV, and `src/preprocess_musiccaps.py` creates graph manifests only for audio files that exist locally. The checked-in smoke result uses three verified pairs; a full benchmark requires running the same commands with a larger limit.
+> Strict verification note: the repository now includes a real MusicCaps caption-to-audio path. `src/download_musiccaps.py` downloads timestamped YouTube clips from the official MusicCaps CSV, and `src/preprocess_musiccaps.py` creates graph manifests only for audio files that exist locally. The checked-in retrieval result uses 95 verified pairs. Task 1 also provides a MusicCaps caption-to-tag proxy manifest under `data/splits/musiccaps_task1_proxy`; its labels are deterministic lexical caption matches, not independent human annotations.
 
 ### 1) FMA (Free Music Archive)
 - Download the full FMA dataset or a curated subset.

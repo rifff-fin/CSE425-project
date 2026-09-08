@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import ast
 import json
 from pathlib import Path
@@ -57,9 +58,16 @@ def build_text_context(row: Any, tags: List[str]) -> str:
 
 
 def main() -> None:
-    metadata = pd.read_csv(METADATA_PATH, header=[0, 1], index_col=0)
-    raw_metadata = pd.read_csv(RAW_METADATA_PATH).set_index("track_id")
-    genres_path = METADATA_PATH.parent / "genres.csv"
+    parser = argparse.ArgumentParser(description="Enrich FMA manifests with official genre and text metadata.")
+    parser.add_argument("--split-root", type=Path, default=SPLIT_ROOT)
+    parser.add_argument("--metadata", type=Path, default=METADATA_PATH)
+    args = parser.parse_args()
+    split_root = args.split_root if args.split_root.is_absolute() else PROJECT_ROOT / args.split_root
+    metadata_path = args.metadata if args.metadata.is_absolute() else PROJECT_ROOT / args.metadata
+    metadata = pd.read_csv(metadata_path, header=[0, 1], index_col=0)
+    raw_metadata_path = metadata_path.parent / "raw_tracks.csv"
+    raw_metadata = pd.read_csv(raw_metadata_path).set_index("track_id")
+    genres_path = metadata_path.parent / "genres.csv"
     genres = pd.read_csv(genres_path)
     genre_titles = {
         int(row.genre_id): str(row.title)
@@ -72,7 +80,7 @@ def main() -> None:
     labeled = 0
     label_counts = {}
 
-    for split_path in sorted(SPLIT_ROOT.glob("*.json")):
+    for split_path in sorted(split_root.glob("*.json")):
         if split_path.name == "README.json":
             continue
         records = json.loads(split_path.read_text(encoding="utf-8"))
@@ -97,7 +105,7 @@ def main() -> None:
             record["text_tags"] = normalize_labels(raw_tags)
             record["text_context"] = build_text_context(raw_row, tags) if raw_row is not None else f"genres: {', '.join(tags)}"
             record["metadata_available"] = True
-            record["label_source"] = LABEL_SOURCE
+            record["label_source"] = str(metadata_path.relative_to(PROJECT_ROOT)).replace("\\", "/")
             updated += 1
             labeled += int(bool(tags))
             for tag in tags:

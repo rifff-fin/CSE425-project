@@ -34,8 +34,8 @@ class FMAPairedDataset(Dataset):
             label_index = self.label_to_index.get(str(tag).lower())
             if label_index is not None:
                 tags[label_index] = 1.0
-        # FMA has no emotion annotations. NaN-free neutral placeholders keep the
-        # multitask interface usable; emotion loss is disabled by the trainer below.
+        # Emotion targets are optional: FMA manifests omit them, while DEAM
+        # manifests provide validated valence/arousal targets.
         valence = float(record.get("valence", 0.0))
         arousal = float(record.get("arousal", 0.0))
         has_emotion = "valence" in record and "arousal" in record

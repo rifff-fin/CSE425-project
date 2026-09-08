@@ -103,9 +103,13 @@ class AudioProcessor:
         if signal.ndim != 1:
             raise ValueError(f"Expected signal shape (n_samples,), got {signal.shape}")
 
-        chroma = librosa.feature.chroma_cqt(
+        # STFT chroma is substantially faster and more stable for corpus-scale
+        # preprocessing than chroma_cqt while preserving the required 12-bin
+        # chroma representation.
+        chroma = librosa.feature.chroma_stft(
             y=signal,
             sr=self.sample_rate,
+            n_fft=self.n_fft,
             hop_length=self.hop_length,
             n_chroma=self.n_chroma,
         )

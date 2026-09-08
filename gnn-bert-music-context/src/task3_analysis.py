@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 from typing import Dict, List, Tuple
-
+import re
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -90,16 +90,26 @@ def main() -> None:
     results = {name: evaluate_tagging(torch.logit(pred.clamp(1e-5, 1 - 1e-5)), torch.tensor(test_targets)) for name, pred in predictions.items()}
 
     fused = np.concatenate([test_g, test_t], axis=1)
+    tsne_colorings = {}
     if len(fused) >= 3:
         embedding = TSNE(n_components=2, perplexity=min(5, len(fused) - 1), random_state=42, init="random").fit_transform(fused)
         args.plot.parent.mkdir(parents=True, exist_ok=True)
-        plt.figure(figsize=(7, 5))
-        colors = [int(np.argmax(test_targets[index])) if test_targets[index].any() else -1 for index in range(len(test_targets))]
-        plt.scatter(embedding[:, 0], embedding[:, 1], c=colors, cmap="tab20", s=55)
-        for index, record in enumerate(test_records):
-            plt.annotate(str(record["track_id"]), (embedding[index, 0], embedding[index, 1]), fontsize=8)
-        plt.title("Task 3 multimodal embedding t-SNE")
-        plt.tight_layout(); plt.savefig(args.plot, dpi=160); plt.close()
+        genre_colors = [int(np.argmax(test_targets[index])) if test_targets[index].any() else -1 for index in range(len(test_targets))]
+        mood_terms = ("happy", "joyful", "sad", "melancholy", "romantic", "emotional", "dark", "energetic", "calm", "peaceful", "ominous", "terrifying", "hopeful", "fun")
+        mood_colors = []
+        for record in test_records:
+            text = str(record.get("text_context", "")).lower()
+            matches = [term for term in mood_terms if re.search(rf"\\b{re.escape(term)}\\b", text)]
+            mood_colors.append(mood_terms.index(matches[0]) if matches else -1)
+        tsne_colorings = {"genre": "argmax supervised FMA tag index", "mood": "first lexical mood term in metadata text; -1 means no term"}
+        figure, axes = plt.subplots(1, 2, figsize=(12, 5))
+        for axis, colors, title in ((axes[0], genre_colors, "Genre/tag coloring"), (axes[1], mood_colors, "Mood-term coloring")):
+            axis.scatter(embedding[:, 0], embedding[:, 1], c=colors, cmap="tab20", s=55)
+            for index, record in enumerate(test_records):
+                axis.annotate(str(record["track_id"]), (embedding[index, 0], embedding[index, 1]), fontsize=8)
+            axis.set_title(title); axis.set_xlabel("t-SNE 1"); axis.set_ylabel("t-SNE 2")
+        figure.suptitle("Task 3 multimodal embedding t-SNE")
+        figure.tight_layout(); figure.savefig(args.plot, dpi=160); plt.close(figure)
     case_studies = []
     for index, record in enumerate(test_records[:3]):
         graph = test_ds[index]["graph"]
@@ -118,7 +128,7 @@ def main() -> None:
             "graph_edge_preview": edge_preview,
             "text_tag_alignment": {"metadata_text": record.get("text_context", ""), "supervised_tags": record.get("tags", [])},
         })
-    result = {"task": "task3", "split": "test", "samples": len(test_ds), "labels": labels, "ablations": results, "tsne_plot": str(args.plot).replace("\\", "/"), "case_studies": case_studies}
+    result = {"task": "task3", "split": "test", "samples": len(test_ds), "labels": labels, "fusion_variant": "cross_attention_end_to_end_checkpoint", "ablations": results, "tsne_plot": str(args.plot).replace("\\", "/"), "tsne_colorings": tsne_colorings, "case_studies": case_studies}
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))

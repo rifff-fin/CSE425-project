@@ -31,8 +31,8 @@ class GNNBERTFusionModel(nn.Module):
         self.valence_head = nn.Linear(fusion_dim, 1)
         self.arousal_head = nn.Linear(fusion_dim, 1)
 
-    def forward(self, g: torch.Tensor, H_text: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
-        """Compute tag logits and valence/arousal regression predictions from g and H_text."""
+    def fused_representation(self, g: torch.Tensor, H_text: torch.Tensor) -> torch.Tensor:
+        # Return the pooled cross-attention representation used by all heads.
         if g.dim() != 2:
             raise ValueError(f"Expected graph embedding [B, d_g], got {g.shape}")
         if H_text.dim() != 3:
@@ -50,6 +50,10 @@ class GNNBERTFusionModel(nn.Module):
         fused = self.norm(fused)
         pooled = fused.mean(dim=1)
 
+        return pooled
+    def forward(self, g: torch.Tensor, H_text: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+        # Compute tag logits and valence/arousal regression predictions.
+        pooled = self.fused_representation(g, H_text)
         tag_logits = self.tag_head(pooled)
         valence = self.valence_head(pooled)
         arousal = self.arousal_head(pooled)

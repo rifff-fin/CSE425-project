@@ -1,0 +1,347 @@
+{
+  "task": "task1",
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "audio collage",
+    "avant-garde",
+    "drone",
+    "electroacoustic",
+    "electronic",
+    "experimental",
+    "field recordings",
+    "folk",
+    "free-folk",
+    "hip-hop",
+    "indie-rock",
+    "international",
+    "krautrock",
+    "latin america",
+    "lo-fi",
+    "loud-rock",
+    "metal",
+    "noise",
+    "noise-rock",
+    "pop",
+    "post-punk",
+    "psych-folk",
+    "psych-rock",
+    "punk",
+    "reggae - dub",
+    "rock"
+  ],
+  "examples": [
+    {
+      "track_id": "001649",
+      "text": "artist: So Cow. album: Wackity Schmackity Doo. track: Inis Meain. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "avant-garde"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.5141361355781555
+        },
+        {
+          "label": "audio collage",
+          "score": 0.4853813052177429
+        },
+        {
+          "label": "noise",
+          "score": 0.4470874071121216
+        },
+        {
+          "label": "reggae - dub",
+          "score": 0.44390904903411865
+        },
+        {
+          "label": "rock",
+          "score": 0.4333164691925049
+        }
+      ]
+    },
+    {
+      "track_id": "001661",
+      "text": "artist: So Cow. album: Wackity Schmackity Doo. track: Only Fools and Horses Theme. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "avant-garde"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.5232072472572327
+        },
+        {
+          "label": "audio collage",
+          "score": 0.489505797624588
+        },
+        {
+          "label": "noise",
+          "score": 0.4476185441017151
+        },
+        {
+          "label": "free-folk",
+          "score": 0.4358009099960327
+        },
+        {
+          "label": "latin america",
+          "score": 0.42805859446525574
+        }
+      ]
+    },
+    {
+      "track_id": "001663",
+      "text": "artist: Softboiled Eggies. album: Egg Soldiers. track: So High. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "avant-garde"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.5005346536636353
+        },
+        {
+          "label": "audio collage",
+          "score": 0.4776100516319275
+        },
+        {
+          "label": "folk",
+          "score": 0.44794735312461853
+        },
+        {
+          "label": "noise",
+          "score": 0.4473392367362976
+        },
+        {
+          "label": "free-folk",
+          "score": 0.4445039927959442
+        }
+      ]
+    },
+    {
+      "track_id": "001666",
+      "text": "artist: Softboiled Eggies. album: Egg Soldiers. track: She Fell Through the Trees. genres: pop",
+      "true_tags": [
+        "pop"
+      ],
+      "predicted_tags_threshold_0.5": [],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.49875545501708984
+        },
+        {
+          "label": "audio collage",
+          "score": 0.4810299873352051
+        },
+        {
+          "label": "folk",
+          "score": 0.45986342430114746
+        },
+        {
+          "label": "noise",
+          "score": 0.4566497802734375
+        },
+        {
+          "label": "free-folk",
+          "score": 0.44708091020584106
+        }
+      ]
+    },
+    {
+      "track_id": "001673",
+      "text": "artist: Solemn Man. album: Thee Haunted Cobblestone Sunset Concert Series #10. track: Track 07. genres: experimental, field recordings",
+      "true_tags": [
+        "experimental",
+        "field recordings"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "avant-garde"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.5378298163414001
+        },
+        {
+          "label": "noise",
+          "score": 0.49638631939888
+        },
+        {
+          "label": "free-folk",
+          "score": 0.4556172490119934
+        },
+        {
+          "label": "latin america",
+          "score": 0.44956693053245544
+        },
+        {
+          "label": "audio collage",
+          "score": 0.44759121537208557
+        }
+      ]
+    },
+    {
+      "track_id": "001680",
+      "text": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Bashraf Salama. genres: international",
+      "true_tags": [
+        "international"
+      ],
+      "predicted_tags_threshold_0.5": [],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.4859108328819275
+        },
+        {
+          "label": "noise",
+          "score": 0.48100048303604126
+        },
+        {
+          "label": "audio collage",
+          "score": 0.47689640522003174
+        },
+        {
+          "label": "rock",
+          "score": 0.46248695254325867
+        },
+        {
+          "label": "free-folk",
+          "score": 0.45524027943611145
+        }
+      ]
+    },
+    {
+      "track_id": "001681",
+      "text": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Daka Kozi Manowe. genres: international",
+      "true_tags": [
+        "international"
+      ],
+      "predicted_tags_threshold_0.5": [],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.4914758503437042
+        },
+        {
+          "label": "noise",
+          "score": 0.48691800236701965
+        },
+        {
+          "label": "audio collage",
+          "score": 0.48159220814704895
+        },
+        {
+          "label": "rock",
+          "score": 0.4696355164051056
+        },
+        {
+          "label": "free-folk",
+          "score": 0.4551860988140106
+        }
+      ]
+    },
+    {
+      "track_id": "001682",
+      "text": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Nie Zama Nie Sema. genres: international",
+      "true_tags": [
+        "international"
+      ],
+      "predicted_tags_threshold_0.5": [],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.4902966022491455
+        },
+        {
+          "label": "audio collage",
+          "score": 0.4882630407810211
+        },
+        {
+          "label": "noise",
+          "score": 0.48182323575019836
+        },
+        {
+          "label": "rock",
+          "score": 0.45830652117729187
+        },
+        {
+          "label": "free-folk",
+          "score": 0.4460201561450958
+        }
+      ]
+    },
+    {
+      "track_id": "001683",
+      "text": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Mapenzi Matamu. genres: international",
+      "true_tags": [
+        "international"
+      ],
+      "predicted_tags_threshold_0.5": [],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.49474474787712097
+        },
+        {
+          "label": "noise",
+          "score": 0.48467016220092773
+        },
+        {
+          "label": "audio collage",
+          "score": 0.4779725670814514
+        },
+        {
+          "label": "rock",
+          "score": 0.4662475287914276
+        },
+        {
+          "label": "free-folk",
+          "score": 0.4480900466442108
+        }
+      ]
+    },
+    {
+      "track_id": "001684",
+      "text": "artist: The Sounds of Taraab. album: Zanzibar, New York. track: Mahaba Wa Taka Nini. genres: international",
+      "true_tags": [
+        "international"
+      ],
+      "predicted_tags_threshold_0.5": [],
+      "top_5_predictions": [
+        {
+          "label": "avant-garde",
+          "score": 0.4959719181060791
+        },
+        {
+          "label": "audio collage",
+          "score": 0.49373680353164673
+        },
+        {
+          "label": "noise",
+          "score": 0.4875771999359131
+        },
+        {
+          "label": "rock",
+          "score": 0.45942097902297974
+        },
+        {
+          "label": "free-folk",
+          "score": 0.458369642496109
+        }
+      ]
+    }
+  ],
+  "macro_f1": 0.0,
+  "micro_f1": 0.0,
+  "auc_pr": 0.04256359906481913
+}

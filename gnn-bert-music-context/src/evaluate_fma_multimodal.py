@@ -68,14 +68,21 @@ def main() -> None:
         split: len(json.loads((manifest_root / f"{split}.json").read_text(encoding="utf-8")))
         for split in ("train", "val", "test")
     }
+    if args.task == "task4":
+        dataset_name = "MusicCaps verified audio-caption pairs"
+    elif "deam" in str(manifest_root).lower():
+        dataset_name = "DEAM verified audio-text-emotion pairs"
+    else:
+        dataset_name = "FMA paired real sample"
     result = {
         "task": args.task,
-        "dataset": "MusicCaps verified audio-caption pairs" if args.task == "task4" else "FMA paired real sample",
+        "dataset": dataset_name,
         "split": "test",
         "train_samples": split_counts["train"],
         "validation_samples": split_counts["val"],
         "samples": len(dataset),
         "labels": labels,
+        "emotion_target_scale": "DEAM song-level valence/arousal, 1-9 scale" if "deam" in str(manifest_root).lower() else None,
     }
     if args.task == "task3":
         result.update(evaluate_tagging(torch.cat(all_tags), torch.cat(all_targets)))

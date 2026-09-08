@@ -6,6 +6,7 @@
   "validation_samples": 9,
   "samples": 10,
   "labels": [],
+  "emotion_target_scale": null,
   "caption_to_audio": {
     "R@1": 0.2,
     "R@5": 0.6,

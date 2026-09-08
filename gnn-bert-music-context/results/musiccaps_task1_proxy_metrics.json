@@ -1,0 +1,270 @@
+{
+  "task": "task1_caption_to_tag_proxy",
+  "dataset": "MusicCaps verified caption subset",
+  "label_count": 41,
+  "split": "test",
+  "samples": 10,
+  "labels": [
+    "acoustic",
+    "arabic",
+    "bass",
+    "brass",
+    "choir",
+    "clarinet",
+    "classical",
+    "concert",
+    "country",
+    "dance",
+    "drums",
+    "electric",
+    "electronic",
+    "emotional",
+    "energetic",
+    "female vocal",
+    "folk",
+    "guitar",
+    "happy",
+    "hip hop",
+    "horror",
+    "instrumental",
+    "jazz",
+    "live",
+    "male vocal",
+    "melody",
+    "metal",
+    "orchestral",
+    "piano",
+    "pop",
+    "rock",
+    "romantic",
+    "sad",
+    "singer",
+    "soul",
+    "strings",
+    "synth",
+    "tempo",
+    "violin",
+    "vocal",
+    "voice"
+  ],
+  "proxy_labeling": "deterministic lexical caption matches; not independent human ground truth",
+  "examples": [
+    {
+      "track_id": "-r2-9oyIzkQ",
+      "caption": "The Romance song features an electric guitar lick, low toms roll and soft crash cymbal, followed by emotional piano chord progression and wide background crowd screams, as the passionate male vocal sings over it. Judging by the crowd sound effect, it seems that this is a live performance. Sounds emotional, passionate, heartfelt and romantic.",
+      "proxy_tags": [
+        "electric",
+        "emotional",
+        "guitar",
+        "live",
+        "male vocal",
+        "piano",
+        "romantic",
+        "vocal"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "classical",
+        "energetic",
+        "guitar",
+        "instrumental",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "energetic",
+          "score": 0.5684909224510193
+        },
+        {
+          "label": "guitar",
+          "score": 0.5546907186508179
+        },
+        {
+          "label": "classical",
+          "score": 0.5383725762367249
+        },
+        {
+          "label": "voice",
+          "score": 0.5172684788703918
+        },
+        {
+          "label": "instrumental",
+          "score": 0.5167791247367859
+        }
+      ]
+    },
+    {
+      "track_id": "-r7iz-9v9bA",
+      "caption": "This song features a female voice singing in opera style using only vocables and no words. This is accompanied by violins playing eighth note patterns that change according to the chords being played. The bass follows the root notes of the chords. A muted guitar or string instrument plays arpeggiated chords. This song can be played in a fantasy game.",
+      "proxy_tags": [
+        "bass",
+        "female vocal",
+        "guitar",
+        "violin",
+        "voice"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "classical",
+        "energetic",
+        "guitar",
+        "instrumental",
+        "sad",
+        "synth",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "voice",
+          "score": 0.5598753094673157
+        },
+        {
+          "label": "instrumental",
+          "score": 0.5442909002304077
+        },
+        {
+          "label": "guitar",
+          "score": 0.5331819653511047
+        },
+        {
+          "label": "classical",
+          "score": 0.5329200625419617
+        },
+        {
+          "label": "energetic",
+          "score": 0.5267107486724854
+        }
+      ]
+    },
+    {
+      "track_id": "-rAhS48FkYw",
+      "caption": "The low quality recording features a pop song that consists of a passionate male vocal singing over mellow kick hits, shimmering hi hats, wide electric guitar melody, syncopated snare and wooden percussion. The first half of the loop does not consist of the vocal, snare and hi hats. It sounds happy, fun and joyful.",
+      "proxy_tags": [
+        "electric",
+        "guitar",
+        "happy",
+        "male vocal",
+        "melody",
+        "pop",
+        "vocal"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "classical",
+        "energetic",
+        "guitar",
+        "instrumental",
+        "male vocal",
+        "violin",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "energetic",
+          "score": 0.5577481985092163
+        },
+        {
+          "label": "guitar",
+          "score": 0.5406830906867981
+        },
+        {
+          "label": "instrumental",
+          "score": 0.5403571724891663
+        },
+        {
+          "label": "classical",
+          "score": 0.5293955206871033
+        },
+        {
+          "label": "male vocal",
+          "score": 0.5056686401367188
+        }
+      ]
+    },
+    {
+      "track_id": "-sRFfU8k0Zs",
+      "caption": "This is an Arabic movie music piece. It is an instrumental piece. There is a clarinet playing a vague melody. The sound of knives being rubbed against one another can be heard. There is an ominous, terrifying atmosphere. This piece could be used in the soundtrack of a horror movie to imply the feeling of hopelessness.",
+      "proxy_tags": [
+        "arabic",
+        "clarinet",
+        "horror",
+        "instrumental",
+        "melody"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "classical",
+        "drums",
+        "energetic",
+        "guitar",
+        "happy",
+        "instrumental",
+        "sad",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "energetic",
+          "score": 0.5823774337768555
+        },
+        {
+          "label": "voice",
+          "score": 0.5733988881111145
+        },
+        {
+          "label": "sad",
+          "score": 0.5337530970573425
+        },
+        {
+          "label": "instrumental",
+          "score": 0.5227071642875671
+        },
+        {
+          "label": "drums",
+          "score": 0.5133922100067139
+        }
+      ]
+    },
+    {
+      "track_id": "-tKZOl4q1Kw",
+      "caption": "The clip just contains a high pitched synth melody. The motif keeps going higher in pitch, and then eventually a riser comes in. The combination of these two factors creates a sense of build-up to a climactic moment.",
+      "proxy_tags": [
+        "melody",
+        "synth"
+      ],
+      "predicted_tags_threshold_0.5": [
+        "classical",
+        "energetic",
+        "guitar",
+        "instrumental",
+        "male vocal",
+        "sad",
+        "synth",
+        "tempo",
+        "violin",
+        "voice"
+      ],
+      "top_5_predictions": [
+        {
+          "label": "energetic",
+          "score": 0.5709424018859863
+        },
+        {
+          "label": "sad",
+          "score": 0.549808919429779
+        },
+        {
+          "label": "instrumental",
+          "score": 0.5412704348564148
+        },
+        {
+          "label": "guitar",
+          "score": 0.5333054065704346
+        },
+        {
+          "label": "male vocal",
+          "score": 0.5189582109451294
+        }
+      ]
+    }
+  ],
+  "macro_f1": 0.06624432478091014,
+  "micro_f1": 0.21666666666666667,
+  "auc_pr": 0.17998147028426686
+}

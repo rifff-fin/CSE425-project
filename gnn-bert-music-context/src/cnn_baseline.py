@@ -77,14 +77,17 @@ def main() -> None:
         for features, targets in train_loader:
             loss = criterion(model(features), targets)
             optimizer.zero_grad(); loss.backward(); optimizer.step(); running += loss.item()
-        model.eval(); val_loss = 0.0
+        model.eval(); val_loss = 0.0; val_logits, val_targets = [], []
         with torch.no_grad():
             for features, targets in val_loader:
-                val_loss += criterion(model(features), targets).item()
+                batch_logits = model(features)
+                val_loss += criterion(batch_logits, targets).item()
+                val_logits.append(batch_logits.cpu()); val_targets.append(targets.cpu())
         train_loss = running / max(1, len(train_loader))
         val_loss = val_loss / max(1, len(val_loader))
-        history.append({"epoch": epoch, "train_loss": train_loss, "val_loss": val_loss})
-        print(f"[CNN] Epoch {epoch}/{args.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f}")
+        val_scores = evaluate_tagging(torch.cat(val_logits), torch.cat(val_targets))
+        history.append({"epoch": epoch, "train_loss": train_loss, "val_loss": val_loss, "val_macro_f1": val_scores["macro_f1"], "val_micro_f1": val_scores["micro_f1"], "val_auc_pr": val_scores["auc_pr"]})
+        print(f"[CNN] Epoch {epoch}/{args.epochs} | train_loss={train_loss:.4f} | val_loss={val_loss:.4f} | val_macro_f1={val_scores['macro_f1']:.4f} | val_micro_f1={val_scores['micro_f1']:.4f}")
     logits, targets = [], []
     with torch.no_grad():
         for features, batch_targets in test_loader:

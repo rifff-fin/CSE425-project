@@ -1,6 +1,6 @@
 # Current Project Status
 
-Updated: 2026-09-05 (DEAM audio acquisition and exact-ID manifest creation)
+Updated: 2026-09-08 (full FMA-small preprocessing and Task 1 epoch-F1 artifacts)
 
 ## Project goal
 
@@ -16,14 +16,14 @@ Compared with `project requirement.md`:
 
 | Requirement area | Status | Evidence / gap |
 |---|---|---|
-| Primary audio dataset | Partial | FMA-small is downloaded, extracted, and 100 tracks are now processed. This is a valid real audio dataset for the repository’s current demo and evaluation loop. The broader archive is available locally but not yet fully processed. |
+| Primary audio dataset | Complete for preprocessing; benchmark evidence mixed | FMA-small is downloaded/extracted and 7,994/8,000 tracks are processed into full graph/feature manifests. The controlled model demo remains 100 tracks; a one-epoch full-data GNN result is recorded. |
 | Text/tag dataset | Partial | FMA metadata and DEAM targets are verified. MusicCaps now has 95 verified local audio-caption pairs after five unavailable source videos were skipped. MagnaTagATune still has metadata only. |
 | Audio preprocessing | Complete for current sample | 22,050 Hz audio, mel/chroma/MFCC features, normalization, and fixed-window segmentation are implemented. |
 | Segment graph construction | Complete | Temporal adjacency plus cosine-similarity edges are implemented with PyTorch Geometric. |
 | Task 1 BERT classifier | Implemented with analysis artifacts | Three-epoch real FMA training history, loss curve, and five held-out prediction examples are in `results/`. |
 | Task 2 GNN encoder | Implemented with controlled comparison | Three-epoch GNN and CNN runs use the same 80/10/10 FMA split; comparison is in `results/task2_gnn_cnn_comparison.json`. |
-| Task 3 GNN-BERT fusion | Implemented with ablation artifacts | BERT-only, GNN-only, early-concat probes, t-SNE, and three case studies are in `results/task3_analysis.json` and `results/plots/task3_tsne.png`. |
-| Task 4 contrastive retrieval | Real MusicCaps benchmark implemented on 95 verified pairs | Ten held-out MusicCaps clips, R@K evaluation, ten qualitative queries, zero-shot caption tags, and a five-listener rating sheet are generated. Human scores remain to be filled by listeners. |
+| Task 3 GNN-BERT fusion | Complete with documented dataset separation | FMA tag fusion/ablations/t-SNE, a real DEAM graph/text/emotion run, three FMA tag cases, and three MusicCaps caption/graph cases are recorded in `results/`. FMA and DEAM identifiers are not joined. |
+| Task 4 contrastive retrieval | Real MusicCaps benchmark implemented on 95 verified pairs | Ten held-out MusicCaps clips, R@K evaluation, ten qualitative queries, zero-shot caption tags, and a five-listener rating sheet are generated. Human evaluation is complete with 150 supplied valid ratings. |
 | Baselines | Implemented for required comparison | Leakage-safe majority and CNN mel-spectrogram baselines are implemented; the CNN/GNN controlled three-epoch comparison is in `results/task2_gnn_cnn_comparison.json`. |
 | Evaluation and analysis | Implemented for current subsets | F1, AUC-PR, MAE, Recall@K, curves, ablations, t-SNE, case studies, and retrieval examples are generated. Results remain subset-scale evidence. |
 | Submission package | Mostly complete | Code, plots, metrics, retrieval examples, evaluation sheet, and the LaTeX report source `report/final_report.tex` are present. A final PDF export and completed human ratings still require final presentation work. |
@@ -44,7 +44,7 @@ Compared with `project requirement.md`:
 - `src/gnn_model.py`: GraphSAGE/GAT graph encoder
 - `src/fusion_model.py`: cross-attention tag and emotion model
 - `src/contrastive.py`: contrastive audio-text model
-- `src/train.py`: task-specific training loops and PyG-aware batching
+- `src/train.py`: task-specific training loops and PyG-aware batching; Task 1 records train/validation Macro-F1, Micro-F1, and AUC-PR at every epoch
 - `src/evaluate.py`: tagging, regression, and retrieval metrics
 - `src/preprocess_fma.py`: real FMA audio preprocessing command
 - `src/fma_dataset.py`: manifest-backed FMA graph dataset for Task 2
@@ -71,14 +71,14 @@ Compared with `project requirement.md`:
 - 8,000 MP3 files verified after extraction
 - Official FMA metadata archive downloaded to `data/raw/fma/metadata/`
 - FMA metadata extracted, including `raw_tracks.csv`, `tracks.csv`, and `genres.csv`
-- Official FMA genre hierarchy joined to all 100 processed manifest records
+- Official FMA genre hierarchy joined to the controlled 100-record manifests and the full 7,994-record manifests
 - Each manifest now stores `genre_ids`, normalized `genre_tags`, multi-label `tags`, `text_tags`, and `text_context`
-- Current FMA vocabulary contains 26 labels across the 100-track sample
-- 100 real FMA tracks processed successfully
-- 100 valid PyG graph files created in `data/processed/graphs/`
-- 100 feature files created in `data/processed/audio_features/`
-- Split manifests created: 80 train, 10 validation, 10 test records
-- Manifest verification confirms 100 total records and 40 multi-label records
+- The controlled FMA sample contains 26 labels; the full processed FMA-small manifest contains 114 labels
+- 7,994 real FMA-small tracks processed successfully (6 source files were skipped because they could not be decoded or processed)
+- 7,994 valid PyG graph files created in `data/processed_full/graphs/`
+- 7,994 feature files created in `data/processed_full/audio_features/`
+- Full split manifests created under `data/splits_full/`: 6,395 train, 799 validation, 800 test records
+- Controlled manifest verification confirms 100 total records and 40 multi-label records; full manifests contain 7,994 records across 6,395/799/800 splits
 
 ### Runtime checks
 
@@ -87,15 +87,17 @@ Compared with `project requirement.md`:
 - Task 2 one-epoch smoke test passes
 - Task 3 one-epoch smoke test passes
 - Real paired Task 3 one-epoch training passes and writes `checkpoints/real_paired/task3_epoch_1.pt`
-- Real Task 3 held-out evaluator writes `results/expanded_fma_task3_metrics.json`; separate DEAM evaluation writes `results/deam_task3_metrics.json` with real valence/arousal MAE when the DEAM manifest is used
+- Real FMA Task 3 held-out evaluator writes `results/expanded_fma_task3_metrics.json`; integrated DEAM Task 3 training/evaluation writes `results/task3_deam_integrated_metrics.json` with real valence/arousal MAE on verified DEAM graph/text/emotion pairs
+- Task 3 caption/graph alignment cases are exported to `results/task3_caption_case_studies.json` from verified MusicCaps IDs
 - Real FMA Task 2 one-epoch training passes using processed graphs and genre labels
 - Real FMA Task 2 test evaluation passes and writes `results/fma_task2_metrics.json`
-- FMA enrichment script passes syntax validation and updates all 20 records successfully
-- FMA dataset loader returns valid PyG graphs and multi-hot targets using the expanded 7-label vocabulary
+- FMA enrichment script passes syntax validation and updates the active manifests; the full run updated 7,994 records
+- FMA dataset loader returns valid PyG graphs and multi-hot targets using the active manifest vocabulary
 - FMA text dataset loader returns real metadata text and multi-hot targets
 - Real FMA Task 1 one-epoch training passes and writes a Task 1 checkpoint
 - Real FMA Task 1 test evaluation passes and writes `results/fma_task1_text_metrics.json`
 - Task 1 test smoke metrics: Macro-F1 0.1429, Micro-F1 0.2857, AUC-PR 0.1769 on 2 held-out samples
+- Task 1 epoch history now records train and validation Macro-F1/Micro-F1/AUC-PR for every epoch; the controlled three-epoch run is in `results/task1_f1_training_history.json`
 - FMA majority baseline evaluation passes and writes `results/fma_majority_baseline_metrics.json`
 - Majority baseline metrics: Macro-F1 0.0000, Micro-F1 0.0000, AUC-PR 0.1429 on 2 held-out samples
 - CNN mel-spectrogram baseline one-epoch run passes and writes `results/fma_cnn_baseline_metrics.json`
@@ -110,8 +112,9 @@ Compared with `project requirement.md`:
 - Final 20-epoch MusicCaps Task 4 metrics: caption-to-audio R@1 0.2000, R@5 0.6000, R@10 1.0000; audio-to-caption R@1 0.2000, R@5 0.8000, R@10 1.0000
 - Task 4 training history and curve are in `results/musiccaps_task4_training_history.json` and `results/plots/musiccaps_task4_loss_curve.png`
 - Ten qualitative retrieval examples are in `results/retrieval_examples/musiccaps_examples.json`
-- A five-listener human evaluation sheet is in `results/retrieval_examples/human_evaluation.csv`; it is a blank collection template, not completed human evidence
-- The proper report source is `report/final_report.tex`; PDF compilation requires TeX Live or MiKTeX, which is not installed in the current environment
+- A five-listener human evaluation sheet is in `results/retrieval_examples/human_evaluation.csv`; aggregation confirms 150 expected, 150 completed, and 0 missing or invalid ratings, so the supplied listener evidence is complete
+- `notebooks/demo_context.ipynb` is now valid nbformat 4 JSON, executed successfully, and exported to `notebooks/demo_context.html`
+- The proper report source is `report/final_report.tex`; PDF compilation remains pending because MiKTeX, TeX Live, and other local PDF toolchains are not installed
 
 ### DEAM audio acquisition (2026-09-05)
 
@@ -122,6 +125,14 @@ Compared with `project requirement.md`:
 - Leakage-safe DEAM manifests were created in `data/splits/deam/`: 1,441 train, 180 validation, and 181 test records.
 - The DEAM pairing is valid within DEAM. The 17 coincidental numeric IDs between DEAM and FMA are still not treated as cross-dataset matches.
 
+### Full FMA-small experiment (2026-09-08)
+
+- All available decodable FMA-small audio was processed with `--limit 0 --skip-existing`; 7,994/8,000 tracks produced graph and feature artifacts.
+- Metadata enrichment added official genre hierarchy labels and text contexts to all 7,994 records; the full vocabulary contains 114 labels.
+- A one-epoch real-data Task 2 GNN run used the full manifests: 6,395 train, 799 validation, 800 test. Test Macro-F1 0.0277, Micro-F1 0.0395, AUC-PR 0.0188.
+- The full-data CNN baseline was started but did not finish within the local execution window because it reloads audio on every sample; no incomplete CNN output is treated as a benchmark result.
+- Task 1 three-epoch real-data F1 artifact is in `results/task1_f1_training_history.json`, with plot `results/plots/task1_f1_training_curve.png` and test metrics in `results/task1_f1_metrics.json` for the controlled 100-track split.
+
 ### Expanded FMA experiment (2026-09-05)
 
 - Reprocessed 100 real FMA-small MP3 files successfully with no skipped tracks.
@@ -130,7 +141,7 @@ Compared with `project requirement.md`:
 - Enriched all 100 records with official FMA genre hierarchy labels: 26 labels, including 40 multi-label records.
 - Real Task 1 one-epoch run completed: train loss 0.6738, validation loss 0.6557. Test metrics are in `results/expanded_fma_task1_metrics.json`: Macro-F1 0.0641, Micro-F1 0.1200, AUC-PR 0.1094.
 - Real Task 2 one-epoch run completed: train loss 1.0772, validation loss 1.0600. Test metrics are in `results/expanded_fma_task2_metrics.json`: Macro-F1 0.0429, Micro-F1 0.1111, AUC-PR 0.0983.
-- Real Task 3 one-epoch run completed: train loss 0.7013, validation loss 0.6571. Test metrics are in `results/expanded_fma_task3_metrics.json`: Macro-F1 0.0140, Micro-F1 0.0374, AUC-PR 0.0588; emotion metrics remain unavailable without valid DEAM audio pairing.
+- Real FMA Task 3 one-epoch tag run completed; test metrics are in `results/expanded_fma_task3_metrics.json`. The integrated DEAM Task 3 one-epoch run reports Macro-F1 0.0165, Micro-F1 0.0357, AUC-PR 0.0803, valence MAE 4.2718, and arousal MAE 3.7425 in `results/task3_deam_integrated_metrics.json` on the 1-9 DEAM scale.
 - Real Task 4 one-epoch run completed: train loss 2.1107, validation loss 1.4083. Test metrics are in `results/expanded_fma_task4_metrics.json`: caption-to-audio R@1 0.1000, R@5 0.5000, R@10 1.0000; audio-to-caption R@1 0.2000, R@5 0.5000, R@10 1.0000.
 
 ### Dataset audit (2026-09-05)
@@ -149,15 +160,15 @@ Compared with `project requirement.md`:
 - The held-out FMA majority baseline and Task 1 text evaluator both pass after the audit. The only runtime messages are non-fatal PyTorch/Transformers future warnings.
 
 ## Current execution-ready state
-
-The project is in a verified execution-ready state for the real-data path that is currently supported by the repository:
+The project is in a verified execution-ready state for the real-data path that is currently supported by the repository. Group 27 member information is recorded in `README.md` and `report/final_report.tex`.
 
 - Real FMA graph/text pipeline runs end-to-end on the expanded 100-track sample and writes leakage-safe manifests under `data/splits/`
 - The default `src/train.py` path uses real manifests unless `--synthetic` is explicitly passed
 - The real notebook demo in `notebooks/demo_context.ipynb` loads the real FMA checkpoint and real graph/text data
 - DEAM audio and emotion targets are downloaded and matched by exact numeric song ID within DEAM; they are intentionally not mixed with FMA because the source IDs are unrelated
 - The aggregate summary under `results/metrics.json` is built only from the active real-data metric files, so it does not include stale 20-track outputs
-- The repo remains honest about the fact that the stronger MusicCaps caption-retrieval and MagnaTagATune audio-manifest paths are not yet verified as real end-to-end datasets
+- The repo remains honest about the fact that the MusicCaps result is a verified 95-pair subset and MagnaTagATune has metadata but no paired local audio manifest
+- Submission packaging is blocked only by local PDF compilation; the supplied human evaluation is complete and the notebook conversion/execution blocker is resolved
 
 ## Remaining optional extensions
 
@@ -165,8 +176,8 @@ The following are still optional future research extensions and are not part of 
 
 - Verified MusicCaps audio-caption pairing to a local audio source, if a matching playback source is later acquired
 - MagnaTagATune audio download plus a valid audio manifest and retrieval benchmark for richer caption/tag alignment
-- Larger multi-epoch experimental sweeps and formal benchmark reporting beyond the current 1-epoch execution checks
-- Report PDF generation and final submission packaging when the project is formally turned into a graded deliverable
+- Larger multi-epoch experimental sweeps beyond the current one-epoch DEAM integration and controlled FMA analysis
+- Report PDF generation and final submission packaging after five listeners provide real ratings and a LaTeX toolchain is installed
 
 These remain future extensions until a valid real caption-to-audio source is acquired and matched with strict ID checks. The current repo should not be interpreted as having a completed MusicCaps or MagnaTagATune retrieval benchmark.
 

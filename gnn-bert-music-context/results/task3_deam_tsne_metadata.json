@@ -1,0 +1,32 @@
+{
+  "task": "task3",
+  "dataset": "DEAM verified audio-text-emotion pairs",
+  "samples": 10,
+  "plot": "results/plots/task3_deam_tsne.png",
+  "genre_coloring": "DEAM metadata genre",
+  "mood_coloring": "validated valence/arousal quadrants on the 1-9 scale",
+  "track_ids": [
+    "1878",
+    "1879",
+    "1880",
+    "1881",
+    "1882",
+    "1883",
+    "1884",
+    "1885",
+    "1886",
+    "1887"
+  ],
+  "moods": [
+    "happy-energetic",
+    "happy-energetic",
+    "happy-calm",
+    "happy-energetic",
+    "happy-energetic",
+    "happy-calm",
+    "happy-energetic",
+    "sad-calm",
+    "sad-calm",
+    "happy-energetic"
+  ]
+}
