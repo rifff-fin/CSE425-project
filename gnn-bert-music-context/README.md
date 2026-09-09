@@ -14,62 +14,49 @@ A modular PyTorch project for music understanding that fuses graph-based audio r
 | Sajid Safiullah | 23201686 | `sajid.safiullah@g.bracu.ac.bd` | 4 |
 | Ariful Islam Naeem | 24141141 | `ariful.islam.naeem@g.bracu.ac.bd` | 6 |
 
-## Repository and project layout
-The Git repository root is `D:\\425 project`. This directory contains the course specification and the implementation directory. The **implementation project root** is `D:\\425 project\\gnn-bert-music-context`; run Python commands from there.
+## GitHub project structure
+For the assignment and ZIP submission, this directory is the project root:
 
 ```text
-D:\\425 project/                         # Git repository root
-├── README.md                              # repository overview
-├── CSE425_Project_GNN_BERT_Music_Context.md
-├── CSE425_Project_GNN_BERT_Music_Context (1) (4).pdf
-├── .gitignore
-├── drive musics/                          # tracked demo audio files
-└── gnn-bert-music-context/                 # implementation project root
-    ├── README.md
-    ├── requirements.txt
-    ├── config.yaml
-    ├── .gitignore
-    ├── CURRENT_PROJECT_STATUS.md
-    ├── PROJECT_REQUIREMENTS_AUDIT.md
-    ├── TASK_1_3_SUBMISSION_CHECKLIST.md
-    ├── TASK4_PROGRESS.md
-    ├── TASK_4_EXPLANATION.md
-    ├── data/
-    │   ├── raw/                            # downloaded datasets; excluded from Git
-    │   ├── processed/                       # graph fixtures and generated features
-    │   ├── processed_full/                  # full processed FMA artifacts
-    │   └── splits/                          # train/validation/test manifests
-    ├── notebooks/
-    │   ├── eda.ipynb
-    │   ├── demo_context.ipynb
-    │   └── demo_context.html
-    ├── src/
-    │   ├── audio_features.py               # mel, chroma, MFCC, segmentation
-    │   ├── graph_builder.py                 # segment graph construction
-    │   ├── preprocess_fma.py
-    │   ├── bert_encoder.py                  # BERT/DistilBERT encoder
-    │   ├── gnn_model.py                     # GraphSAGE/GAT encoder
-    │   ├── fusion_model.py                  # cross-attention GNN-BERT
-    │   ├── contrastive.py                   # Task 4 InfoNCE
-    │   ├── train.py
-    │   └── evaluate.py
-    ├── results/
-    │   ├── metrics.json
-    │   ├── plots/
-    │   └── retrieval_examples/
-    ├── checkpoints/                         # local checkpoints; excluded from Git
-    └── report/
-        ├── final_report.tex
-        └── final_report.md
+gnn-bert-music-context/
+├── README.md
+├── requirements.txt
+├── config.yaml
+├── data/
+│   ├── raw/              # FMA, MagnaTagATune, MusicCaps downloads
+│   ├── processed/        # graphs, mel-spectrograms, BERT caches
+│   └── splits/           # train/validation/test JSON manifests
+├── notebooks/
+│   ├── eda.ipynb
+│   └── demo_context.ipynb
+├── src/
+│   ├── audio_features.py   # mel, chroma, MFCC, segmentation
+│   ├── graph_builder.py    # chord and segment graphs
+│   ├── bert_encoder.py     # BERT/DistilBERT encoder
+│   ├── gnn_model.py        # GraphSAGE/GAT
+│   ├── fusion_model.py     # cross-attention GNN-BERT
+│   ├── contrastive.py      # Task 4 InfoNCE
+│   ├── train.py
+│   └── evaluate.py
+├── results/
+│   ├── metrics.json
+│   ├── plots/
+│   └── retrieval_examples/
+└── report/
+    ├── final_report.pdf   # required submission artifact
+    ├── final_report.tex
+    └── final_report.md
 ```
 
-Example Windows PowerShell setup:
+The local checkout is located at `D:\\425 project\\gnn-bert-music-context`. Run commands from this project root:
 
 ```powershell
 Set-Location 'D:\\425 project\\gnn-bert-music-context'
 pip install -r requirements.txt
 python src/train.py --task task1
 ```
+
+Additional local files such as checkpoints, full processed artifacts, audit documents, and logs support reproducibility but are not part of the minimal PDF-defined tree. The final PDF must be generated from `report/final_report.tex` before submission.
 
 ## Environment setup
 
